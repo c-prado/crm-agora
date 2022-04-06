@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_empty_inactivation_reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+IsActive = FALSE,
+ISPICKVAL( Agr_InactivationReason__c , &apos;&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>Agr_InactivationReason__c</errorDisplayField>
+    <errorMessage>Favor, informe o motivo para inativar o usuário.</errorMessage>
+</ValidationRule>

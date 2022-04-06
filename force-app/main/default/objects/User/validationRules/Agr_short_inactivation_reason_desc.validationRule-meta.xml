@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_short_inactivation_reason_desc</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+IsActive = FALSE,
+ISPICKVAL( Agr_InactivationReason__c , &apos;Outros&apos;),
+LEN( Agr_InactivationReasonDescription__c ) &lt; 5
+)</errorConditionFormula>
+    <errorDisplayField>Agr_InactivationReasonDescription__c</errorDisplayField>
+    <errorMessage>Descrição do Motivo insuficiente</errorMessage>
+</ValidationRule>
