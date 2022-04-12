@@ -3,9 +3,52 @@
     <fullName>Agr_LinkWithAgora__c</fullName>
     <externalId>false</externalId>
     <label>Tipo Vinculo Ágora</label>
-    <length>100</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Administradores, funcionários, operadores e prepostos da corretora;</fullName>
+                <default>false</default>
+                <label>Administradores, funcionários, operadores e prepostos da corretora;</label>
+            </value>
+            <value>
+                <fullName>Agentes autônomos</fullName>
+                <default>false</default>
+                <label>Agentes autônomos</label>
+            </value>
+            <value>
+                <fullName>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</fullName>
+                <default>false</default>
+                <label>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</label>
+            </value>
+            <value>
+                <fullName>Cônjuges e filhos menores das pessoas anteriormente citadas</fullName>
+                <default>false</default>
+                <label>Cônjuges e filhos menores das pessoas anteriormente citadas</label>
+            </value>
+            <value>
+                <fullName>Nenhum Vínculo</fullName>
+                <default>false</default>
+                <label>Nenhum Vínculo</label>
+            </value>
+            <value>
+                <fullName>Prestadores de serviços contratados para atividades fins da corretora</fullName>
+                <default>false</default>
+                <label>Prestadores de serviços contratados para atividades fins da corretora</label>
+            </value>
+            <value>
+                <fullName>Sócios, acionistas e sociedades controladas pela corretora, exceto Instituição Financeira</fullName>
+                <default>false</default>
+                <label>Sócios, acionistas e sociedades controladas pela corretora, exceto Instituição Financeira</label>
+            </value>
+            <value>
+                <fullName>Sócios ou acionistas da corretora, pessoas físicas</fullName>
+                <default>false</default>
+                <label>Sócios ou acionistas da corretora, pessoas físicas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
 </CustomField>
