@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_LegalNature__c</fullName>
+    <externalId>false</externalId>
+    <label>Natureza jurídica</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>101 - PESSOA FÍSICA</fullName>
+                <default>false</default>
+                <label>101 - PESSOA FÍSICA</label>
+            </value>
+            <value>
+                <fullName>201 - EMPRESA PÚBLICA</fullName>
+                <default>false</default>
+                <label>201 - EMPRESA PÚBLICA</label>
+            </value>
+            <value>
+                <fullName>202 - SOCIEDADES DE ECONOMIA MISTA, ANÔNIMA (S/A), LTDA, POR COTAS E OUTRAS</fullName>
+                <default>false</default>
+                <label>202 - SOCIEDADES DE ECONOMIA MISTA, ANÔNIMA (S/A), LTDA, POR COTAS E OUTRAS</label>
+            </value>
+            <value>
+                <fullName>203 - FUNDO DE INVESTIMENTO IMOBILIÁRIO</fullName>
+                <default>false</default>
+                <label>203 - FUNDO DE INVESTIMENTO IMOBILIÁRIO</label>
+            </value>
+            <value>
+                <fullName>204 - BOLSA DE VALORES E MERCADORIAS</fullName>
+                <default>false</default>
+                <label>204 - BOLSA DE VALORES E MERCADORIAS</label>
+            </value>
+            <value>
+                <fullName>205 - CONDOMÍNIO</fullName>
+                <default>false</default>
+                <label>205 - CONDOMÍNIO</label>
+            </value>
+            <value>
+                <fullName>206 - COOPERATIVA</fullName>
+                <default>false</default>
+                <label>206 - COOPERATIVA</label>
+            </value>
+            <value>
+                <fullName>207 - CONSÓRCIO</fullName>
+                <default>false</default>
+                <label>207 - CONSÓRCIO</label>
+            </value>
+            <value>
+                <fullName>301 - INSTITUIÇÃO DE CARÁTER FILANTRÓPICO, RECREATIVO, CULTURAL OU CIENTÍFICO, ASSOCIAÇÃO CIVIL QUE PRESTE OS SERVIÇOS PARA OS QUAIS HOUVER SIDO INSTITUÍDA E OS COLOQUEM À DISPOSIÇÃO DO GRUPO DE PESSOAS A QUE SE DESTINA, SEM FINS LUCRATIVOS</fullName>
+                <default>false</default>
+                <label>301 - INSTITUIÇÃO DE CARÁTER FILANTRÓPICO, RECREATIVO, CULTURAL OU CIENTÍFICO, ASSOCIAÇÃO CIVIL QUE PRESTE OS SERVIÇOS PARA OS QUAIS HOUVER SIDO INSTITUÍDA E OS COLOQUEM À DISPOSIÇÃO DO GRUPO DE PESSOAS A QUE SE DESTINA, SEM FINS LUCRATIVOS</label>
+            </value>
+            <value>
+                <fullName>401 - BANCO COMERCIAL / MÚLTIPLO</fullName>
+                <default>false</default>
+                <label>401 - BANCO COMERCIAL / MÚLTIPLO</label>
+            </value>
+            <value>
+                <fullName>402 - BANCO DE INVESTIMENTO</fullName>
+                <default>false</default>
+                <label>402 - BANCO DE INVESTIMENTO</label>
+            </value>
+            <value>
+                <fullName>403 - SOCIEDADE DE SEGURO, PREVIDÊNCIA E CAPITALIZAÇÃO</fullName>
+                <default>false</default>
+                <label>403 - SOCIEDADE DE SEGURO, PREVIDÊNCIA E CAPITALIZAÇÃO</label>
+            </value>
+            <value>
+                <fullName>404 - SOCIEDADE DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS</fullName>
+                <default>false</default>
+                <label>404 - SOCIEDADE DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS</label>
+            </value>
+            <value>
+                <fullName>405 - SOCIEDADE CORRETORA DE TÍTULOS, VALORES MOBILIÁRIOS E CÂMBIO</fullName>
+                <default>false</default>
+                <label>405 - SOCIEDADE CORRETORA DE TÍTULOS, VALORES MOBILIÁRIOS E CÂMBIO</label>
+            </value>
+            <value>
+                <fullName>406 - SOCIEDADE FINANCEIRA E DE CRÉDITO IMOBILIÁRIO</fullName>
+                <default>false</default>
+                <label>406 - SOCIEDADE FINANCEIRA E DE CRÉDITO IMOBILIÁRIO</label>
+            </value>
+            <value>
+                <fullName>407 - SOCIEDADE DE ARRENDAMENTO MERCANTIL (LEASING)</fullName>
+                <default>false</default>
+                <label>407 - SOCIEDADE DE ARRENDAMENTO MERCANTIL (LEASING)</label>
+            </value>
+            <value>
+                <fullName>501 - FUNDO DE INVESTIMENTO (EXCETO FUNDO DE INVESTIMENTO IMOBILIÁRIO, QUE É TRIBUTADO COMO QUALQUER PESSOA JURÍDICA)</fullName>
+                <default>false</default>
+                <label>501 - FUNDO DE INVESTIMENTO (EXCETO FUNDO DE INVESTIMENTO IMOBILIÁRIO, QUE É TRIBUTADO COMO QUALQUER PESSOA JURÍDICA)</label>
+            </value>
+            <value>
+                <fullName>601 - FUNDO DE PREVIDÊNCIA PRIVADA (INCLUSIVE FAPI) - ABERTO</fullName>
+                <default>false</default>
+                <label>601 - FUNDO DE PREVIDÊNCIA PRIVADA (INCLUSIVE FAPI) - ABERTO</label>
+            </value>
+            <value>
+                <fullName>602 - FUNDO DE PREVIDÊNCIA PRIVADA (INCLUSIVE FAPI) - FECHADO</fullName>
+                <default>false</default>
+                <label>602 - FUNDO DE PREVIDÊNCIA PRIVADA (INCLUSIVE FAPI) - FECHADO</label>
+            </value>
+            <value>
+                <fullName>603 - FUNDO DE PLANO DE BENEFÍCIO DE SOCIEDADE SEGURADORA (INCLUSIVE SEGURO DE VIDA)</fullName>
+                <default>false</default>
+                <label>603 - FUNDO DE PLANO DE BENEFÍCIO DE SOCIEDADE SEGURADORA (INCLUSIVE SEGURO DE VIDA)</label>
+            </value>
+            <value>
+                <fullName>701 - CLUBE DE INVESTIMENTO</fullName>
+                <default>false</default>
+                <label>701 - CLUBE DE INVESTIMENTO</label>
+            </value>
+            <value>
+                <fullName>801 - UNIÃO, ESTADO, MUNICÍPIO OU DISTRITO FEDERAL, AUTARQUIA OU FUNDAÇÃO INSTITUÍDA E MANTIDA PELO PODER PÚBLICO</fullName>
+                <default>false</default>
+                <label>801 - UNIÃO, ESTADO, MUNICÍPIO OU DISTRITO FEDERAL, AUTARQUIA OU FUNDAÇÃO INSTITUÍDA E MANTIDA PELO PODER PÚBLICO</label>
+            </value>
+            <value>
+                <fullName>901 - TEMPLO DE QUALQUER CULTO</fullName>
+                <default>false</default>
+                <label>901 - TEMPLO DE QUALQUER CULTO</label>
+            </value>
+            <value>
+                <fullName>902 - PARTIDO POLÍTICO E SUAS FUNDAÇÕES</fullName>
+                <default>false</default>
+                <label>902 - PARTIDO POLÍTICO E SUAS FUNDAÇÕES</label>
+            </value>
+            <value>
+                <fullName>903 - ENTIDADE SINDICAL DOS TRABALHADORES</fullName>
+                <default>false</default>
+                <label>903 - ENTIDADE SINDICAL DOS TRABALHADORES</label>
+            </value>
+            <value>
+                <fullName>904 - INSTITUIÇÃO DE EDUCAÇÃO E ASSISTÊNCIA SOCIAL, SEM FINS LUCRATIVOS, ATENDIDOS OS REQUISITOS DA LEI</fullName>
+                <default>false</default>
+                <label>904 - INSTITUIÇÃO DE EDUCAÇÃO E ASSISTÊNCIA SOCIAL, SEM FINS LUCRATIVOS, ATENDIDOS OS REQUISITOS DA LEI</label>
+            </value>
+            <value>
+                <fullName>1001 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2.689 - PESSOA FÍSICA</fullName>
+                <default>false</default>
+                <label>1001 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2.689 - PESSOA FÍSICA</label>
+            </value>
+            <value>
+                <fullName>1002 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2.689 - PESSOA JURÍDICA</fullName>
+                <default>false</default>
+                <label>1002 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2.689 - PESSOA JURÍDICA</label>
+            </value>
+            <value>
+                <fullName>1301 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA FÍSICA</fullName>
+                <default>false</default>
+                <label>1301 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA FÍSICA</label>
+            </value>
+            <value>
+                <fullName>1302 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA JURÍDICA</fullName>
+                <default>false</default>
+                <label>1302 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA JURÍDICA</label>
+            </value>
+            <value>
+                <fullName>1601 - DEPOSITÁRIO DE ADR</fullName>
+                <default>false</default>
+                <label>1601 - DEPOSITÁRIO DE ADR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
