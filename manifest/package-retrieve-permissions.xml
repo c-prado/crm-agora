@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Agr_AgoraCRM</members>
+		<members>standard__BranchManagementConsole</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Agr_AffinityGroup__c</members>
+		<members>Agr_Bar__c</members>
+		<members>BranchUnit</members>
+		<members>Banker</members>
+        <members>Lead</members>
+        <members>Contact</members>
+		<members>BranchUnitBusinessMember</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Agr_Bar__c</members>
+		<members>Agr_AffinityGroup__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Assessor Comercial %2F Trader</members>
+		<name>Profile</name>
+	</types>
+	<version>53.0</version>
+</Package>

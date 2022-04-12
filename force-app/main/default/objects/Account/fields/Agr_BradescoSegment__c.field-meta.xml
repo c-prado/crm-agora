@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_BradescoSegment__c</fullName>
+    <externalId>false</externalId>
+    <label>Segmento do cliente no Bradesco</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BACENJUD</fullName>
+                <default>false</default>
+                <label>BACENJUD</label>
+            </value>
+            <value>
+                <fullName>CENTRALIZADO</fullName>
+                <default>false</default>
+                <label>CENTRALIZADO</label>
+            </value>
+            <value>
+                <fullName>CORPORATE</fullName>
+                <default>false</default>
+                <label>CORPORATE</label>
+            </value>
+            <value>
+                <fullName>CORPORATE ONE</fullName>
+                <default>false</default>
+                <label>CORPORATE ONE</label>
+            </value>
+            <value>
+                <fullName>EMPRESAS</fullName>
+                <default>false</default>
+                <label>EMPRESAS</label>
+            </value>
+            <value>
+                <fullName>LARGE CORPORATE</fullName>
+                <default>false</default>
+                <label>LARGE CORPORATE</label>
+            </value>
+            <value>
+                <fullName>MATRIZ</fullName>
+                <default>false</default>
+                <label>MATRIZ</label>
+            </value>
+            <value>
+                <fullName>MULTIS INSTITUCIONAL</fullName>
+                <default>false</default>
+                <label>MULTIS INSTITUCIONAL</label>
+            </value>
+            <value>
+                <fullName>NAO_SEGMENTADO</fullName>
+                <default>false</default>
+                <label>NAO_SEGMENTADO</label>
+            </value>
+            <value>
+                <fullName>NÃO CORRENTISTA</fullName>
+                <default>false</default>
+                <label>NÃO CORRENTISTA</label>
+            </value>
+            <value>
+                <fullName>NEXT</fullName>
+                <default>false</default>
+                <label>NEXT</label>
+            </value>
+            <value>
+                <fullName>PRIME</fullName>
+                <default>false</default>
+                <label>PRIME</label>
+            </value>
+            <value>
+                <fullName>PRIME DIGITAL</fullName>
+                <default>false</default>
+                <label>PRIME DIGITAL</label>
+            </value>
+            <value>
+                <fullName>PRIME INVEST</fullName>
+                <default>false</default>
+                <label>PRIME INVEST</label>
+            </value>
+            <value>
+                <fullName>PRIME INVEST DIGITAL</fullName>
+                <default>false</default>
+                <label>PRIME INVEST DIGITAL</label>
+            </value>
+            <value>
+                <fullName>PRIME INVEST PIC</fullName>
+                <default>false</default>
+                <label>PRIME INVEST PIC</label>
+            </value>
+            <value>
+                <fullName>PRIME PIC</fullName>
+                <default>false</default>
+                <label>PRIME PIC</label>
+            </value>
+            <value>
+                <fullName>PRIME TOP TIER (PIC)</fullName>
+                <default>false</default>
+                <label>PRIME TOP TIER (PIC)</label>
+            </value>
+            <value>
+                <fullName>PRIVATE</fullName>
+                <default>false</default>
+                <label>PRIVATE</label>
+            </value>
+            <value>
+                <fullName>TOP TIER</fullName>
+                <default>false</default>
+                <label>TOP TIER</label>
+            </value>
+            <value>
+                <fullName>TOP TIER REDE</fullName>
+                <default>false</default>
+                <label>TOP TIER REDE</label>
+            </value>
+            <value>
+                <fullName>VJ_ALTO_VALOR</fullName>
+                <default>false</default>
+                <label>VJ_ALTO_VALOR</label>
+            </value>
+            <value>
+                <fullName>VJ_CLASSIC</fullName>
+                <default>false</default>
+                <label>VJ_CLASSIC</label>
+            </value>
+            <value>
+                <fullName>VJ_DIGITAL</fullName>
+                <default>false</default>
+                <label>VJ_DIGITAL</label>
+            </value>
+            <value>
+                <fullName>VJ_EXCLUSIVE</fullName>
+                <default>false</default>
+                <label>VJ_EXCLUSIVE</label>
+            </value>
+            <value>
+                <fullName>VJ_PJ</fullName>
+                <default>false</default>
+                <label>VJ_PJ</label>
+            </value>
+            <value>
+                <fullName>VJ_SUPERCLASSIC</fullName>
+                <default>false</default>
+                <label>VJ_SUPERCLASSIC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>*</members>
-		<name>BrandingSet</name>
+		<members>Agr_AgoraCRM</members>
+		<name>CustomApplication</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>ContentAsset</name>
+		<members>Agr_AffinityGroup__c</members>
+		<members>Agr_Bar__c</members>
+		<name>CustomObject</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>LightningExperienceTheme</name>
+		<members>BranchUnit-en_US</members>
+		<members>BranchUnit-pt_BR</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+	<types>
+		<members>Agr_AffinityGroup__c</members>
+		<members>Agr_Bar__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Agr_AffinityGroup__c.All</members>
+		<members>Agr_Bar__c.All</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>Assessor Comercial %2F Trader</members>
+		<name>Profile</name>
 	</types>
 	<version>53.0</version>
 </Package>

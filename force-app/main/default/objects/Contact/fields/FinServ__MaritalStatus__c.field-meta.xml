@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__MaritalStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Marital Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Solteiro(a);</fullName>
+                <default>false</default>
+                <label>Solteiro(a);</label>
+            </value>
+            <value>
+                <fullName>Viuvo(a);</fullName>
+                <default>false</default>
+                <label>Viuvo(a);</label>
+            </value>
+            <value>
+                <fullName>Divorciado(a);</fullName>
+                <default>false</default>
+                <label>Divorciado(a);</label>
+            </value>
+            <value>
+                <fullName>Casado(a) com Brasileiro(a) Nato(a);</fullName>
+                <default>false</default>
+                <label>Casado(a) com Brasileiro(a) Nato(a);</label>
+            </value>
+            <value>
+                <fullName>Casado(a) com Brasileiro(a) Naturalizado;</fullName>
+                <default>false</default>
+                <label>Casado(a) com Brasileiro(a) Naturalizado;</label>
+            </value>
+            <value>
+                <fullName>Casado(a) com Estrangeiro(a);</fullName>
+                <default>false</default>
+                <label>Casado(a) com Estrangeiro(a);</label>
+            </value>
+            <value>
+                <fullName>União Estável</fullName>
+                <default>false</default>
+                <label>União Estável</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
