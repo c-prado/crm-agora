@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Agr_FirstNameNotNull</fullName>
-    <active>true</active>
-    <description>O primeiro nome do Lead deve ser preenchido.</description>
-    <errorConditionFormula>ISBLANK( FirstName )</errorConditionFormula>
-    <errorDisplayField>FirstName</errorDisplayField>
-    <errorMessage>Favor inserir o primeiro nome do Lead.</errorMessage>
-</ValidationRule>

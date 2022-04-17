@@ -3,7 +3,7 @@
     <fullName>Agr_InactivationReasonDescription__c</fullName>
     <description>Descrição do motivo da inativação do usuário.</description>
     <externalId>false</externalId>
-    <label>Descrição do Motivo</label>
+    <label>Descrição de motivo da desativação</label>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

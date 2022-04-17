@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Agr_LinkWithAgora__c</name>
+    <picklistValues>
+        <masterLabel>Administradores, funcionários, operadores e prepostos da corretora;</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Agentes autônomos</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cônjuges e filhos menores das pessoas anteriormente citadas</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nenhum Vínculo</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prestadores de serviços contratados para atividades fins da corretora</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sócios ou acionistas da corretora, pessoas físicas</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sócios, acionistas e sociedades controladas pela corretora, exceto Instituição Financeira</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

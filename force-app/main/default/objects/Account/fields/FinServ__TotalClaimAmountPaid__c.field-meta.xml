@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Total amount paid for all the claims that were ever raised for the policies currently owned by the policyholder&apos;s primary household.</description>
     <externalId>false</externalId>
-    <inlineHelpText>This includes amount paid for all the claims (irrespective of their current status), including the ones that are settled, as long as the related policy is active.</inlineHelpText>
+    <inlineHelpText>Isso engloba o valor pago por todas as reivindicações (independentemente do status atual), incluindo as efetuadas, contanto que a apólice relacionada esteja ativa.</inlineHelpText>
     <label>Total Claim Amount Paid</label>
     <precision>18</precision>
     <required>false</required>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_CPFCNPJNotNull</fullName>
+    <active>true</active>
+    <description>Ppreencher o campo CPF/CNPJ.</description>
+    <errorConditionFormula>ISBLANK(Agr_CPF_CPNJ__c)</errorConditionFormula>
+    <errorDisplayField>Agr_CPF_CPNJ__c</errorDisplayField>
+    <errorMessage>Favor, preencher o campo CPF/CNPJ.</errorMessage>
+</ValidationRule>
