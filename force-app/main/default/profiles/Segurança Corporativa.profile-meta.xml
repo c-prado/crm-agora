@@ -1103,11 +1103,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.Agr_ComercialMobile1__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Contact.Agr_Email__c</field>
         <readable>false</readable>
     </fieldPermissions>
