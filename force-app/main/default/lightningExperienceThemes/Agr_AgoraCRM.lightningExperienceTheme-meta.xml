@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningExperienceTheme xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultBrandingSet>LEXTHEMINGAgr_AgoraCRM</defaultBrandingSet>
+    <description>Tema baseado na identidade visual da Ágora Investimentos.</description>
+    <masterLabel>Ágora CRM</masterLabel>
+    <shouldOverrideLoadingImage>false</shouldOverrideLoadingImage>
+</LightningExperienceTheme>

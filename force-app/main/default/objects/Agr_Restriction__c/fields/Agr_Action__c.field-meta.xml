@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_Action__c</fullName>
+    <externalId>false</externalId>
+    <label>Ação</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agência avaliar</fullName>
+                <default>false</default>
+                <label>Agência avaliar</label>
+            </value>
+            <value>
+                <fullName>Sequenciar cadastro</fullName>
+                <default>false</default>
+                <label>Sequenciar cadastro</label>
+            </value>
+            <value>
+                <fullName>Sequenciar cadastro e Risco bloquear conta margem</fullName>
+                <default>false</default>
+                <label>Sequenciar cadastro e Risco bloquear conta margem</label>
+            </value>
+            <value>
+                <fullName>IMPEDITITIVO</fullName>
+                <default>false</default>
+                <label>IMPEDITITIVO</label>
+            </value>
+            <value>
+                <fullName>IMPEDITITIVO - Necessário validar a informação do CPF na Receita Federal. Só sequenciar se estiver &quot;CPF Regular&quot; na Receita Federal</fullName>
+                <default>false</default>
+                <label>IMPEDITITIVO - Necessário validar a informação do CPF na Receita Federal. Só sequenciar se estiver &quot;CPF Regular&quot; na Receita Federal</label>
+            </value>
+            <value>
+                <fullName>Sequenciar cadastro - Cadastro inserir bloqueio de espólio</fullName>
+                <default>false</default>
+                <label>Sequenciar cadastro - Cadastro inserir bloqueio de espólio</label>
+            </value>
+            <value>
+                <fullName>Solicitar documento de identificação ao cliente para Supervisão PLD avaliar</fullName>
+                <default>false</default>
+                <label>Solicitar documento de identificação ao cliente para Supervisão PLD avaliar</label>
+            </value>
+            <value>
+                <fullName>Supervisão PLD avaliar</fullName>
+                <default>false</default>
+                <label>Supervisão PLD avaliar</label>
+            </value>
+            <value>
+                <fullName>Supervisão PLD avaliar antes da validação de abertura</fullName>
+                <default>false</default>
+                <label>Supervisão PLD avaliar antes da validação de abertura</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

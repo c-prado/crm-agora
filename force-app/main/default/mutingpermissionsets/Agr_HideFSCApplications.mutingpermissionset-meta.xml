@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MutingPermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>FinServ__FSC_Lightning</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>FinServ__FinancialServicesCloud</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <label>Esconder aplicações do FSC</label>
+</MutingPermissionSet>

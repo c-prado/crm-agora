@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_Restriction__c</fullName>
+    <externalId>false</externalId>
+    <label>Restrição</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 - LISTA DE CLIENTES CONTROLADOS-LCC</fullName>
+                <default>false</default>
+                <label>1 - LISTA DE CLIENTES CONTROLADOS-LCC</label>
+            </value>
+            <value>
+                <fullName>2 - CARTÃO DE CRÉDITO ATRASO BRADESCARD</fullName>
+                <default>false</default>
+                <label>2 - CARTÃO DE CRÉDITO ATRASO BRADESCARD</label>
+            </value>
+            <value>
+                <fullName>3 - PARTE RELACIONADA - RES. 4.693</fullName>
+                <default>false</default>
+                <label>3 - PARTE RELACIONADA - RES. 4.693</label>
+            </value>
+            <value>
+                <fullName>4 - OPERACAO VENCIDA ATE 30 DIAS</fullName>
+                <default>false</default>
+                <label>4 - OPERACAO VENCIDA ATE 30 DIAS</label>
+            </value>
+            <value>
+                <fullName>5 - OPERACAO TRANSFERIDA PARA LUCROS E PERDAS</fullName>
+                <default>false</default>
+                <label>5 - OPERACAO TRANSFERIDA PARA LUCROS E PERDAS</label>
+            </value>
+            <value>
+                <fullName>6 - CARTAO DE CREDITO ATRASO</fullName>
+                <default>false</default>
+                <label>6 - CARTAO DE CREDITO ATRASO</label>
+            </value>
+            <value>
+                <fullName>7 - PROTESTO</fullName>
+                <default>false</default>
+                <label>7 - PROTESTO</label>
+            </value>
+            <value>
+                <fullName>8 - ACAO EXECUTIVA</fullName>
+                <default>false</default>
+                <label>8 - ACAO EXECUTIVA</label>
+            </value>
+            <value>
+                <fullName>9 - ACAO DE BUSCA E APREENSAO</fullName>
+                <default>false</default>
+                <label>9 - ACAO DE BUSCA E APREENSAO</label>
+            </value>
+            <value>
+                <fullName>10 - OPERACAO VENCIDA DE 31 A 60 DIAS</fullName>
+                <default>false</default>
+                <label>10 - OPERACAO VENCIDA DE 31 A 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>11 - RENEGOCIAÇÃO DE DÍVIDA BRADESCARD</fullName>
+                <default>false</default>
+                <label>11 - RENEGOCIAÇÃO DE DÍVIDA BRADESCARD</label>
+            </value>
+            <value>
+                <fullName>14 - RESTRICAO FINANCEIRA DE OUTROS BANCOS</fullName>
+                <default>false</default>
+                <label>14 - RESTRICAO FINANCEIRA DE OUTROS BANCOS</label>
+            </value>
+            <value>
+                <fullName>15 - CL / LP EXPURGADO</fullName>
+                <default>false</default>
+                <label>15 - CL / LP EXPURGADO</label>
+            </value>
+            <value>
+                <fullName>16 - CARTAO BRADESCO CANCELADO POR MOTIVO DE AUTOFRAUDE</fullName>
+                <default>false</default>
+                <label>16 - CARTAO BRADESCO CANCELADO POR MOTIVO DE AUTOFRAUDE</label>
+            </value>
+            <value>
+                <fullName>17 - AUTOFALENCIA</fullName>
+                <default>false</default>
+                <label>17 - AUTOFALENCIA</label>
+            </value>
+            <value>
+                <fullName>18 - FALENCIA REQUERIDA</fullName>
+                <default>false</default>
+                <label>18 - FALENCIA REQUERIDA</label>
+            </value>
+            <value>
+                <fullName>19 - FALENCIA DECRETADA</fullName>
+                <default>false</default>
+                <label>19 - FALENCIA DECRETADA</label>
+            </value>
+            <value>
+                <fullName>23 - OPERACAO VENCIDA DE 61 A 90 DIAS</fullName>
+                <default>false</default>
+                <label>23 - OPERACAO VENCIDA DE 61 A 90 DIAS</label>
+            </value>
+            <value>
+                <fullName>24 - OBSERVAÇÃO INTERNA - SEGURANÇA CORP - LOSANGO DI</fullName>
+                <default>false</default>
+                <label>24 - OBSERVAÇÃO INTERNA - SEGURANÇA CORP - LOSANGO DI</label>
+            </value>
+            <value>
+                <fullName>26 - DISTRIBUIDORA/CORRETORA DE TITULOS VALORES MOBIL E DE CAMBIO</fullName>
+                <default>false</default>
+                <label>26 - DISTRIBUIDORA/CORRETORA DE TITULOS VALORES MOBIL E DE CAMBIO</label>
+            </value>
+            <value>
+                <fullName>28 - IMPEDIMENTO-ORDEM JUDICIAL</fullName>
+                <default>false</default>
+                <label>28 - IMPEDIMENTO-ORDEM JUDICIAL</label>
+            </value>
+            <value>
+                <fullName>30 - OPERACAO VENCIDA BRADESCO FINANCIAMENTOS DE 11 A 30 DIAS</fullName>
+                <default>false</default>
+                <label>30 - OPERACAO VENCIDA BRADESCO FINANCIAMENTOS DE 11 A 30 DIAS</label>
+            </value>
+            <value>
+                <fullName>31 - REGISTROS BLOQUEADOS EM MORA PELO DRC</fullName>
+                <default>false</default>
+                <label>31 - REGISTROS BLOQUEADOS EM MORA PELO DRC</label>
+            </value>
+            <value>
+                <fullName>32 - ACAO EXECUTIVA FISCAL FEDERAL</fullName>
+                <default>false</default>
+                <label>32 - ACAO EXECUTIVA FISCAL FEDERAL</label>
+            </value>
+            <value>
+                <fullName>33 - OBSERVAÇÃO INTERNA - SEGURANÇA CORP - LOSANGO</fullName>
+                <default>false</default>
+                <label>33 - OBSERVAÇÃO INTERNA - SEGURANÇA CORP - LOSANGO</label>
+            </value>
+            <value>
+                <fullName>37 - RENEGOCIACAO DE DIVIDA</fullName>
+                <default>false</default>
+                <label>37 - RENEGOCIACAO DE DIVIDA</label>
+            </value>
+            <value>
+                <fullName>41 - EXPURGO - BUSCA E APREENSAO</fullName>
+                <default>false</default>
+                <label>41 - EXPURGO - BUSCA E APREENSAO</label>
+            </value>
+            <value>
+                <fullName>42 - IMPEDIMENTO INTERNO - SEGURANÇA CORPORATIVA</fullName>
+                <default>false</default>
+                <label>42 - IMPEDIMENTO INTERNO - SEGURANÇA CORPORATIVA</label>
+            </value>
+            <value>
+                <fullName>44 - OPERACAO VENCIDA BRADESCO FINANCIAMENTOS DE 31 A 60 DIAS</fullName>
+                <default>false</default>
+                <label>44 - OPERACAO VENCIDA BRADESCO FINANCIAMENTOS DE 31 A 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>45 - OPERACAO VENCIDA BRADESCO FINANCIAMENTOS HA MAIS DE 60 DIAS</fullName>
+                <default>false</default>
+                <label>45 - OPERACAO VENCIDA BRADESCO FINANCIAMENTOS HA MAIS DE 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>46 - OPERACAO TRANSF P/ LUCROS E PERDAS BRADESCO FINANCIAMENTOS</fullName>
+                <default>false</default>
+                <label>46 - OPERACAO TRANSF P/ LUCROS E PERDAS BRADESCO FINANCIAMENTOS</label>
+            </value>
+            <value>
+                <fullName>47 - EMPRESA EXCLUIDA DO REFIS</fullName>
+                <default>false</default>
+                <label>47 - EMPRESA EXCLUIDA DO REFIS</label>
+            </value>
+            <value>
+                <fullName>49 - AVAL DE OPERACAO VENCIDA BRADESCO FINANCIAMENTOS</fullName>
+                <default>false</default>
+                <label>49 - AVAL DE OPERACAO VENCIDA BRADESCO FINANCIAMENTOS</label>
+            </value>
+            <value>
+                <fullName>50 - SETOR PUBLICO - RESOLUCAO BACEN 4589/17</fullName>
+                <default>false</default>
+                <label>50 - SETOR PUBLICO - RESOLUCAO BACEN 4589/17</label>
+            </value>
+            <value>
+                <fullName>51 - AVAL EM LUCROS E PERDAS BRADESCO FINANCIAMENTOS</fullName>
+                <default>false</default>
+                <label>51 - AVAL EM LUCROS E PERDAS BRADESCO FINANCIAMENTOS</label>
+            </value>
+            <value>
+                <fullName>58 - IMPEDIMENTO OPERACIONAL 5 BCN</fullName>
+                <default>false</default>
+                <label>58 - IMPEDIMENTO OPERACIONAL 5 BCN</label>
+            </value>
+            <value>
+                <fullName>59 - RENEGOCIACAO DE DIVIDA - BRADESCO FINANCIAMENTOS</fullName>
+                <default>false</default>
+                <label>59 - RENEGOCIACAO DE DIVIDA - BRADESCO FINANCIAMENTOS</label>
+            </value>
+            <value>
+                <fullName>66 - ACAO EXECUTIVA FISCAL ESTADUAL</fullName>
+                <default>false</default>
+                <label>66 - ACAO EXECUTIVA FISCAL ESTADUAL</label>
+            </value>
+            <value>
+                <fullName>67 - ACAO EXECUTIVA FISCAL MUNICIPAL</fullName>
+                <default>false</default>
+                <label>67 - ACAO EXECUTIVA FISCAL MUNICIPAL</label>
+            </value>
+            <value>
+                <fullName>71 - ANALISE DA CONSULTA PELA DIRETORIA DO CREDITO</fullName>
+                <default>false</default>
+                <label>71 - ANALISE DA CONSULTA PELA DIRETORIA DO CREDITO</label>
+            </value>
+            <value>
+                <fullName>74 - EXPURGO LP BAIXOS VALORES</fullName>
+                <default>false</default>
+                <label>74 - EXPURGO LP BAIXOS VALORES</label>
+            </value>
+            <value>
+                <fullName>77 - OPERACAO VENCIDA DE 91 A 120 DIAS</fullName>
+                <default>false</default>
+                <label>77 - OPERACAO VENCIDA DE 91 A 120 DIAS</label>
+            </value>
+            <value>
+                <fullName>78 - OPERACAO VENCIDA DE 121 A 150 DIAS</fullName>
+                <default>false</default>
+                <label>78 - OPERACAO VENCIDA DE 121 A 150 DIAS</label>
+            </value>
+            <value>
+                <fullName>79 - OPERACAO VENCIDA DE 151 A 180 DIAS</fullName>
+                <default>false</default>
+                <label>79 - OPERACAO VENCIDA DE 151 A 180 DIAS</label>
+            </value>
+            <value>
+                <fullName>80 - OPERACAO VENCIDA HA MAIS DE 180 DIAS</fullName>
+                <default>false</default>
+                <label>80 - OPERACAO VENCIDA HA MAIS DE 180 DIAS</label>
+            </value>
+            <value>
+                <fullName>82 - OBSERVAÇÃO INTERNA DCIR</fullName>
+                <default>false</default>
+                <label>82 - OBSERVAÇÃO INTERNA DCIR</label>
+            </value>
+            <value>
+                <fullName>84 - PROTESTO LIQUIDADO NAO BAIXADO EM CARTORIO</fullName>
+                <default>false</default>
+                <label>84 - PROTESTO LIQUIDADO NAO BAIXADO EM CARTORIO</label>
+            </value>
+            <value>
+                <fullName>85 - ACAO DE BUSCA E APREENSAO - PEQUENAS CAUSAS</fullName>
+                <default>false</default>
+                <label>85 - ACAO DE BUSCA E APREENSAO - PEQUENAS CAUSAS</label>
+            </value>
+            <value>
+                <fullName>86 - ACAO EXECUTIVA - PEQUENAS CAUSAS</fullName>
+                <default>false</default>
+                <label>86 - ACAO EXECUTIVA - PEQUENAS CAUSAS</label>
+            </value>
+            <value>
+                <fullName>87 - PARTICIPACAO EM EMPRESA FALIDA</fullName>
+                <default>false</default>
+                <label>87 - PARTICIPACAO EM EMPRESA FALIDA</label>
+            </value>
+            <value>
+                <fullName>94 - BEM REINTEGRADO - LEASING</fullName>
+                <default>false</default>
+                <label>94 - BEM REINTEGRADO - LEASING</label>
+            </value>
+            <value>
+                <fullName>95 - OBSERVACAO INTERNA - NIVEL 1</fullName>
+                <default>false</default>
+                <label>95 - OBSERVACAO INTERNA - NIVEL 1</label>
+            </value>
+            <value>
+                <fullName>96 - OBSERVACAO INTERNA - NIVEL 2</fullName>
+                <default>false</default>
+                <label>96 - OBSERVACAO INTERNA - NIVEL 2</label>
+            </value>
+            <value>
+                <fullName>97 - RECUPERACAO JUDICIAL REQUERIDA</fullName>
+                <default>false</default>
+                <label>97 - RECUPERACAO JUDICIAL REQUERIDA</label>
+            </value>
+            <value>
+                <fullName>98 - RECUPERACAO JUDICIAL CONCEDIDA</fullName>
+                <default>false</default>
+                <label>98 - RECUPERACAO JUDICIAL CONCEDIDA</label>
+            </value>
+            <value>
+                <fullName>99 - RECUPERACAO EXTRAJUDICIAL REQUERIDA</fullName>
+                <default>false</default>
+                <label>99 - RECUPERACAO EXTRAJUDICIAL REQUERIDA</label>
+            </value>
+            <value>
+                <fullName>100 - RECUPERACAO EXTRAJUDICIAL HOMOLOGADA</fullName>
+                <default>false</default>
+                <label>100 - RECUPERACAO EXTRAJUDICIAL HOMOLOGADA</label>
+            </value>
+            <value>
+                <fullName>101 - RENEGOCIACAO DE DIVIDA COM PREJUIZO</fullName>
+                <default>false</default>
+                <label>101 - RENEGOCIACAO DE DIVIDA COM PREJUIZO</label>
+            </value>
+            <value>
+                <fullName>102 - INSTITUICAO FINANCEIRA (BANCO)-LEI 4595/64-ARTIGO 10 - V</fullName>
+                <default>false</default>
+                <label>102 - INSTITUICAO FINANCEIRA (BANCO)-LEI 4595/64-ARTIGO 10 - V</label>
+            </value>
+            <value>
+                <fullName>103 - PENDENCIAS - CARTAO DE CREDITOO</fullName>
+                <default>false</default>
+                <label>103 - PENDENCIAS - CARTAO DE CREDITOO</label>
+            </value>
+            <value>
+                <fullName>137 - PENDENCIA CONTABIL BRADESCO EXPRESSO</fullName>
+                <default>false</default>
+                <label>137 - PENDENCIA CONTABIL BRADESCO EXPRESSO</label>
+            </value>
+            <value>
+                <fullName>139 - PEP - PESSOA EXPOSTA POLITICAMENTE</fullName>
+                <default>false</default>
+                <label>139 - PEP - PESSOA EXPOSTA POLITICAMENTE</label>
+            </value>
+            <value>
+                <fullName>140 - BEM APREENDIDO BRADESCO FINANCIAMENTOS</fullName>
+                <default>false</default>
+                <label>140 - BEM APREENDIDO BRADESCO FINANCIAMENTOS</label>
+            </value>
+            <value>
+                <fullName>141 - RESIDUAL VENCIDO BRADESCO FINANCIAMENTOS</fullName>
+                <default>false</default>
+                <label>141 - RESIDUAL VENCIDO BRADESCO FINANCIAMENTOS</label>
+            </value>
+            <value>
+                <fullName>143 - VENCIDO LEADER</fullName>
+                <default>false</default>
+                <label>143 - VENCIDO LEADER</label>
+            </value>
+            <value>
+                <fullName>144 - ACAO REVISIONAL CONTRA A BRADESCO FINANCIAMENTOS</fullName>
+                <default>false</default>
+                <label>144 - ACAO REVISIONAL CONTRA A BRADESCO FINANCIAMENTOS</label>
+            </value>
+            <value>
+                <fullName>145 - ACAO REVISIONAL CONTRA A BRADESCO FINANCIAMENTOS - ENCERRADA</fullName>
+                <default>false</default>
+                <label>145 - ACAO REVISIONAL CONTRA A BRADESCO FINANCIAMENTOS - ENCERRADA</label>
+            </value>
+            <value>
+                <fullName>147 - OPERACAO VENCIDA CREDIARE</fullName>
+                <default>false</default>
+                <label>147 - OPERACAO VENCIDA CREDIARE</label>
+            </value>
+            <value>
+                <fullName>149 - OPERAÇÃO VENCIDA BBF CONSIGNADO - ATÉ 30 DIAS</fullName>
+                <default>false</default>
+                <label>149 - OPERAÇÃO VENCIDA BBF CONSIGNADO - ATÉ 30 DIAS</label>
+            </value>
+            <value>
+                <fullName>150 - OPERAÇÃO VENCIDA BBF CONSIGNADO DE 31 A 60 DIAS</fullName>
+                <default>false</default>
+                <label>150 - OPERAÇÃO VENCIDA BBF CONSIGNADO DE 31 A 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>151 - OPERAÇÃO VENCIDA BBF CONSIGNADO HÁ MAIS DE 60 DIAS</fullName>
+                <default>false</default>
+                <label>151 - OPERAÇÃO VENCIDA BBF CONSIGNADO HÁ MAIS DE 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>152 - OPERAÇÃO TRANSFERIDA PARA LUCRO E PERDAS BBF CONSIGNADO</fullName>
+                <default>false</default>
+                <label>152 - OPERAÇÃO TRANSFERIDA PARA LUCRO E PERDAS BBF CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>153 - RENEGOCIAÇÃO DE DÍVIDA - BBF CONSIGNADO</fullName>
+                <default>false</default>
+                <label>153 - RENEGOCIAÇÃO DE DÍVIDA - BBF CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>154 - BEM APREENDIDO BBF CONSIGNADO - VEÍCULOS</fullName>
+                <default>false</default>
+                <label>154 - BEM APREENDIDO BBF CONSIGNADO - VEÍCULOS</label>
+            </value>
+            <value>
+                <fullName>155 - VENCIDO BRADESCO CORRETORA</fullName>
+                <default>false</default>
+                <label>155 - VENCIDO BRADESCO CORRETORA</label>
+            </value>
+            <value>
+                <fullName>162 - AÇÃO DE CRÉDITO CONTRA BBF CONSIGNADO</fullName>
+                <default>false</default>
+                <label>162 - AÇÃO DE CRÉDITO CONTRA BBF CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>163 - PROMOTORAS/SÓCIOS BBF CONSIGNADO - RISCO VENCIDO</fullName>
+                <default>false</default>
+                <label>163 - PROMOTORAS/SÓCIOS BBF CONSIGNADO - RISCO VENCIDO</label>
+            </value>
+            <value>
+                <fullName>164 - CONHECA SEU CLIENTE - BANCO BRADESCO</fullName>
+                <default>false</default>
+                <label>164 - CONHECA SEU CLIENTE - BANCO BRADESCO</label>
+            </value>
+            <value>
+                <fullName>165 - RESIDENTES FISCAIS ESTRANGEIROS NÃO DILIGENCIADOS</fullName>
+                <default>false</default>
+                <label>165 - RESIDENTES FISCAIS ESTRANGEIROS NÃO DILIGENCIADOS</label>
+            </value>
+            <value>
+                <fullName>166 - EMPRESA PASSIVA COM TITULAR SUBSTANCIAL</fullName>
+                <default>false</default>
+                <label>166 - EMPRESA PASSIVA COM TITULAR SUBSTANCIAL</label>
+            </value>
+            <value>
+                <fullName>167 - EMPRESA FINANCEIRA NÃO ADERENTE À FATCA</fullName>
+                <default>false</default>
+                <label>167 - EMPRESA FINANCEIRA NÃO ADERENTE À FATCA</label>
+            </value>
+            <value>
+                <fullName>172 - CREDITO CEDIDO VENCIDO ALVORADA LUCROS E PERDAS</fullName>
+                <default>false</default>
+                <label>172 - CREDITO CEDIDO VENCIDO ALVORADA LUCROS E PERDAS</label>
+            </value>
+            <value>
+                <fullName>173 - OPERAÇÃO VENCIDA LOSANGO</fullName>
+                <default>false</default>
+                <label>173 - OPERAÇÃO VENCIDA LOSANGO</label>
+            </value>
+            <value>
+                <fullName>174 - RENEGOCIAÇÃO DE DIVIDAS LOSANGO</fullName>
+                <default>false</default>
+                <label>174 - RENEGOCIAÇÃO DE DIVIDAS LOSANGO</label>
+            </value>
+            <value>
+                <fullName>175 - OPERAÇÃO TRANSFERIDA PARA LUCROS E PERDAS LOSANGO</fullName>
+                <default>false</default>
+                <label>175 - OPERAÇÃO TRANSFERIDA PARA LUCROS E PERDAS LOSANGO</label>
+            </value>
+            <value>
+                <fullName>200 - CARTAO VENCIDO BOTICARIO</fullName>
+                <default>false</default>
+                <label>200 - CARTAO VENCIDO BOTICARIO</label>
+            </value>
+            <value>
+                <fullName>201 - CARTAO EM LUCROS E PERDAS BOTICARIO</fullName>
+                <default>false</default>
+                <label>201 - CARTAO EM LUCROS E PERDAS BOTICARIO</label>
+            </value>
+            <value>
+                <fullName>202 - RENEGOCIACAO DE DIVIDA DE CARTAO BOTICARIO</fullName>
+                <default>false</default>
+                <label>202 - RENEGOCIACAO DE DIVIDA DE CARTAO BOTICARIO</label>
+            </value>
+            <value>
+                <fullName>213 - CONVALESCIMENTO DE DIVIDAS</fullName>
+                <default>false</default>
+                <label>213 - CONVALESCIMENTO DE DIVIDAS</label>
+            </value>
+            <value>
+                <fullName>223 - CCF - BRADESCO (BACEN) RESOLUCAO 1682</fullName>
+                <default>false</default>
+                <label>223 - CCF - BRADESCO (BACEN) RESOLUCAO 1682</label>
+            </value>
+            <value>
+                <fullName>224 - CCF - OUTROS BANCOS (BACEN) RESOLUCAO 1682</fullName>
+                <default>false</default>
+                <label>224 - CCF - OUTROS BANCOS (BACEN) RESOLUCAO 1682</label>
+            </value>
+            <value>
+                <fullName>225 - OPERACAO VENCIDA BANCO IBI ATE 30 DIAS</fullName>
+                <default>false</default>
+                <label>225 - OPERACAO VENCIDA BANCO IBI ATE 30 DIAS</label>
+            </value>
+            <value>
+                <fullName>226 - OPERACAO VENCIDA BANCO IBI DE 31 A 60 DIAS</fullName>
+                <default>false</default>
+                <label>226 - OPERACAO VENCIDA BANCO IBI DE 31 A 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>227 - OPERACAO VENCIDA BANCO IBI HA MAIS DE 60 DIAS</fullName>
+                <default>false</default>
+                <label>227 - OPERACAO VENCIDA BANCO IBI HA MAIS DE 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>228 - OPERACAO TRANSFERIDA PARA LUCROS E PERDAS BANCO IBI</fullName>
+                <default>false</default>
+                <label>228 - OPERACAO TRANSFERIDA PARA LUCROS E PERDAS BANCO IBI</label>
+            </value>
+            <value>
+                <fullName>229 - RENEGOCIACAO DE DIVIDA BANCO IBI</fullName>
+                <default>false</default>
+                <label>229 - RENEGOCIACAO DE DIVIDA BANCO IBI</label>
+            </value>
+            <value>
+                <fullName>230 - RENEGOCIACAO DE DIVIDA EM PREJUIZO BANCO IBI</fullName>
+                <default>false</default>
+                <label>230 - RENEGOCIACAO DE DIVIDA EM PREJUIZO BANCO IBI</label>
+            </value>
+            <value>
+                <fullName>233 - INFRAÇÃO AMBIENTAL-IBAMA</fullName>
+                <default>false</default>
+                <label>233 - INFRAÇÃO AMBIENTAL-IBAMA</label>
+            </value>
+            <value>
+                <fullName>237 - CCF BRADESCO</fullName>
+                <default>false</default>
+                <label>237 - CCF BRADESCO</label>
+            </value>
+            <value>
+                <fullName>238 - CCF OUTROS BANCOS</fullName>
+                <default>false</default>
+                <label>238 - CCF OUTROS BANCOS</label>
+            </value>
+            <value>
+                <fullName>239 - PEFIN-PENDENCIA FINANCEIRA</fullName>
+                <default>false</default>
+                <label>239 - PEFIN-PENDENCIA FINANCEIRA</label>
+            </value>
+            <value>
+                <fullName>241 - REGISTRO DE DEBITO SCPC</fullName>
+                <default>false</default>
+                <label>241 - REGISTRO DE DEBITO SCPC</label>
+            </value>
+            <value>
+                <fullName>242 - VENCIDO IMOBILIARIA - SCPC</fullName>
+                <default>false</default>
+                <label>242 - VENCIDO IMOBILIARIA - SCPC</label>
+            </value>
+            <value>
+                <fullName>243 - CONSORCIO VENCIDO - SCPC</fullName>
+                <default>false</default>
+                <label>243 - CONSORCIO VENCIDO - SCPC</label>
+            </value>
+            <value>
+                <fullName>244 - VENCIDO LOCADORA - SCPC</fullName>
+                <default>false</default>
+                <label>244 - VENCIDO LOCADORA - SCPC</label>
+            </value>
+            <value>
+                <fullName>245 - CREDITO IMOBILIARIO VENCIDO - SCPC</fullName>
+                <default>false</default>
+                <label>245 - CREDITO IMOBILIARIO VENCIDO - SCPC</label>
+            </value>
+            <value>
+                <fullName>246 - VENCIDO OUTRAS ATIVIDADES - SCPC</fullName>
+                <default>false</default>
+                <label>246 - VENCIDO OUTRAS ATIVIDADES - SCPC</label>
+            </value>
+            <value>
+                <fullName>247 - TITULOS PROTESTADOS - SCPC</fullName>
+                <default>false</default>
+                <label>247 - TITULOS PROTESTADOS - SCPC</label>
+            </value>
+            <value>
+                <fullName>249 - CONHECA SEU CLIENTE - BRADESCO CARTOES</fullName>
+                <default>false</default>
+                <label>249 - CONHECA SEU CLIENTE - BRADESCO CARTOES</label>
+            </value>
+            <value>
+                <fullName>250 - CONHECA SEU CLIENTE - CONSORCIO</fullName>
+                <default>false</default>
+                <label>250 - CONHECA SEU CLIENTE - CONSORCIO</label>
+            </value>
+            <value>
+                <fullName>251 - CONHEÇA SEU CLIENTE - FINANCIAMENTOS VEÍCULOS</fullName>
+                <default>false</default>
+                <label>251 - CONHEÇA SEU CLIENTE - FINANCIAMENTOS VEÍCULOS</label>
+            </value>
+            <value>
+                <fullName>252 - CONHEÇA SEU CLIENTE - CONSIGNADO</fullName>
+                <default>false</default>
+                <label>252 - CONHEÇA SEU CLIENTE - CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>253 - CONHEÇA SEU CLIENTE - CORRETORAS</fullName>
+                <default>false</default>
+                <label>253 - CONHEÇA SEU CLIENTE - CORRETORAS</label>
+            </value>
+            <value>
+                <fullName>254 - CONHECA SEU CLIENTE CONTA ENCERRADA - BANCO BRADESCO</fullName>
+                <default>false</default>
+                <label>254 - CONHECA SEU CLIENTE CONTA ENCERRADA - BANCO BRADESCO</label>
+            </value>
+            <value>
+                <fullName>255 - CONHECA SEU CLIENTE - VIDA E PREVIDENCIA (ABERTA/FECHADA)</fullName>
+                <default>false</default>
+                <label>255 - CONHECA SEU CLIENTE - VIDA E PREVIDENCIA (ABERTA/FECHADA)</label>
+            </value>
+            <value>
+                <fullName>256 - CONHECA SEU CLIENTE - AUTOMOVEL E RAMOS ELEMENTARES</fullName>
+                <default>false</default>
+                <label>256 - CONHECA SEU CLIENTE - AUTOMOVEL E RAMOS ELEMENTARES</label>
+            </value>
+            <value>
+                <fullName>257 - CONHECA SEU CLIENTE - CAPITALIZACAO</fullName>
+                <default>false</default>
+                <label>257 - CONHECA SEU CLIENTE - CAPITALIZACAO</label>
+            </value>
+            <value>
+                <fullName>258 - CONHECA SEU CLIENTE - SAUDE</fullName>
+                <default>false</default>
+                <label>258 - CONHECA SEU CLIENTE - SAUDE</label>
+            </value>
+            <value>
+                <fullName>259 - CONHEÇA SEU CLIENTE - FINANCIAMENTOS VEÍCULOS - RELAC. ENCERRADO</fullName>
+                <default>false</default>
+                <label>259 - CONHEÇA SEU CLIENTE - FINANCIAMENTOS VEÍCULOS - RELAC. ENCERRADO</label>
+            </value>
+            <value>
+                <fullName>260 - OBSERVACAO INTERNA-SEGURANCA CORPORATIVA - 5</fullName>
+                <default>false</default>
+                <label>260 - OBSERVACAO INTERNA-SEGURANCA CORPORATIVA - 5</label>
+            </value>
+            <value>
+                <fullName>261 - OBSERVACAO INTERNA-SEGURANCA CORPORATIVA - 3</fullName>
+                <default>false</default>
+                <label>261 - OBSERVACAO INTERNA-SEGURANCA CORPORATIVA - 3</label>
+            </value>
+            <value>
+                <fullName>265 - OBSERVAÇÃO INTERNA DRC</fullName>
+                <default>false</default>
+                <label>265 - OBSERVAÇÃO INTERNA DRC</label>
+            </value>
+            <value>
+                <fullName>266 - VENCIDOS AGORA CORRETORA</fullName>
+                <default>false</default>
+                <label>266 - VENCIDOS AGORA CORRETORA</label>
+            </value>
+            <value>
+                <fullName>268 - CONHEÇA SEU CLIENTE LISTA INTERNACIONAL</fullName>
+                <default>false</default>
+                <label>268 - CONHEÇA SEU CLIENTE LISTA INTERNACIONAL</label>
+            </value>
+            <value>
+                <fullName>269 - RENEGOCIAÇÃO DE DÍVIDA LEASING</fullName>
+                <default>false</default>
+                <label>269 - RENEGOCIAÇÃO DE DÍVIDA LEASING</label>
+            </value>
+            <value>
+                <fullName>270 - OBSERVAÇÃO DRC-RENEGOCIAÇÃO DE DÍVIDA COM PREJUÍZO</fullName>
+                <default>false</default>
+                <label>270 - OBSERVAÇÃO DRC-RENEGOCIAÇÃO DE DÍVIDA COM PREJUÍZO</label>
+            </value>
+            <value>
+                <fullName>271 - PENDÊNCIA DE REPASSE BBF - CONSIGNADO</fullName>
+                <default>false</default>
+                <label>271 - PENDÊNCIA DE REPASSE BBF - CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>272 - LIQUIDAÇÃO EXTRAJUDICIAL</fullName>
+                <default>false</default>
+                <label>272 - LIQUIDAÇÃO EXTRAJUDICIAL</label>
+            </value>
+            <value>
+                <fullName>273 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 1</fullName>
+                <default>false</default>
+                <label>273 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 1</label>
+            </value>
+            <value>
+                <fullName>274 - RENEGOCIAÇÃO RURAL RESOLUÇÃO 4272</fullName>
+                <default>false</default>
+                <label>274 - RENEGOCIAÇÃO RURAL RESOLUÇÃO 4272</label>
+            </value>
+            <value>
+                <fullName>276 - PREJUÍZO LP BBF - CEDIDOS</fullName>
+                <default>false</default>
+                <label>276 - PREJUÍZO LP BBF - CEDIDOS</label>
+            </value>
+            <value>
+                <fullName>280 - OPERAÇÃO INDEVIDA - BP</fullName>
+                <default>false</default>
+                <label>280 - OPERAÇÃO INDEVIDA - BP</label>
+            </value>
+            <value>
+                <fullName>281 - CONHEÇA SEU CLIENTE</fullName>
+                <default>false</default>
+                <label>281 - CONHEÇA SEU CLIENTE</label>
+            </value>
+            <value>
+                <fullName>282 - ÓBITO</fullName>
+                <default>false</default>
+                <label>282 - ÓBITO</label>
+            </value>
+            <value>
+                <fullName>283 - RESIDENTE FISCAL ESTRANGEIRO</fullName>
+                <default>false</default>
+                <label>283 - RESIDENTE FISCAL ESTRANGEIRO</label>
+            </value>
+            <value>
+                <fullName>285 - OPERAÇÃO VENCIDA CBSS DE 15 A 30 DIAS</fullName>
+                <default>false</default>
+                <label>285 - OPERAÇÃO VENCIDA CBSS DE 15 A 30 DIAS</label>
+            </value>
+            <value>
+                <fullName>286 - OPERAÇÃO VENCIDA CBSS DE 31 A 60 DIAS</fullName>
+                <default>false</default>
+                <label>286 - OPERAÇÃO VENCIDA CBSS DE 31 A 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>287 - OPERAÇÃO VENCIDA CBSS DE 61 A 360 DIAS</fullName>
+                <default>false</default>
+                <label>287 - OPERAÇÃO VENCIDA CBSS DE 61 A 360 DIAS</label>
+            </value>
+            <value>
+                <fullName>288 - OPERAÇÃO VENCIDA CBSS MAIS DO QUE 360 DIAS</fullName>
+                <default>false</default>
+                <label>288 - OPERAÇÃO VENCIDA CBSS MAIS DO QUE 360 DIAS</label>
+            </value>
+            <value>
+                <fullName>289 - RENEGOCIAÇÃO CBSS ATÉ 360 DIAS</fullName>
+                <default>false</default>
+                <label>289 - RENEGOCIAÇÃO CBSS ATÉ 360 DIAS</label>
+            </value>
+            <value>
+                <fullName>290 - RENEGOCIAÇÃO CBSS MAIS DO QUE 360 DIAS</fullName>
+                <default>false</default>
+                <label>290 - RENEGOCIAÇÃO CBSS MAIS DO QUE 360 DIAS</label>
+            </value>
+            <value>
+                <fullName>291 - PENDÊNCIA DE EMISSÃO DE CRV (CERTIFICADO DE REGISTRO DO VEÍCULO)</fullName>
+                <default>false</default>
+                <label>291 - PENDÊNCIA DE EMISSÃO DE CRV (CERTIFICADO DE REGISTRO DO VEÍCULO)</label>
+            </value>
+            <value>
+                <fullName>292 - CRÉDITO VENCIDO CEDIDO À TERCEIRO</fullName>
+                <default>false</default>
+                <label>292 - CRÉDITO VENCIDO CEDIDO À TERCEIRO</label>
+            </value>
+            <value>
+                <fullName>294 - APONTAMENTO DRC - SP1</fullName>
+                <default>false</default>
+                <label>294 - APONTAMENTO DRC - SP1</label>
+            </value>
+            <value>
+                <fullName>295 - APONTAMENTO DRC - SP2</fullName>
+                <default>false</default>
+                <label>295 - APONTAMENTO DRC - SP2</label>
+            </value>
+            <value>
+                <fullName>296 - DÍVIDA VENCIDA CAPITAL GIRO-FAMPE/SEBRAE</fullName>
+                <default>false</default>
+                <label>296 - DÍVIDA VENCIDA CAPITAL GIRO-FAMPE/SEBRAE</label>
+            </value>
+            <value>
+                <fullName>297 - CNPJ INAPTO SRF</fullName>
+                <default>false</default>
+                <label>297 - CNPJ INAPTO SRF</label>
+            </value>
+            <value>
+                <fullName>298 - CPF BAIXADO SRF</fullName>
+                <default>false</default>
+                <label>298 - CPF BAIXADO SRF</label>
+            </value>
+            <value>
+                <fullName>299 - LP BF - LIQUIDAÇÃO COM PREJUÍZO</fullName>
+                <default>false</default>
+                <label>299 - LP BF - LIQUIDAÇÃO COM PREJUÍZO</label>
+            </value>
+            <value>
+                <fullName>300 - ATIVO BF - LIQUIDAÇÃO COM PREJUÍZO</fullName>
+                <default>false</default>
+                <label>300 - ATIVO BF - LIQUIDAÇÃO COM PREJUÍZO</label>
+            </value>
+            <value>
+                <fullName>301 - CPF PENDENTE DE REGULARIZAÇÃO</fullName>
+                <default>false</default>
+                <label>301 - CPF PENDENTE DE REGULARIZAÇÃO</label>
+            </value>
+            <value>
+                <fullName>302 - CPF SUSPENSO</fullName>
+                <default>false</default>
+                <label>302 - CPF SUSPENSO</label>
+            </value>
+            <value>
+                <fullName>303 - CADASTRO PF/PJ CEIS/CNEP/CEPIM</fullName>
+                <default>false</default>
+                <label>303 - CADASTRO PF/PJ CEIS/CNEP/CEPIM</label>
+            </value>
+            <value>
+                <fullName>304 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</fullName>
+                <default>false</default>
+                <label>304 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</label>
+            </value>
+            <value>
+                <fullName>305 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</fullName>
+                <default>false</default>
+                <label>305 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</label>
+            </value>
+            <value>
+                <fullName>306 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</fullName>
+                <default>false</default>
+                <label>306 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</label>
+            </value>
+            <value>
+                <fullName>307 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</fullName>
+                <default>false</default>
+                <label>307 - OBSERVAÇÃO INTERNA - SEGURANÇA CORPORATIVA - 3</label>
+            </value>
+            <value>
+                <fullName>310 - CÂMBIO - ESPECIAL ATENÇÃO</fullName>
+                <default>false</default>
+                <label>310 - CÂMBIO - ESPECIAL ATENÇÃO</label>
+            </value>
+            <value>
+                <fullName>311 - ÁREAS CONTAMINADAS</fullName>
+                <default>false</default>
+                <label>311 - ÁREAS CONTAMINADAS</label>
+            </value>
+            <value>
+                <fullName>313 - CONHEÇA SEU CLIENTE - CONSIGNADO RELAC. ENCERRADO</fullName>
+                <default>false</default>
+                <label>313 - CONHEÇA SEU CLIENTE - CONSIGNADO RELAC. ENCERRADO</label>
+            </value>
+            <value>
+                <fullName>314 - EMPRESA FINANCEIRA NÃO ADERENTE AO CRS</fullName>
+                <default>false</default>
+                <label>314 - EMPRESA FINANCEIRA NÃO ADERENTE AO CRS</label>
+            </value>
+            <value>
+                <fullName>315 - REGISTRO DE DÉBITO SPC BRASIL</fullName>
+                <default>false</default>
+                <label>315 - REGISTRO DE DÉBITO SPC BRASIL</label>
+            </value>
+            <value>
+                <fullName>316 - CLIENTE EM DESCUMPRIMENTO</fullName>
+                <default>false</default>
+                <label>316 - CLIENTE EM DESCUMPRIMENTO</label>
+            </value>
+            <value>
+                <fullName>317 - IDENTIFICAÇÃO DE AGENTES POLÍTICOS</fullName>
+                <default>false</default>
+                <label>317 - IDENTIFICAÇÃO DE AGENTES POLÍTICOS</label>
+            </value>
+            <value>
+                <fullName>318 - CRÉDITO VENCIDO CEDIDO À TERCEIRA - RESTRIÇÕES LEVES</fullName>
+                <default>false</default>
+                <label>318 - CRÉDITO VENCIDO CEDIDO À TERCEIRA - RESTRIÇÕES LEVES</label>
+            </value>
+            <value>
+                <fullName>319 - BEM APREENDIDO BBF CONSIGNADO - VEÍCULOS</fullName>
+                <default>false</default>
+                <label>319 - BEM APREENDIDO BBF CONSIGNADO - VEÍCULOS</label>
+            </value>
+            <value>
+                <fullName>320 - OPERAÇÃO VENCIDA BBF CONSIGNADO - ATÉ 30 DIAS</fullName>
+                <default>false</default>
+                <label>320 - OPERAÇÃO VENCIDA BBF CONSIGNADO - ATÉ 30 DIAS</label>
+            </value>
+            <value>
+                <fullName>321 - RENEGOCIAÇÃO DE DÍVIDA COM PREJUÍZO - BBF CONSIGNADO</fullName>
+                <default>false</default>
+                <label>321 - RENEGOCIAÇÃO DE DÍVIDA COM PREJUÍZO - BBF CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>322 - RENEGOCIAÇÃO DE DÍVIDA - BBF CONSIGNADO</fullName>
+                <default>false</default>
+                <label>322 - RENEGOCIAÇÃO DE DÍVIDA - BBF CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>323 - OPERAÇÃO TRANSFERIDA PARA LUCRO E PERDAS BBF CONSIGNADO</fullName>
+                <default>false</default>
+                <label>323 - OPERAÇÃO TRANSFERIDA PARA LUCRO E PERDAS BBF CONSIGNADO</label>
+            </value>
+            <value>
+                <fullName>324 - OPERAÇÃO VENCIDA BBF CONSIGNADO MAIS DE 60 DIAS</fullName>
+                <default>false</default>
+                <label>324 - OPERAÇÃO VENCIDA BBF CONSIGNADO MAIS DE 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>325 - OPERAÇÃO VENCIDA BBF CONSIGNADO DE 31 A 60 DIAS</fullName>
+                <default>false</default>
+                <label>325 - OPERAÇÃO VENCIDA BBF CONSIGNADO DE 31 A 60 DIAS</label>
+            </value>
+            <value>
+                <fullName>328 - HISTÓRICO DE CONTRATOS CEDIDOS</fullName>
+                <default>false</default>
+                <label>328 - HISTÓRICO DE CONTRATOS CEDIDOS</label>
+            </value>
+            <value>
+                <fullName>329 - RESTRIÇÃO DE FORNECIMENTO</fullName>
+                <default>false</default>
+                <label>329 - RESTRIÇÃO DE FORNECIMENTO</label>
+            </value>
+            <value>
+                <fullName>331 - PEFIN - EMPRESAS DE TELEFONIA</fullName>
+                <default>false</default>
+                <label>331 - PEFIN - EMPRESAS DE TELEFONIA</label>
+            </value>
+            <value>
+                <fullName>332 - PEFIN - ENERGIA, GÁS E SANEAMENTO</fullName>
+                <default>false</default>
+                <label>332 - PEFIN - ENERGIA, GÁS E SANEAMENTO</label>
+            </value>
+            <value>
+                <fullName>333 - PEFIN - EMPRÉSTIMO E FINANCIAMENTO</fullName>
+                <default>false</default>
+                <label>333 - PEFIN - EMPRÉSTIMO E FINANCIAMENTO</label>
+            </value>
+            <value>
+                <fullName>334 - PEFIN - ROTATIVO (CHEQUE E CARTÃO)</fullName>
+                <default>false</default>
+                <label>334 - PEFIN - ROTATIVO (CHEQUE E CARTÃO)</label>
+            </value>
+            <value>
+                <fullName>335 - PEFIN - DUPLICATAS / NOTAS FISCAIS</fullName>
+                <default>false</default>
+                <label>335 - PEFIN - DUPLICATAS / NOTAS FISCAIS</label>
+            </value>
+            <value>
+                <fullName>336 - PEFIN - OUTROS</fullName>
+                <default>false</default>
+                <label>336 - PEFIN - OUTROS</label>
+            </value>
+            <value>
+                <fullName>337 - BLOQUEIO DE LIMITES DE CRÉDITO PESSOAL,CRÉDITO FLEX E GIRO EMPRESARIAL</fullName>
+                <default>false</default>
+                <label>337 - BLOQUEIO DE LIMITES DE CRÉDITO PESSOAL,CRÉDITO FLEX E GIRO EMPRESARIAL</label>
+            </value>
+            <value>
+                <fullName>338 - LIMINAR IMPEDITIVA DE ENCERRAMENTO DE C/C</fullName>
+                <default>false</default>
+                <label>338 - LIMINAR IMPEDITIVA DE ENCERRAMENTO DE C/C</label>
+            </value>
+            <value>
+                <fullName>339 - AÇÃO JUDICIAL REVISIONAL CONTRA A ORGANIZAÇÃO</fullName>
+                <default>false</default>
+                <label>339 - AÇÃO JUDICIAL REVISIONAL CONTRA A ORGANIZAÇÃO</label>
+            </value>
+            <value>
+                <fullName>340 - AÇÃO JUDICIAL CONTRA A ORGANIZAÇÃO</fullName>
+                <default>false</default>
+                <label>340 - AÇÃO JUDICIAL CONTRA A ORGANIZAÇÃO</label>
+            </value>
+            <value>
+                <fullName>342 - USO INDEVIDO DE COTA DE CONSÓRCIO</fullName>
+                <default>false</default>
+                <label>342 - USO INDEVIDO DE COTA DE CONSÓRCIO</label>
+            </value>
+            <value>
+                <fullName>344 - OBSERVAÇÃO INTERNA - CQR</fullName>
+                <default>false</default>
+                <label>344 - OBSERVAÇÃO INTERNA - CQR</label>
+            </value>
+            <value>
+                <fullName>347 - CARTÕES - BLOQUEIO JUDICIAL</fullName>
+                <default>false</default>
+                <label>347 - CARTÕES - BLOQUEIO JUDICIAL</label>
+            </value>
+            <value>
+                <fullName>348 - CONHEÇA SEU CLIENTE - CSNU - LEI 13.810</fullName>
+                <default>false</default>
+                <label>348 - CONHEÇA SEU CLIENTE - CSNU - LEI 13.810</label>
+            </value>
+            <value>
+                <fullName>349 - CONHEÇA SEU CLIENTE - ABERTURA DE CONTAS</fullName>
+                <default>false</default>
+                <label>349 - CONHEÇA SEU CLIENTE - ABERTURA DE CONTAS</label>
+            </value>
+            <value>
+                <fullName>350 - PARTES RELACIONADAS ELEGÍVEIS</fullName>
+                <default>false</default>
+                <label>350 - PARTES RELACIONADAS ELEGÍVEIS</label>
+            </value>
+            <value>
+                <fullName>351 - BLOQUEIO DE CRÉDITO - PARTE RELACIONADA</fullName>
+                <default>false</default>
+                <label>351 - BLOQUEIO DE CRÉDITO - PARTE RELACIONADA</label>
+            </value>
+            <value>
+                <fullName>360 - CNPJ BAIXADO SRF</fullName>
+                <default>false</default>
+                <label>360 - CNPJ BAIXADO SRF</label>
+            </value>
+            <value>
+                <fullName>361 - CNPJ SUSPENSO SRF</fullName>
+                <default>false</default>
+                <label>361 - CNPJ SUSPENSO SRF</label>
+            </value>
+            <value>
+                <fullName>362 - CNPJ NULO SRF</fullName>
+                <default>false</default>
+                <label>362 - CNPJ NULO SRF</label>
+            </value>
+            <value>
+                <fullName>363 - PENDÊNCIA DE REGULARIZAÇÃO FATCA/CRS</fullName>
+                <default>false</default>
+                <label>363 - PENDÊNCIA DE REGULARIZAÇÃO FATCA/CRS</label>
+            </value>
+            <value>
+                <fullName>364 - DOCUMENTAÇÃO IRREGULAR FATCA/CRS</fullName>
+                <default>false</default>
+                <label>364 - DOCUMENTAÇÃO IRREGULAR FATCA/CRS</label>
+            </value>
+            <value>
+                <fullName>365 - CONHEÇA SEU CLIENTE CONTA ENCERRADA - CORRETORAS</fullName>
+                <default>false</default>
+                <label>365 - CONHEÇA SEU CLIENTE CONTA ENCERRADA - CORRETORAS</label>
+            </value>
+            <value>
+                <fullName>366 - ALERTA DE DETERIORAÇÃO DE CRÉDITO</fullName>
+                <default>false</default>
+                <label>366 - ALERTA DE DETERIORAÇÃO DE CRÉDITO</label>
+            </value>
+            <value>
+                <fullName>367 - RENEGOCIAÇÃO DE DÍVIDA EM MORA</fullName>
+                <default>false</default>
+                <label>367 - RENEGOCIAÇÃO DE DÍVIDA EM MORA</label>
+            </value>
+            <value>
+                <fullName>368 - EXCESSO DE FINANCIAMENTO DE FOLHA DE PAGAMENTO - PESE</fullName>
+                <default>false</default>
+                <label>368 - EXCESSO DE FINANCIAMENTO DE FOLHA DE PAGAMENTO - PESE</label>
+            </value>
+            <value>
+                <fullName>369 - PRORROGAÇÃO DE DÍVIDA VENCIDA</fullName>
+                <default>false</default>
+                <label>369 - PRORROGAÇÃO DE DÍVIDA VENCIDA</label>
+            </value>
+            <value>
+                <fullName>370 - CLIENTES CDE - IMPEDIDOS DE CONTRATAR CRÉDITO</fullName>
+                <default>false</default>
+                <label>370 - CLIENTES CDE - IMPEDIDOS DE CONTRATAR CRÉDITO</label>
+            </value>
+            <value>
+                <fullName>606 - CESSÃO BANCO 399</fullName>
+                <default>false</default>
+                <label>606 - CESSÃO BANCO 399</label>
+            </value>
+            <value>
+                <fullName>611 - CONHEÇA O SEU CLIENTE - BANCO 399</fullName>
+                <default>false</default>
+                <label>611 - CONHEÇA O SEU CLIENTE - BANCO 399</label>
+            </value>
+            <value>
+                <fullName>614 - CONHEÇA O SEU CLIENTE - MONITORAMENTO REFORÇADO-BANCO 399</fullName>
+                <default>false</default>
+                <label>614 - CONHEÇA O SEU CLIENTE - MONITORAMENTO REFORÇADO-BANCO 399</label>
+            </value>
+            <value>
+                <fullName>631 - LIQUIDAÇÃO OPERAÇÃO COM PREJUÍZO BANCO 399</fullName>
+                <default>false</default>
+                <label>631 - LIQUIDAÇÃO OPERAÇÃO COM PREJUÍZO BANCO 399</label>
+            </value>
+            <value>
+                <fullName>639 - CONHEÇA O SEU CLIENTE - MONITORAMENTO REFORÇADO-BANCO 399</fullName>
+                <default>false</default>
+                <label>639 - CONHEÇA O SEU CLIENTE - MONITORAMENTO REFORÇADO-BANCO 399</label>
+            </value>
+            <value>
+                <fullName>645 - CONHEÇA O SEU CLIENTE - GLOBAL STANDARD - BANCO 399</fullName>
+                <default>false</default>
+                <label>645 - CONHEÇA O SEU CLIENTE - GLOBAL STANDARD - BANCO 399</label>
+            </value>
+            <value>
+                <fullName>646 - RESTRITIVO AML COM RELACIONAMENTO BANCO 399</fullName>
+                <default>false</default>
+                <label>646 - RESTRITIVO AML COM RELACIONAMENTO BANCO 399</label>
+            </value>
+            <value>
+                <fullName>649 - CONHEÇA O SEU CLIENTE - SANÇÕES - LISTA INTERNACIONAL - BANCO 399</fullName>
+                <default>false</default>
+                <label>649 - CONHEÇA O SEU CLIENTE - SANÇÕES - LISTA INTERNACIONAL - BANCO 399</label>
+            </value>
+            <value>
+                <fullName>999 - IMPEDIMENTO NAO CADASTRADO</fullName>
+                <default>false</default>
+                <label>999 - IMPEDIMENTO NAO CADASTRADO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

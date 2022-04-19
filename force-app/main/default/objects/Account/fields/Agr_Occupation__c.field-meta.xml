@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_Occupation__c</fullName>
+    <externalId>false</externalId>
+    <label>Ocupação</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>ADMINISTRADOR</fullName>
+                <default>false</default>
+                <label>ADMINISTRADOR</label>
+            </value>
+            <value>
+                <fullName>ADVOGADO</fullName>
+                <default>false</default>
+                <label>ADVOGADO</label>
+            </value>
+            <value>
+                <fullName>AGENCIADOR DE PROPAGANDA</fullName>
+                <default>false</default>
+                <label>AGENCIADOR DE PROPAGANDA</label>
+            </value>
+            <value>
+                <fullName>AGENTE ADMINISTRATIVO</fullName>
+                <default>false</default>
+                <label>AGENTE ADMINISTRATIVO</label>
+            </value>
+            <value>
+                <fullName>AGENTE DE SERVICOS FUNERARIOS E EMBALSAMADOR</fullName>
+                <default>false</default>
+                <label>AGENTE DE SERVICOS FUNERARIOS E EMBALSAMADOR</label>
+            </value>
+            <value>
+                <fullName>AGENTE DE VIAGEM E GUIA DE TURISMO</fullName>
+                <default>false</default>
+                <label>AGENTE DE VIAGEM E GUIA DE TURISMO</label>
+            </value>
+            <value>
+                <fullName>AGRONOMO</fullName>
+                <default>false</default>
+                <label>AGRONOMO</label>
+            </value>
+            <value>
+                <fullName>ALFAIATE</fullName>
+                <default>false</default>
+                <label>ALFAIATE</label>
+            </value>
+            <value>
+                <fullName>ANALISTA DE SISTEMAS</fullName>
+                <default>false</default>
+                <label>ANALISTA DE SISTEMAS</label>
+            </value>
+            <value>
+                <fullName>APOSENTADO (EXCETO FUNCIONARIO PUBLICO)</fullName>
+                <default>false</default>
+                <label>APOSENTADO (EXCETO FUNCIONARIO PUBLICO)</label>
+            </value>
+            <value>
+                <fullName>ARQUITETO</fullName>
+                <default>false</default>
+                <label>ARQUITETO</label>
+            </value>
+            <value>
+                <fullName>ASSISTENTE SOCIAL</fullName>
+                <default>false</default>
+                <label>ASSISTENTE SOCIAL</label>
+            </value>
+            <value>
+                <fullName>ASTRONOMO E METEOROLOGISTA</fullName>
+                <default>false</default>
+                <label>ASTRONOMO E METEOROLOGISTA</label>
+            </value>
+            <value>
+                <fullName>ATIVIDADES NAO ESPECIFICADAS/CLASSIFICADAS</fullName>
+                <default>false</default>
+                <label>ATIVIDADES NAO ESPECIFICADAS/CLASSIFICADAS</label>
+            </value>
+            <value>
+                <fullName>ATLETA PROFISSIONAL E TECNICO EM DESPORTOS</fullName>
+                <default>false</default>
+                <label>ATLETA PROFISSIONAL E TECNICO EM DESPORTOS</label>
+            </value>
+            <value>
+                <fullName>ATOR E DIRETOR DE ESPETACULOS PUBLICOS</fullName>
+                <default>false</default>
+                <label>ATOR E DIRETOR DE ESPETACULOS PUBLICOS</label>
+            </value>
+            <value>
+                <fullName>ATUARIO E MATEMATICO</fullName>
+                <default>false</default>
+                <label>ATUARIO E MATEMATICO</label>
+            </value>
+            <value>
+                <fullName>AUXILIAR DE ESCRITORIO E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>AUXILIAR DE ESCRITORIO E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>AUXILIAR DE LABORATORIO</fullName>
+                <default>false</default>
+                <label>AUXILIAR DE LABORATORIO</label>
+            </value>
+            <value>
+                <fullName>BANCARIO E ECONOMIARIO</fullName>
+                <default>false</default>
+                <label>BANCARIO E ECONOMIARIO</label>
+            </value>
+            <value>
+                <fullName>BANCOS, ASSOCIAÇÕES CUSTODIANTES E INSTITUIÇÕES.</fullName>
+                <default>false</default>
+                <label>BANCOS, ASSOCIAÇÕES CUSTODIANTES E INSTITUIÇÕES.</label>
+            </value>
+            <value>
+                <fullName>BIBLIOTECARIO, ARQUIVISTA, MUSEOLOGO E ARQUEOLOGO</fullName>
+                <default>false</default>
+                <label>BIBLIOTECARIO, ARQUIVISTA, MUSEOLOGO E ARQUEOLOGO</label>
+            </value>
+            <value>
+                <fullName>BIOLOGO E BIOMEDICO</fullName>
+                <default>false</default>
+                <label>BIOLOGO E BIOMEDICO</label>
+            </value>
+            <value>
+                <fullName>BOLSISTA, ESTAGIARIO E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>BOLSISTA, ESTAGIARIO E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>BOMBEIRO E INSTALADOR DE GAS, AGUA, ESGOTO E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>BOMBEIRO E INSTALADOR DE GAS, AGUA, ESGOTO E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>CABELEREIRO, BARBEIRO, MANICURE, PEDICURE, MAQUILADOR</fullName>
+                <default>false</default>
+                <label>CABELEREIRO, BARBEIRO, MANICURE, PEDICURE, MAQUILADOR</label>
+            </value>
+            <value>
+                <fullName>CANTOR E COMPOSITOR</fullName>
+                <default>false</default>
+                <label>CANTOR E COMPOSITOR</label>
+            </value>
+            <value>
+                <fullName>CAPITALISTA RECEBENDO RENDIMENTO DE APLICACAO DE CAPITAL</fullName>
+                <default>false</default>
+                <label>CAPITALISTA RECEBENDO RENDIMENTO DE APLICACAO DE CAPITAL</label>
+            </value>
+            <value>
+                <fullName>CHEFE INTERMEDIARIO</fullName>
+                <default>false</default>
+                <label>CHEFE INTERMEDIARIO</label>
+            </value>
+            <value>
+                <fullName>CLUBE DE INVESTIMENTO</fullName>
+                <default>false</default>
+                <label>CLUBE DE INVESTIMENTO</label>
+            </value>
+            <value>
+                <fullName>CLUBES E FUNDOS DE INVESTIMENTO</fullName>
+                <default>false</default>
+                <label>CLUBES E FUNDOS DE INVESTIMENTO</label>
+            </value>
+            <value>
+                <fullName>COMANDANTE DE EMBARCACOES</fullName>
+                <default>false</default>
+                <label>COMANDANTE DE EMBARCACOES</label>
+            </value>
+            <value>
+                <fullName>COMERCIO ATACADISTA</fullName>
+                <default>false</default>
+                <label>COMERCIO ATACADISTA</label>
+            </value>
+            <value>
+                <fullName>COMERCIO VAREJISTA</fullName>
+                <default>false</default>
+                <label>COMERCIO VAREJISTA</label>
+            </value>
+            <value>
+                <fullName>COMISSARIO DE BORDO</fullName>
+                <default>false</default>
+                <label>COMISSARIO DE BORDO</label>
+            </value>
+            <value>
+                <fullName>COMUNICOLOGO</fullName>
+                <default>false</default>
+                <label>COMUNICOLOGO</label>
+            </value>
+            <value>
+                <fullName>CONSULTOR</fullName>
+                <default>false</default>
+                <label>CONSULTOR</label>
+            </value>
+            <value>
+                <fullName>CONTADOR</fullName>
+                <default>false</default>
+                <label>CONTADOR</label>
+            </value>
+            <value>
+                <fullName>CONTRAMESTRE DE EMBARCACOES</fullName>
+                <default>false</default>
+                <label>CONTRAMESTRE DE EMBARCACOES</label>
+            </value>
+            <value>
+                <fullName>COOPERATIVAS</fullName>
+                <default>false</default>
+                <label>COOPERATIVAS</label>
+            </value>
+            <value>
+                <fullName>COORDENADOR E SUPERVISOR</fullName>
+                <default>false</default>
+                <label>COORDENADOR E SUPERVISOR</label>
+            </value>
+            <value>
+                <fullName>COREOGRAFO E BAILARINO</fullName>
+                <default>false</default>
+                <label>COREOGRAFO E BAILARINO</label>
+            </value>
+            <value>
+                <fullName>CORRETOR DE IMOVEIS, SEGUROS, TITULOS E VALORES</fullName>
+                <default>false</default>
+                <label>CORRETOR DE IMOVEIS, SEGUROS, TITULOS E VALORES</label>
+            </value>
+            <value>
+                <fullName>DECORADOR</fullName>
+                <default>false</default>
+                <label>DECORADOR</label>
+            </value>
+            <value>
+                <fullName>DELEGADO DE POLICIA</fullName>
+                <default>false</default>
+                <label>DELEGADO DE POLICIA</label>
+            </value>
+            <value>
+                <fullName>DEMAIS FUNDOS OU ENTIDADES DE INVESTIMENTO COLETIVO.</fullName>
+                <default>false</default>
+                <label>DEMAIS FUNDOS OU ENTIDADES DE INVESTIMENTO COLETIVO.</label>
+            </value>
+            <value>
+                <fullName>DEMAIS PESSOAS JURIDÍCAS CONSTITUÍDAS NO EXTERIOR.</fullName>
+                <default>false</default>
+                <label>DEMAIS PESSOAS JURIDÍCAS CONSTITUÍDAS NO EXTERIOR.</label>
+            </value>
+            <value>
+                <fullName>DEMONSTRADOR</fullName>
+                <default>false</default>
+                <label>DEMONSTRADOR</label>
+            </value>
+            <value>
+                <fullName>DESENHISTA COMERCIAL</fullName>
+                <default>false</default>
+                <label>DESENHISTA COMERCIAL</label>
+            </value>
+            <value>
+                <fullName>DESENHISTA INDUSTRIAL</fullName>
+                <default>false</default>
+                <label>DESENHISTA INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>DESENHISTA TECNICO</fullName>
+                <default>false</default>
+                <label>DESENHISTA TECNICO</label>
+            </value>
+            <value>
+                <fullName>DESPACHANTE, INCLUSIVE O ADUANEIRO</fullName>
+                <default>false</default>
+                <label>DESPACHANTE, INCLUSIVE O ADUANEIRO</label>
+            </value>
+            <value>
+                <fullName>DIPLOMATA</fullName>
+                <default>false</default>
+                <label>DIPLOMATA</label>
+            </value>
+            <value>
+                <fullName>DIRETOR DE EMPRESAS</fullName>
+                <default>false</default>
+                <label>DIRETOR DE EMPRESAS</label>
+            </value>
+            <value>
+                <fullName>DIRETOR DE ESTABELECIMENTO DE ENSINO</fullName>
+                <default>false</default>
+                <label>DIRETOR DE ESTABELECIMENTO DE ENSINO</label>
+            </value>
+            <value>
+                <fullName>ECONOMISTA</fullName>
+                <default>false</default>
+                <label>ECONOMISTA</label>
+            </value>
+            <value>
+                <fullName>ELETRICISTA DE MANUTENCAO DE VEICULOS AUTOMOTORES E MAQUINAS</fullName>
+                <default>false</default>
+                <label>ELETRICISTA DE MANUTENCAO DE VEICULOS AUTOMOTORES E MAQUINAS</label>
+            </value>
+            <value>
+                <fullName>ELETRICISTA E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>ELETRICISTA E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>EMPREGADO DOMESTICO</fullName>
+                <default>false</default>
+                <label>EMPREGADO DOMESTICO</label>
+            </value>
+            <value>
+                <fullName>EMPRESARIO</fullName>
+                <default>false</default>
+                <label>EMPRESARIO</label>
+            </value>
+            <value>
+                <fullName>EMPRESARIO E PRODUTOR DE ESPETACULOS PUBLICOS</fullName>
+                <default>false</default>
+                <label>EMPRESARIO E PRODUTOR DE ESPETACULOS PUBLICOS</label>
+            </value>
+            <value>
+                <fullName>ENFERMEIRO E NUTRICIONISTA</fullName>
+                <default>false</default>
+                <label>ENFERMEIRO E NUTRICIONISTA</label>
+            </value>
+            <value>
+                <fullName>ENGENHEIRO</fullName>
+                <default>false</default>
+                <label>ENGENHEIRO</label>
+            </value>
+            <value>
+                <fullName>ENSINO</fullName>
+                <default>false</default>
+                <label>ENSINO</label>
+            </value>
+            <value>
+                <fullName>ENTIDADE DE PREVIDÊNCIA.</fullName>
+                <default>false</default>
+                <label>ENTIDADE DE PREVIDÊNCIA.</label>
+            </value>
+            <value>
+                <fullName>ESCRITORIOS CENTRAIS E REGIONAIS</fullName>
+                <default>false</default>
+                <label>ESCRITORIOS CENTRAIS E REGIONAIS</label>
+            </value>
+            <value>
+                <fullName>ESCULTOR, PINTOR E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>ESCULTOR, PINTOR E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>ESPOLIO</fullName>
+                <default>false</default>
+                <label>ESPOLIO</label>
+            </value>
+            <value>
+                <fullName>ESTATISTICO</fullName>
+                <default>false</default>
+                <label>ESTATISTICO</label>
+            </value>
+            <value>
+                <fullName>ESTIVADOR, CARREGADOR, EMBALADOR E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>ESTIVADOR, CARREGADOR, EMBALADOR E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>FALECIDO</fullName>
+                <default>false</default>
+                <label>FALECIDO</label>
+            </value>
+            <value>
+                <fullName>FARMACEUTICO</fullName>
+                <default>false</default>
+                <label>FARMACEUTICO</label>
+            </value>
+            <value>
+                <fullName>FEIRANTE</fullName>
+                <default>false</default>
+                <label>FEIRANTE</label>
+            </value>
+            <value>
+                <fullName>FISCAL</fullName>
+                <default>false</default>
+                <label>FISCAL</label>
+            </value>
+            <value>
+                <fullName>FISICO</fullName>
+                <default>false</default>
+                <label>FISICO</label>
+            </value>
+            <value>
+                <fullName>FISIOTERAPEUTA E TERAPEUTA OCUPACIONAL</fullName>
+                <default>false</default>
+                <label>FISIOTERAPEUTA E TERAPEUTA OCUPACIONAL</label>
+            </value>
+            <value>
+                <fullName>FONOAUDIOLOGO</fullName>
+                <default>false</default>
+                <label>FONOAUDIOLOGO</label>
+            </value>
+            <value>
+                <fullName>FUNCIONARIO PUBLICO CIVIL APOSENTADO</fullName>
+                <default>false</default>
+                <label>FUNCIONARIO PUBLICO CIVIL APOSENTADO</label>
+            </value>
+            <value>
+                <fullName>FUNDACAO, ENTIDADE E ASSOCIACAO SEM FIM LUCRATIVO</fullName>
+                <default>false</default>
+                <label>FUNDACAO, ENTIDADE E ASSOCIACAO SEM FIM LUCRATIVO</label>
+            </value>
+            <value>
+                <fullName>FUNDO DE INVESTIMENTO IMOBILIARIO</fullName>
+                <default>false</default>
+                <label>FUNDO DE INVESTIMENTO IMOBILIARIO</label>
+            </value>
+            <value>
+                <fullName>FUNDO DE INVESTIMENTO PREVIDENCIA</fullName>
+                <default>false</default>
+                <label>FUNDO DE INVESTIMENTO PREVIDENCIA</label>
+            </value>
+            <value>
+                <fullName>GARIMPEIRO</fullName>
+                <default>false</default>
+                <label>GARIMPEIRO</label>
+            </value>
+            <value>
+                <fullName>GEOGRAFO</fullName>
+                <default>false</default>
+                <label>GEOGRAFO</label>
+            </value>
+            <value>
+                <fullName>GEOLOGO</fullName>
+                <default>false</default>
+                <label>GEOLOGO</label>
+            </value>
+            <value>
+                <fullName>GERENTE</fullName>
+                <default>false</default>
+                <label>GERENTE</label>
+            </value>
+            <value>
+                <fullName>GOVERNANTA DE HOTEL, CAMAREIRO, PORTEIRO, COZINHEIRO</fullName>
+                <default>false</default>
+                <label>GOVERNANTA DE HOTEL, CAMAREIRO, PORTEIRO, COZINHEIRO</label>
+            </value>
+            <value>
+                <fullName>HOLDING - CONTROLADORA DE PARTICIPACAO</fullName>
+                <default>false</default>
+                <label>HOLDING - CONTROLADORA DE PARTICIPACAO</label>
+            </value>
+            <value>
+                <fullName>IMPLANTACAO - FAVOR ACERTAR</fullName>
+                <default>false</default>
+                <label>IMPLANTACAO - FAVOR ACERTAR</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DA CONSTRUCAO</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DA CONSTRUCAO</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE BEBIDAS</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE BEBIDAS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE BORRACHA</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE BORRACHA</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE CALCADOS</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE CALCADOS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE COUROS, PELES E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE COUROS, PELES E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE FUMO</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE FUMO</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE PRODUTOS ALIMENTARES</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE PRODUTOS ALIMENTARES</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE PRODUTOS DE MATERIAS PLASTICAS</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE PRODUTOS DE MATERIAS PLASTICAS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DE PRODUTOS FARMACEUTICOS</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DE PRODUTOS FARMACEUTICOS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA DO VESTUARIO E ARTEFATOS</fullName>
+                <default>false</default>
+                <label>INDUSTRIA DO VESTUARIO E ARTEFATOS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA EDITORIAL E GRAFICA</fullName>
+                <default>false</default>
+                <label>INDUSTRIA EDITORIAL E GRAFICA</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA QUIMICA</fullName>
+                <default>false</default>
+                <label>INDUSTRIA QUIMICA</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIAS DIVERSAS</fullName>
+                <default>false</default>
+                <label>INDUSTRIAS DIVERSAS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIA TEXTIL</fullName>
+                <default>false</default>
+                <label>INDUSTRIA TEXTIL</label>
+            </value>
+            <value>
+                <fullName>INSTITUICOES FINANCEIRAS, SOCIEDADES</fullName>
+                <default>false</default>
+                <label>INSTITUICOES FINANCEIRAS, SOCIEDADES</label>
+            </value>
+            <value>
+                <fullName>INSTITUIÇÕES SEM FINS LUCRATIVOS.</fullName>
+                <default>false</default>
+                <label>INSTITUIÇÕES SEM FINS LUCRATIVOS.</label>
+            </value>
+            <value>
+                <fullName>JOALHEIROS E OURIVES</fullName>
+                <default>false</default>
+                <label>JOALHEIROS E OURIVES</label>
+            </value>
+            <value>
+                <fullName>JORNALEIRO</fullName>
+                <default>false</default>
+                <label>JORNALEIRO</label>
+            </value>
+            <value>
+                <fullName>JORNALISTA</fullName>
+                <default>false</default>
+                <label>JORNALISTA</label>
+            </value>
+            <value>
+                <fullName>LANTERNEIRO E PINTOR DE VEICULOS METALICOS</fullName>
+                <default>false</default>
+                <label>LANTERNEIRO E PINTOR DE VEICULOS METALICOS</label>
+            </value>
+            <value>
+                <fullName>LEILOEIRO, AVALIADOR E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>LEILOEIRO, AVALIADOR E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>LOCUTOR E COMENTARISTA DE RADIO E TELEVISAO E RADIALISTA</fullName>
+                <default>false</default>
+                <label>LOCUTOR E COMENTARISTA DE RADIO E TELEVISAO E RADIALISTA</label>
+            </value>
+            <value>
+                <fullName>MAQUINISTA, FOGUISTA DE EMBARCACOES, LOCOMOTIVAS</fullName>
+                <default>false</default>
+                <label>MAQUINISTA, FOGUISTA DE EMBARCACOES, LOCOMOTIVAS</label>
+            </value>
+            <value>
+                <fullName>MARINHEIROS E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>MARINHEIROS E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>MECANICO DE MANUTENCAO, MONTADOR, PREPARADOR, OPERADOR</fullName>
+                <default>false</default>
+                <label>MECANICO DE MANUTENCAO, MONTADOR, PREPARADOR, OPERADOR</label>
+            </value>
+            <value>
+                <fullName>MECANICO DE MANUTENCAO DE VEICULOS, AUTOMOVEIS E MAQUINAS</fullName>
+                <default>false</default>
+                <label>MECANICO DE MANUTENCAO DE VEICULOS, AUTOMOVEIS E MAQUINAS</label>
+            </value>
+            <value>
+                <fullName>MEDICO</fullName>
+                <default>false</default>
+                <label>MEDICO</label>
+            </value>
+            <value>
+                <fullName>MEMBRO DO PODER EXECUTIVO: PRESID DA REPUB, MINISTRO, ETC</fullName>
+                <default>false</default>
+                <label>MEMBRO DO PODER EXECUTIVO: PRESID DA REPUB, MINISTRO, ETC</label>
+            </value>
+            <value>
+                <fullName>MEMBRO DO PODER JUDICIARIO: MINISTRO DO SUPREMO TRIB SUP</fullName>
+                <default>false</default>
+                <label>MEMBRO DO PODER JUDICIARIO: MINISTRO DO SUPREMO TRIB SUP</label>
+            </value>
+            <value>
+                <fullName>MEMBRO DO PODER LEGISLATIVO: SENADOR, DEPUTADO FED E EST</fullName>
+                <default>false</default>
+                <label>MEMBRO DO PODER LEGISLATIVO: SENADOR, DEPUTADO FED E EST</label>
+            </value>
+            <value>
+                <fullName>MESTRE E CONTRAMESTRE</fullName>
+                <default>false</default>
+                <label>MESTRE E CONTRAMESTRE</label>
+            </value>
+            <value>
+                <fullName>MILITAR EM GERAL</fullName>
+                <default>false</default>
+                <label>MILITAR EM GERAL</label>
+            </value>
+            <value>
+                <fullName>MILITAR REFORMADO</fullName>
+                <default>false</default>
+                <label>MILITAR REFORMADO</label>
+            </value>
+            <value>
+                <fullName>MODELO DE MODAS</fullName>
+                <default>false</default>
+                <label>MODELO DE MODAS</label>
+            </value>
+            <value>
+                <fullName>MOTORISTA DE VEICULOS DE TRANSPORTE DE CARGA</fullName>
+                <default>false</default>
+                <label>MOTORISTA DE VEICULOS DE TRANSPORTE DE CARGA</label>
+            </value>
+            <value>
+                <fullName>MOTORISTA DE VEICULOS DE TRANSPORTE DE PASSAGEIROS</fullName>
+                <default>false</default>
+                <label>MOTORISTA DE VEICULOS DE TRANSPORTE DE PASSAGEIROS</label>
+            </value>
+            <value>
+                <fullName>MUSICO</fullName>
+                <default>false</default>
+                <label>MUSICO</label>
+            </value>
+            <value>
+                <fullName>NAO CADASTRADO</fullName>
+                <default>false</default>
+                <label>NAO CADASTRADO</label>
+            </value>
+            <value>
+                <fullName>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO INTERMEDIARIO</fullName>
+                <default>false</default>
+                <label>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO INTERMEDIARIO</label>
+            </value>
+            <value>
+                <fullName>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO SUPERIOR</fullName>
+                <default>false</default>
+                <label>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO SUPERIOR</label>
+            </value>
+            <value>
+                <fullName>ODONTOLOGO</fullName>
+                <default>false</default>
+                <label>ODONTOLOGO</label>
+            </value>
+            <value>
+                <fullName>OFICIAIS DAS FORCAS ARMADAS E FORCAS AUXILIARES</fullName>
+                <default>false</default>
+                <label>OFICIAIS DAS FORCAS ARMADAS E FORCAS AUXILIARES</label>
+            </value>
+            <value>
+                <fullName>OPERADOR DE CAMERA DE CINEMA E TELEVISAO</fullName>
+                <default>false</default>
+                <label>OPERADOR DE CAMERA DE CINEMA E TELEVISAO</label>
+            </value>
+            <value>
+                <fullName>OUTROS</fullName>
+                <default>false</default>
+                <label>OUTROS</label>
+            </value>
+            <value>
+                <fullName>OUTROS TRABALHADORES DE NIVEL SUPERIOR LIGADOS AO ENSINO</fullName>
+                <default>false</default>
+                <label>OUTROS TRABALHADORES DE NIVEL SUPERIOR LIGADOS AO ENSINO</label>
+            </value>
+            <value>
+                <fullName>PENSIONISTA</fullName>
+                <default>false</default>
+                <label>PENSIONISTA</label>
+            </value>
+            <value>
+                <fullName>PILOTO DE AERONAVES</fullName>
+                <default>false</default>
+                <label>PILOTO DE AERONAVES</label>
+            </value>
+            <value>
+                <fullName>PORTEIRO DE EDIFICIO, ASCENSORISTA, GARAGISTA E FAXINEIRO.</fullName>
+                <default>false</default>
+                <label>PORTEIRO DE EDIFICIO, ASCENSORISTA, GARAGISTA E FAXINEIRO.</label>
+            </value>
+            <value>
+                <fullName>PROCURADOR E ASSEMELHADOS</fullName>
+                <default>false</default>
+                <label>PROCURADOR E ASSEMELHADOS</label>
+            </value>
+            <value>
+                <fullName>PROFESSOR DE ENSINO SUPERIOR</fullName>
+                <default>false</default>
+                <label>PROFESSOR DE ENSINO SUPERIOR</label>
+            </value>
+            <value>
+                <fullName>PROFESSOR DE PRIMEIRO E SEGUNDO GRAU</fullName>
+                <default>false</default>
+                <label>PROFESSOR DE PRIMEIRO E SEGUNDO GRAU</label>
+            </value>
+            <value>
+                <fullName>PROFISSIONAIS DE LETRAS E DE ARTES</fullName>
+                <default>false</default>
+                <label>PROFISSIONAIS DE LETRAS E DE ARTES</label>
+            </value>
+            <value>
+                <fullName>PROFISSIONAL LIBERAL</fullName>
+                <default>false</default>
+                <label>PROFISSIONAL LIBERAL</label>
+            </value>
+            <value>
+                <fullName>PROPRIETARIO DE ESTABELECIMENTO AGRICOLA E PECUARIA</fullName>
+                <default>false</default>
+                <label>PROPRIETARIO DE ESTABELECIMENTO AGRICOLA E PECUARIA</label>
+            </value>
+            <value>
+                <fullName>PROPRIETARIO DE ESTABELECIMENTO COMERCIAL</fullName>
+                <default>false</default>
+                <label>PROPRIETARIO DE ESTABELECIMENTO COMERCIAL</label>
+            </value>
+            <value>
+                <fullName>PROPRIETARIO DE ESTABELECIMENTO DE PRESTACAO DE SERVICOS</fullName>
+                <default>false</default>
+                <label>PROPRIETARIO DE ESTABELECIMENTO DE PRESTACAO DE SERVICOS</label>
+            </value>
+            <value>
+                <fullName>PROPRIETARIO DE IMOVEL (RECEBENDO RENDIMENTO DE ALUGUEL)</fullName>
+                <default>false</default>
+                <label>PROPRIETARIO DE IMOVEL (RECEBENDO RENDIMENTO DE ALUGUEL)</label>
+            </value>
+            <value>
+                <fullName>PROPRIETARIO DE MICROEMPRESAS</fullName>
+                <default>false</default>
+                <label>PROPRIETARIO DE MICROEMPRESAS</label>
+            </value>
+            <value>
+                <fullName>PROPRIETARIO ESTABELECIMENTO INDUSTRIAL</fullName>
+                <default>false</default>
+                <label>PROPRIETARIO ESTABELECIMENTO INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>PROTETICO</fullName>
+                <default>false</default>
+                <label>PROTETICO</label>
+            </value>
+            <value>
+                <fullName>PSICOLOGO</fullName>
+                <default>false</default>
+                <label>PSICOLOGO</label>
+            </value>
+            <value>
+                <fullName>PUBLICITARIO</fullName>
+                <default>false</default>
+                <label>PUBLICITARIO</label>
+            </value>
+            <value>
+                <fullName>QUIMICO</fullName>
+                <default>false</default>
+                <label>QUIMICO</label>
+            </value>
+            <value>
+                <fullName>REFINO DE PETROLEO E DESTILACAO</fullName>
+                <default>false</default>
+                <label>REFINO DE PETROLEO E DESTILACAO</label>
+            </value>
+            <value>
+                <fullName>RELACOES PUBLICAS</fullName>
+                <default>false</default>
+                <label>RELACOES PUBLICAS</label>
+            </value>
+            <value>
+                <fullName>SACERDOTE OU MEMBRO DE ORDENS OU SEITAS RELIGIOSAS</fullName>
+                <default>false</default>
+                <label>SACERDOTE OU MEMBRO DE ORDENS OU SEITAS RELIGIOSAS</label>
+            </value>
+            <value>
+                <fullName>SECRETARIO,ESTENOGRAFO,DATILOGRAFO,RECEPCIONISTA,TELEFONISTA</fullName>
+                <default>false</default>
+                <label>SECRETARIO,ESTENOGRAFO,DATILOGRAFO,RECEPCIONISTA,TELEFONISTA</label>
+            </value>
+            <value>
+                <fullName>SECURITARIO</fullName>
+                <default>false</default>
+                <label>SECURITARIO</label>
+            </value>
+            <value>
+                <fullName>SEGURADORAS, REGULADAS E FISCALIZADAS.</fullName>
+                <default>false</default>
+                <label>SEGURADORAS, REGULADAS E FISCALIZADAS.</label>
+            </value>
+            <value>
+                <fullName>SERVENTUARIO DE JUSTICA</fullName>
+                <default>false</default>
+                <label>SERVENTUARIO DE JUSTICA</label>
+            </value>
+            <value>
+                <fullName>SERVICOS AUXILIARES DIVERSOS</fullName>
+                <default>false</default>
+                <label>SERVICOS AUXILIARES DIVERSOS</label>
+            </value>
+            <value>
+                <fullName>SERVICOS COMUNITARIOS E SOCIAIS</fullName>
+                <default>false</default>
+                <label>SERVICOS COMUNITARIOS E SOCIAIS</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE ADMINISTRACAO OU LOCACAO</fullName>
+                <default>false</default>
+                <label>SERVICOS DE ADMINISTRACAO OU LOCACAO</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE ADMINISTRACAO PUBLICA</fullName>
+                <default>false</default>
+                <label>SERVICOS DE ADMINISTRACAO PUBLICA</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE ALOJAMENTO E ALIMENTACAO</fullName>
+                <default>false</default>
+                <label>SERVICOS DE ALOJAMENTO E ALIMENTACAO</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE COMUNICACAO</fullName>
+                <default>false</default>
+                <label>SERVICOS DE COMUNICACAO</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE RADIODIFUSAO OU TELEVISAO</fullName>
+                <default>false</default>
+                <label>SERVICOS DE RADIODIFUSAO OU TELEVISAO</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE REPARACAO E MANUTENCAO</fullName>
+                <default>false</default>
+                <label>SERVICOS DE REPARACAO E MANUTENCAO</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE SAUDE</fullName>
+                <default>false</default>
+                <label>SERVICOS DE SAUDE</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE SEGURO</fullName>
+                <default>false</default>
+                <label>SERVICOS DE SEGURO</label>
+            </value>
+            <value>
+                <fullName>SERVICOS DE TRANSPORTE</fullName>
+                <default>false</default>
+                <label>SERVICOS DE TRANSPORTE</label>
+            </value>
+            <value>
+                <fullName>SERVICOS INDUSTRIAIS DE UTILIDADE PUBLICA</fullName>
+                <default>false</default>
+                <label>SERVICOS INDUSTRIAIS DE UTILIDADE PUBLICA</label>
+            </value>
+            <value>
+                <fullName>SERVICOS PESSOAIS</fullName>
+                <default>false</default>
+                <label>SERVICOS PESSOAIS</label>
+            </value>
+            <value>
+                <fullName>SERVIDOR PUBLICO ESTADUAL</fullName>
+                <default>false</default>
+                <label>SERVIDOR PUBLICO ESTADUAL</label>
+            </value>
+            <value>
+                <fullName>SERVIDOR PUBLICO FEDERAL</fullName>
+                <default>false</default>
+                <label>SERVIDOR PUBLICO FEDERAL</label>
+            </value>
+            <value>
+                <fullName>SERVIDOR PUBLICO MUNICIPAL</fullName>
+                <default>false</default>
+                <label>SERVIDOR PUBLICO MUNICIPAL</label>
+            </value>
+            <value>
+                <fullName>SOCIEDADES DISTRIBUIDORAS EMISSÃO DE VALORES MOBILIÁRIOS.</fullName>
+                <default>false</default>
+                <label>SOCIEDADES DISTRIBUIDORAS EMISSÃO DE VALORES MOBILIÁRIOS.</label>
+            </value>
+            <value>
+                <fullName>SOCIOLOGO</fullName>
+                <default>false</default>
+                <label>SOCIOLOGO</label>
+            </value>
+            <value>
+                <fullName>SUPERIOR, INSPETOR E AGENTE DE COMPRAS E VENDAS</fullName>
+                <default>false</default>
+                <label>SUPERIOR, INSPETOR E AGENTE DE COMPRAS E VENDAS</label>
+            </value>
+            <value>
+                <fullName>TABELIAO</fullName>
+                <default>false</default>
+                <label>TABELIAO</label>
+            </value>
+            <value>
+                <fullName>TECNICO DE BIOLOGIA</fullName>
+                <default>false</default>
+                <label>TECNICO DE BIOLOGIA</label>
+            </value>
+            <value>
+                <fullName>TECNICO DE CONTABILIDADE E ESTATISTICA</fullName>
+                <default>false</default>
+                <label>TECNICO DE CONTABILIDADE E ESTATISTICA</label>
+            </value>
+            <value>
+                <fullName>TECNICO DE ELETRICIDADE, ELETRONICA E TELECOMUNICACOES</fullName>
+                <default>false</default>
+                <label>TECNICO DE ELETRICIDADE, ELETRONICA E TELECOMUNICACOES</label>
+            </value>
+            <value>
+                <fullName>TECNICO DE LABORATORIO E RAIO X</fullName>
+                <default>false</default>
+                <label>TECNICO DE LABORATORIO E RAIO X</label>
+            </value>
+            <value>
+                <fullName>TECNICO DE MECANICA</fullName>
+                <default>false</default>
+                <label>TECNICO DE MECANICA</label>
+            </value>
+            <value>
+                <fullName>TECNICO DE QUIMICA</fullName>
+                <default>false</default>
+                <label>TECNICO DE QUIMICA</label>
+            </value>
+            <value>
+                <fullName>TECNICO EM AGRONOMIA E AGRIMENSURA</fullName>
+                <default>false</default>
+                <label>TECNICO EM AGRONOMIA E AGRIMENSURA</label>
+            </value>
+            <value>
+                <fullName>TECNOLOGO</fullName>
+                <default>false</default>
+                <label>TECNOLOGO</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR AGRICOLA</fullName>
+                <default>false</default>
+                <label>TRABALHADOR AGRICOLA</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR AUTONOMO</fullName>
+                <default>false</default>
+                <label>TRABALHADOR AUTONOMO</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DA PECUARIA</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DA PECUARIA</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DA PESCA</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DA PESCA</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE ARTES GRAFICAS</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE ARTES GRAFICAS</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE CONSTRUCAO CIVIL</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE CONSTRUCAO CIVIL</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE FABRICACAO DE ARTEFATOS DE MADEIRA</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE FABRICACAO DE ARTEFATOS DE MADEIRA</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE FABRICACAO DE CALCADOS E ARTEFATOS DE COURO</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE FABRICACAO DE CALCADOS E ARTEFATOS DE COURO</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE FABRICACAO DE PAPEL E PAPELAO</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE FABRICACAO DE PAPEL E PAPELAO</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE FABRICACAO DE PRODUTOS DE BORRACHA E PLASTICO</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE FABRICACAO DE PRODUTOS DE BORRACHA E PLASTICO</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE FABRICACAO DE PRODUTOS TEXTEIS</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE FABRICACAO DE PRODUTOS TEXTEIS</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE FABRICACAO DE ROUPAS</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE FABRICACAO DE ROUPAS</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE FABRICACAO E PREPARACAO DE ALIMENTOS E BEBIDA</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE FABRICACAO E PREPARACAO DE ALIMENTOS E BEBIDA</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE INSTALACOES DE PROCESSAMENTO QUIMICO</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE INSTALACOES DE PROCESSAMENTO QUIMICO</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE TRATAMENTO DE FUMO E DE FABRICACAO CIGARROS</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE TRATAMENTO DE FUMO E DE FABRICACAO CIGARROS</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DE USINAGEM DE METAIS</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DE USINAGEM DE METAIS</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR DOS SERVICOS DE CONTABILIDADE E CAIXA</fullName>
+                <default>false</default>
+                <label>TRABALHADOR DOS SERVICOS DE CONTABILIDADE E CAIXA</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR FLORESTAL</fullName>
+                <default>false</default>
+                <label>TRABALHADOR FLORESTAL</label>
+            </value>
+            <value>
+                <fullName>TRABALHADOR METALURGICO E SIDERURGICO</fullName>
+                <default>false</default>
+                <label>TRABALHADOR METALURGICO E SIDERURGICO</label>
+            </value>
+            <value>
+                <fullName>VENDEDOR DE COMERCIO VAREJISTA E ATACADISTA</fullName>
+                <default>false</default>
+                <label>VENDEDOR DE COMERCIO VAREJISTA E ATACADISTA</label>
+            </value>
+            <value>
+                <fullName>VENDEDOR PRACISTA, REPRESENT COMERCIAL, CAIXEIRO VIAJANTE</fullName>
+                <default>false</default>
+                <label>VENDEDOR PRACISTA, REPRESENT COMERCIAL, CAIXEIRO VIAJANTE</label>
+            </value>
+            <value>
+                <fullName>VETERINARIO E ZOOTECNISTA</fullName>
+                <default>false</default>
+                <label>VETERINARIO E ZOOTECNISTA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_RepresentativeType__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de representante</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Administrador</fullName>
+                <default>false</default>
+                <label>Administrador</label>
+            </value>
+            <value>
+                <fullName>Controladora/Controlada/Coligada</fullName>
+                <default>false</default>
+                <label>Controladora/Controlada/Coligada</label>
+            </value>
+            <value>
+                <fullName>Gestor</fullName>
+                <default>false</default>
+                <label>Gestor</label>
+            </value>
+            <value>
+                <fullName>Pessoa Autorizada a Emitir Ordens</fullName>
+                <default>false</default>
+                <label>Pessoa Autorizada a Emitir Ordens</label>
+            </value>
+            <value>
+                <fullName>Procurador</fullName>
+                <default>false</default>
+                <label>Procurador</label>
+            </value>
+            <value>
+                <fullName>Proprietario</fullName>
+                <default>false</default>
+                <label>Proprietario</label>
+            </value>
+            <value>
+                <fullName>Representante Pessoa Física</fullName>
+                <default>false</default>
+                <label>Representante Pessoa Física</label>
+            </value>
+            <value>
+                <fullName>Representante Pessoa Jurídica</fullName>
+                <default>false</default>
+                <label>Representante Pessoa Jurídica</label>
+            </value>
+            <value>
+                <fullName>Responsável Legal</fullName>
+                <default>false</default>
+                <label>Responsável Legal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
