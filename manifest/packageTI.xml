@@ -182,7 +182,7 @@
 		<name>CustomApplication</name>
 	</types>
     <types>
-		<members>gora_CRM_UtilityBar</members>
+		<members>*</members>
 		<name>FlexiPage</name>
 	</types>
 
