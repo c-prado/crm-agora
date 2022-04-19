@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__RiskTolerance__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Risk Tolerance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Arrojado</fullName>
+                <default>false</default>
+                <label>Arrojado</label>
+            </value>
+            <value>
+                <fullName>Balanceado</fullName>
+                <default>false</default>
+                <label>Balanceado</label>
+            </value>
+            <value>
+                <fullName>Conservador</fullName>
+                <default>false</default>
+                <label>Conservador</label>
+            </value>
+            <value>
+                <fullName>Dinâmico</fullName>
+                <default>false</default>
+                <label>Dinâmico</label>
+            </value>
+            <value>
+                <fullName>Moderado</fullName>
+                <default>false</default>
+                <label>Moderado</label>
+            </value>
+            <value>
+                <fullName>Profissional</fullName>
+                <default>false</default>
+                <label>Profissional</label>
+            </value>
+            <value>
+                <fullName>Qualificado</fullName>
+                <default>false</default>
+                <label>Qualificado</label>
+            </value>
+            <value>
+                <fullName>Sem perfil</fullName>
+                <default>false</default>
+                <label>Sem perfil</label>
+            </value>
+            <value>
+                <fullName>Ultraconservador</fullName>
+                <default>false</default>
+                <label>Ultraconservador</label>
+            </value>
+            <value>
+                <fullName>Termo de recusa</fullName>
+                <default>false</default>
+                <label>Termo de recusa</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

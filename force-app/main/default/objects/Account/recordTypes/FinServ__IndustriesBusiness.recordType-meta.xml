@@ -1,0 +1,3059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__IndustriesBusiness</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Agr_Compact_Layout</compactLayoutAssignment>
+    <description>A business or an organization</description>
+    <label>Business</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_AdhesionVersion__c</picklist>
+        <values>
+            <fullName>Facilitada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simplificada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_BillingState__c</picklist>
+        <values>
+            <fullName>AC - ACRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - ALAGOAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AM - AMAZONAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP - AMAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BA - BAHIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CE - CEARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DF - DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES - ESPIRITO SANTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GO - GOIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - MARANHAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MG - MINAS GERAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS - MATO GROSSO DO SUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT - MATO GROSSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - PARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PB - PARAIBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE - PERNAMBUCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI - PIAUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR - PARANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RJ - RIO DE JANEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RN - RIO GRANDE DO NORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RO - RONDONIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RR - RORAIMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RS - RIO GRANDE DO SUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - SANTA CATARINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE - SERGIPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SP - SAO PAULO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TO - TOCANTINS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_BradescoSegment__c</picklist>
+        <values>
+            <fullName>BACENJUD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CENTRALIZADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORPORATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORPORATE ONE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPRESAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LARGE CORPORATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MATRIZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MULTIS INSTITUCIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAO_SEGMENTADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEXT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NÃO CORRENTISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIME DIGITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIME INVEST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIME INVEST DIGITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIME INVEST PIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIME PIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIME TOP TIER %28PIC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRIVATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOP TIER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOP TIER REDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VJ_ALTO_VALOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VJ_CLASSIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VJ_DIGITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VJ_EXCLUSIVE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VJ_PJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VJ_SUPERCLASSIC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_DocumentationStatus__c</picklist>
+        <values>
+            <fullName>APROVACAO MANUAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B3 APROVADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B3 REPROVADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CADASTRANDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOCUMENTACAO ANALISE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MESA 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MESA 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MESA 6 - BLACKLIST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENDENTE DOCTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REST APROVADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REST APROVADO MANUAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REST REPROVADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROCKET APROVADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROCKET REPROVADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROCKET VALIDACAO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_LegalNature__c</picklist>
+        <values>
+            <fullName>1001 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2%2E689 - PESSOA FÍSICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1002 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2%2E689 - PESSOA JURÍDICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>101 - PESSOA FÍSICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1301 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA FÍSICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1302 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA JURÍDICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1601 - DEPOSITÁRIO DE ADR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>201 - EMPRESA PÚBLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>202 - SOCIEDADES DE ECONOMIA MISTA%2C ANÔNIMA %28S%2FA%29%2C LTDA%2C POR COTAS E OUTRAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>203 - FUNDO DE INVESTIMENTO IMOBILIÁRIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>204 - BOLSA DE VALORES E MERCADORIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>205 - CONDOMÍNIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>206 - COOPERATIVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>207 - CONSÓRCIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>301 - INSTITUIÇÃO DE CARÁTER FILANTRÓPICO%2C RECREATIVO%2C CULTURAL OU CIENTÍFICO%2C ASSOCIAÇÃO CIVIL QUE PRESTE OS SERVIÇOS PARA OS QUAIS HOUVER SIDO INSTITUÍDA E OS COLOQUEM À DISPOSIÇÃO DO GRUPO DE PESSOAS A QUE SE DESTINA%2C SEM FINS LUCRATIVOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>401 - BANCO COMERCIAL %2F MÚLTIPLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>402 - BANCO DE INVESTIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>403 - SOCIEDADE DE SEGURO%2C PREVIDÊNCIA E CAPITALIZAÇÃO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>404 - SOCIEDADE DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>405 - SOCIEDADE CORRETORA DE TÍTULOS%2C VALORES MOBILIÁRIOS E CÂMBIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>406 - SOCIEDADE FINANCEIRA E DE CRÉDITO IMOBILIÁRIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>407 - SOCIEDADE DE ARRENDAMENTO MERCANTIL %28LEASING%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>501 - FUNDO DE INVESTIMENTO %28EXCETO FUNDO DE INVESTIMENTO IMOBILIÁRIO%2C QUE É TRIBUTADO COMO QUALQUER PESSOA JURÍDICA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>601 - FUNDO DE PREVIDÊNCIA PRIVADA %28INCLUSIVE FAPI%29 - ABERTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>602 - FUNDO DE PREVIDÊNCIA PRIVADA %28INCLUSIVE FAPI%29 - FECHADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>603 - FUNDO DE PLANO DE BENEFÍCIO DE SOCIEDADE SEGURADORA %28INCLUSIVE SEGURO DE VIDA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>701 - CLUBE DE INVESTIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>801 - UNIÃO%2C ESTADO%2C MUNICÍPIO OU DISTRITO FEDERAL%2C AUTARQUIA OU FUNDAÇÃO INSTITUÍDA E MANTIDA PELO PODER PÚBLICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>901 - TEMPLO DE QUALQUER CULTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>902 - PARTIDO POLÍTICO E SUAS FUNDAÇÕES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>903 - ENTIDADE SINDICAL DOS TRABALHADORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>904 - INSTITUIÇÃO DE EDUCAÇÃO E ASSISTÊNCIA SOCIAL%2C SEM FINS LUCRATIVOS%2C ATENDIDOS OS REQUISITOS DA LEI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_LinkWithAgora__c</picklist>
+        <values>
+            <fullName>Administradores%2C funcionários%2C operadores e prepostos da corretora%3B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agentes autônomos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cônjuges e filhos menores das pessoas anteriormente citadas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nenhum Vínculo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prestadores de serviços contratados para atividades fins da corretora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sócios ou acionistas da corretora%2C pessoas físicas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sócios%2C acionistas e sociedades controladas pela corretora%2C exceto Instituição Financeira</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_MainActivity__c</picklist>
+        <values>
+            <fullName>ADMINISTRADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVOGADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENCIADOR DE PROPAGANDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENTE ADMINISTRATIVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENTE DE SERVICOS FUNERARIOS E EMBALSAMADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENTE DE VIAGEM E GUIA DE TURISMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGRONOMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGROPECUARISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALFAIATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANALISTA DE SISTEMAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APOSENTADO %28EXCETO FUNCIONARIO PUBLICO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARQUITETO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASSISTENTE SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTRONOMO E METEOROLOGISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATIVIDADES NAO ESPECIFICADAS%2FCLASSIFICADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATLETA PROFISSIONAL E TECNICO EM DESPORTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATOR E DIRETOR DE ESPETACULOS PUBLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATUARIO E MATEMATICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUXILIAR DE ESCRITORIO E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUXILIAR DE LABORATORIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCARIO E ECONOMIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCOS%2C ASSOCIAÇÕES CUSTODIANTES E INSTITUIÇÕES%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIBLIOTECARIO%2C ARQUIVISTA%2C MUSEOLOGO E ARQUEOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIOLOGO E BIOMEDICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOLSISTA%2C ESTAGIARIO E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOMBEIRO E INSTALADOR DE GAS%2C AGUA%2C ESGOTO E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABELEREIRO%2C BARBEIRO%2C MANICURE%2C PEDICURE%2C MAQUILADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANTOR E COMPOSITOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAPITALISTA RECEBENDO RENDIMENTO DE APLICACAO DE CAPITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHEFE INTERMEDIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLUBE DE INVESTIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLUBES E FUNDOS DE INVESTIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMANDANTE DE EMBARCACOES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO ATACADISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO VAREJISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMISSARIO DE BORDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMUNICOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSULTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTRAMESTRE DE EMBARCACOES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COOPERATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COORDENADOR E SUPERVISOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COREOGRAFO E BAILARINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORRETOR DE IMOVEIS%2C SEGUROS%2C TITULOS E VALORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DECORADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELEGADO DE POLICIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEMAIS FUNDOS OU ENTIDADES DE INVESTIMENTO COLETIVO%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEMAIS PESSOAS JURIDÍCAS CONSTITUÍDAS NO EXTERIOR%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEMONSTRADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESENHISTA COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESENHISTA INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESENHISTA TECNICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESPACHANTE%2C INCLUSIVE O ADUANEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIPLOMATA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIRETOR DE EMPRESAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIRETOR DE ESTABELECIMENTO DE ENSINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECONOMISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELETRICISTA DE MANUTENCAO DE VEICULOS AUTOMOTORES E MAQUINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELETRICISTA E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPREGADO DOMESTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPRESARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPRESARIO E PRODUTOR DE ESPETACULOS PUBLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENFERMEIRO E NUTRICIONISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENGENHEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENSINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTIDADE DE PREVIDÊNCIA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCRITORIOS CENTRAIS E REGIONAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCULTOR%2C PINTOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTATISTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTIVADOR%2C CARREGADOR%2C EMBALADOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXTRACAO DE MINERAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXTRACAO VEGETAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FALECIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FARMACEUTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEIRANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FISCAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FISICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FISIOTERAPEUTA E TERAPEUTA OCUPACIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONOAUDIOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNCIONARIO PUBLICO CIVIL APOSENTADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDACAO%2C ENTIDADE E ASSOCIACAO SEM FIM LUCRATIVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDO DE INVESTIMENTO IMOBILIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDO DE INVESTIMENTO PREVIDENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GARIMPEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOGRAFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GERENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GOVERNANTA DE HOTEL%2C CAMAREIRO%2C PORTEIRO%2C COZINHEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOLDING - CONTROLADORA DE PARTICIPACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMPLANTACAO - FAVOR ACERTAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DA CONSTRUCAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE BEBIDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE BORRACHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE CALCADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE COUROS%2C PELES E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE FUMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE MADEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE MATERIAL DE TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE MATERIAL ELETRICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE PAPEL%2C PAPELAO E CELULOSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE PRODUTOS ALIMENTARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE PRODUTOS DE MATERIAS PLASTICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE PRODUTOS FARMACEUTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DO MOBILIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DO VESTUARIO E ARTEFATOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA E PRODUTOS MINERAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA EDITORIAL E GRAFICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA MECANICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA METALURGICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA QUIMICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA TEXTIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIAS DIVERSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSTITUICOES FINANCEIRAS%2C SOCIEDADES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSTITUIÇÕES SEM FINS LUCRATIVOS%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JOALHEIROS E OURIVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JORNALEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JORNALISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LANTERNEIRO E PINTOR DE VEICULOS METALICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEILOEIRO%2C AVALIADOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOCUTOR E COMENTARISTA DE RADIO E TELEVISAO E RADIALISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAQUINISTA%2C FOGUISTA DE EMBARCACOES%2C LOCOMOTIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARINHEIROS E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MECANICO DE MANUTENCAO DE VEICULOS%2C AUTOMOVEIS E MAQUINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MECANICO DE MANUTENCAO%2C MONTADOR%2C PREPARADOR%2C OPERADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBRO DO PODER EXECUTIVO%3A PRESID DA REPUB%2C MINISTRO%2C ETC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBRO DO PODER JUDICIARIO%3A MINISTRO DO SUPREMO TRIB SUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBRO DO PODER LEGISLATIVO%3A SENADOR%2C DEPUTADO FED E EST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MESTRE E CONTRAMESTRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MILITAR EM GERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MILITAR REFORMADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MODELO DE MODAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOTORISTA DE VEICULOS DE TRANSPORTE DE CARGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOTORISTA DE VEICULOS DE TRANSPORTE DE PASSAGEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUSICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAO CADASTRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO INTERMEDIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO SUPERIOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ODONTOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OFICIAIS DAS FORCAS ARMADAS E FORCAS AUXILIARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPERADOR DE CAMERA DE CINEMA E TELEVISAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUTROS TRABALHADORES DE NIVEL SUPERIOR LIGADOS AO ENSINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENSIONISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PESCA E AQUICULTURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PILOTO DE AERONAVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTEIRO DE EDIFICIO%2C ASCENSORISTA%2C GARAGISTA E FAXINEIRO%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCURADOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFESSOR DE ENSINO SUPERIOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFESSOR DE PRIMEIRO E SEGUNDO GRAU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFISSIONAIS DE LETRAS E DE ARTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFISSIONAL LIBERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE ESTABELECIMENTO AGRICOLA E PECUARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE ESTABELECIMENTO COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE ESTABELECIMENTO DE PRESTACAO DE SERVICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE IMOVEL %28RECEBENDO RENDIMENTO DE ALUGUEL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE MICROEMPRESAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO ESTABELECIMENTO INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROTETICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSICOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUBLICITARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUIMICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REFINO DE PETROLEO E DESTILACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RELACOES PUBLICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SACERDOTE OU MEMBRO DE ORDENS OU SEITAS RELIGIOSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECRETARIO%2CESTENOGRAFO%2CDATILOGRAFO%2CRECEPCIONISTA%2CTELEFONISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECURITARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEGURADORAS%2C REGULADAS E FISCALIZADAS%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVENTUARIO DE JUSTICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS AUXILIARES DIVERSOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS COMUNITARIOS E SOCIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE ADMINISTRACAO OU LOCACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE ADMINISTRACAO PUBLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE ALOJAMENTO E ALIMENTACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE COMUNICACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE RADIODIFUSAO OU TELEVISAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE REPARACAO E MANUTENCAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE SAUDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE SEGURO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS INDUSTRIAIS DE UTILIDADE PUBLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS PESSOAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVIDOR PUBLICO ESTADUAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVIDOR PUBLICO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVIDOR PUBLICO MUNICIPAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOCIEDADES DISTRIBUIDORAS EMISSÃO DE VALORES MOBILIÁRIOS%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOCIOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUPERIOR%2C INSPETOR E AGENTE DE COMPRAS E VENDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TABELIAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE BIOLOGIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE CONTABILIDADE E ESTATISTICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE ELETRICIDADE%2C ELETRONICA E TELECOMUNICACOES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE LABORATORIO E RAIO X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE MECANICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE QUIMICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO EM AGRONOMIA E AGRIMENSURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR AGRICOLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR AUTONOMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DA PECUARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DA PESCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE ARTES GRAFICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE CONSTRUCAO CIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE ARTEFATOS DE MADEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE CALCADOS E ARTEFATOS DE COURO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE PAPEL E PAPELAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE PRODUTOS DE BORRACHA E PLASTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE PRODUTOS TEXTEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE ROUPAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO E PREPARACAO DE ALIMENTOS E BEBIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE INSTALACOES DE PROCESSAMENTO QUIMICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE TRATAMENTO DE FUMO E DE FABRICACAO CIGARROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE USINAGEM DE METAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DOS SERVICOS DE CONTABILIDADE E CAIXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR FLORESTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR METALURGICO E SIDERURGICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENDEDOR DE COMERCIO VAREJISTA E ATACADISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENDEDOR PRACISTA%2C REPRESENT COMERCIAL%2C CAIXEIRO VIAJANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VETERINARIO E ZOOTECNISTA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_Nationality__c</picklist>
+        <values>
+            <fullName>Brasileiro Nato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brasileiro Naturalizado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estrangeiro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_Occupation__c</picklist>
+        <values>
+            <fullName>ADMINISTRADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ADVOGADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENCIADOR DE PROPAGANDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENTE ADMINISTRATIVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENTE DE SERVICOS FUNERARIOS E EMBALSAMADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGENTE DE VIAGEM E GUIA DE TURISMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AGRONOMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALFAIATE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ANALISTA DE SISTEMAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APOSENTADO %28EXCETO FUNCIONARIO PUBLICO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARQUITETO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASSISTENTE SOCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTRONOMO E METEOROLOGISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATIVIDADES NAO ESPECIFICADAS%2FCLASSIFICADAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATLETA PROFISSIONAL E TECNICO EM DESPORTOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATOR E DIRETOR DE ESPETACULOS PUBLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ATUARIO E MATEMATICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUXILIAR DE ESCRITORIO E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUXILIAR DE LABORATORIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCARIO E ECONOMIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BANCOS%2C ASSOCIAÇÕES CUSTODIANTES E INSTITUIÇÕES%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIBLIOTECARIO%2C ARQUIVISTA%2C MUSEOLOGO E ARQUEOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIOLOGO E BIOMEDICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOLSISTA%2C ESTAGIARIO E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOMBEIRO E INSTALADOR DE GAS%2C AGUA%2C ESGOTO E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CABELEREIRO%2C BARBEIRO%2C MANICURE%2C PEDICURE%2C MAQUILADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CANTOR E COMPOSITOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAPITALISTA RECEBENDO RENDIMENTO DE APLICACAO DE CAPITAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHEFE INTERMEDIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLUBE DE INVESTIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLUBES E FUNDOS DE INVESTIMENTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMANDANTE DE EMBARCACOES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO ATACADISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMERCIO VAREJISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMISSARIO DE BORDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COMUNICOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONSULTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CONTRAMESTRE DE EMBARCACOES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COOPERATIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COORDENADOR E SUPERVISOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COREOGRAFO E BAILARINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CORRETOR DE IMOVEIS%2C SEGUROS%2C TITULOS E VALORES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DECORADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DELEGADO DE POLICIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEMAIS FUNDOS OU ENTIDADES DE INVESTIMENTO COLETIVO%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEMAIS PESSOAS JURIDÍCAS CONSTITUÍDAS NO EXTERIOR%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DEMONSTRADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESENHISTA COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESENHISTA INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESENHISTA TECNICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DESPACHANTE%2C INCLUSIVE O ADUANEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIPLOMATA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIRETOR DE EMPRESAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIRETOR DE ESTABELECIMENTO DE ENSINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECONOMISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELETRICISTA DE MANUTENCAO DE VEICULOS AUTOMOTORES E MAQUINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ELETRICISTA E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPREGADO DOMESTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPRESARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMPRESARIO E PRODUTOR DE ESPETACULOS PUBLICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENFERMEIRO E NUTRICIONISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENGENHEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENSINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENTIDADE DE PREVIDÊNCIA%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCRITORIOS CENTRAIS E REGIONAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESCULTOR%2C PINTOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESPOLIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTATISTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ESTIVADOR%2C CARREGADOR%2C EMBALADOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FALECIDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FARMACEUTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FEIRANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FISCAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FISICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FISIOTERAPEUTA E TERAPEUTA OCUPACIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FONOAUDIOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNCIONARIO PUBLICO CIVIL APOSENTADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDACAO%2C ENTIDADE E ASSOCIACAO SEM FIM LUCRATIVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDO DE INVESTIMENTO IMOBILIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUNDO DE INVESTIMENTO PREVIDENCIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GARIMPEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOGRAFO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GEOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GERENTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GOVERNANTA DE HOTEL%2C CAMAREIRO%2C PORTEIRO%2C COZINHEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HOLDING - CONTROLADORA DE PARTICIPACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IMPLANTACAO - FAVOR ACERTAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DA CONSTRUCAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE BEBIDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE BORRACHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE CALCADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE COUROS%2C PELES E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE FUMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE PRODUTOS ALIMENTARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE PRODUTOS DE MATERIAS PLASTICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DE PRODUTOS FARMACEUTICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA DO VESTUARIO E ARTEFATOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA EDITORIAL E GRAFICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA QUIMICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIA TEXTIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INDUSTRIAS DIVERSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSTITUICOES FINANCEIRAS%2C SOCIEDADES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INSTITUIÇÕES SEM FINS LUCRATIVOS%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JOALHEIROS E OURIVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JORNALEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JORNALISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LANTERNEIRO E PINTOR DE VEICULOS METALICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEILOEIRO%2C AVALIADOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOCUTOR E COMENTARISTA DE RADIO E TELEVISAO E RADIALISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAQUINISTA%2C FOGUISTA DE EMBARCACOES%2C LOCOMOTIVAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARINHEIROS E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MECANICO DE MANUTENCAO DE VEICULOS%2C AUTOMOVEIS E MAQUINAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MECANICO DE MANUTENCAO%2C MONTADOR%2C PREPARADOR%2C OPERADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEDICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBRO DO PODER EXECUTIVO%3A PRESID DA REPUB%2C MINISTRO%2C ETC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBRO DO PODER JUDICIARIO%3A MINISTRO DO SUPREMO TRIB SUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEMBRO DO PODER LEGISLATIVO%3A SENADOR%2C DEPUTADO FED E EST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MESTRE E CONTRAMESTRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MILITAR EM GERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MILITAR REFORMADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MODELO DE MODAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOTORISTA DE VEICULOS DE TRANSPORTE DE CARGA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MOTORISTA DE VEICULOS DE TRANSPORTE DE PASSAGEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUSICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAO CADASTRADO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO INTERMEDIARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OCUPANTE DE CARGO DE DIRECAO E ASSESSORAMENTO SUPERIOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ODONTOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OFICIAIS DAS FORCAS ARMADAS E FORCAS AUXILIARES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPERADOR DE CAMERA DE CINEMA E TELEVISAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUTROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUTROS TRABALHADORES DE NIVEL SUPERIOR LIGADOS AO ENSINO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PENSIONISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PILOTO DE AERONAVES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTEIRO DE EDIFICIO%2C ASCENSORISTA%2C GARAGISTA E FAXINEIRO%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROCURADOR E ASSEMELHADOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFESSOR DE ENSINO SUPERIOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFESSOR DE PRIMEIRO E SEGUNDO GRAU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFISSIONAIS DE LETRAS E DE ARTES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROFISSIONAL LIBERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE ESTABELECIMENTO AGRICOLA E PECUARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE ESTABELECIMENTO COMERCIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE ESTABELECIMENTO DE PRESTACAO DE SERVICOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE IMOVEL %28RECEBENDO RENDIMENTO DE ALUGUEL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO DE MICROEMPRESAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROPRIETARIO ESTABELECIMENTO INDUSTRIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PROTETICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PSICOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUBLICITARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUIMICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REFINO DE PETROLEO E DESTILACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RELACOES PUBLICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SACERDOTE OU MEMBRO DE ORDENS OU SEITAS RELIGIOSAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECRETARIO%2CESTENOGRAFO%2CDATILOGRAFO%2CRECEPCIONISTA%2CTELEFONISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SECURITARIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEGURADORAS%2C REGULADAS E FISCALIZADAS%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVENTUARIO DE JUSTICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS AUXILIARES DIVERSOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS COMUNITARIOS E SOCIAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE ADMINISTRACAO OU LOCACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE ADMINISTRACAO PUBLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE ALOJAMENTO E ALIMENTACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE COMUNICACAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE RADIODIFUSAO OU TELEVISAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE REPARACAO E MANUTENCAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE SAUDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE SEGURO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS DE TRANSPORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS INDUSTRIAIS DE UTILIDADE PUBLICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVICOS PESSOAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVIDOR PUBLICO ESTADUAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVIDOR PUBLICO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SERVIDOR PUBLICO MUNICIPAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOCIEDADES DISTRIBUIDORAS EMISSÃO DE VALORES MOBILIÁRIOS%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOCIOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUPERIOR%2C INSPETOR E AGENTE DE COMPRAS E VENDAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TABELIAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE BIOLOGIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE CONTABILIDADE E ESTATISTICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE ELETRICIDADE%2C ELETRONICA E TELECOMUNICACOES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE LABORATORIO E RAIO X</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE MECANICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO DE QUIMICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNICO EM AGRONOMIA E AGRIMENSURA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TECNOLOGO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR AGRICOLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR AUTONOMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DA PECUARIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DA PESCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE ARTES GRAFICAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE CONSTRUCAO CIVIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE ARTEFATOS DE MADEIRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE CALCADOS E ARTEFATOS DE COURO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE PAPEL E PAPELAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE PRODUTOS DE BORRACHA E PLASTICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE PRODUTOS TEXTEIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO DE ROUPAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE FABRICACAO E PREPARACAO DE ALIMENTOS E BEBIDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE INSTALACOES DE PROCESSAMENTO QUIMICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE TRATAMENTO DE FUMO E DE FABRICACAO CIGARROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DE USINAGEM DE METAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR DOS SERVICOS DE CONTABILIDADE E CAIXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR FLORESTAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRABALHADOR METALURGICO E SIDERURGICO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENDEDOR DE COMERCIO VAREJISTA E ATACADISTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENDEDOR PRACISTA%2C REPRESENT COMERCIAL%2C CAIXEIRO VIAJANTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VETERINARIO E ZOOTECNISTA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_OwnerInvestmentPortolio__c</picklist>
+        <values>
+            <fullName>Própria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terceiro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_RegisterStatus__c</picklist>
+        <values>
+            <fullName>DADOS ACESSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DADOS ENDEREÇO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DADOS FINANCEIROS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DADOS PESSOAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PREENCHIMENTO COMPLETO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_ResidentialState__c</picklist>
+        <values>
+            <fullName>AC - ACRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - ALAGOAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AM - AMAZONAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP - AMAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BA - BAHIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CE - CEARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DF - DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES - ESPIRITO SANTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GO - GOIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - MARANHAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MG - MINAS GERAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS - MATO GROSSO DO SUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT - MATO GROSSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - PARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PB - PARAIBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE - PERNAMBUCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI - PIAUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR - PARANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RJ - RIO DE JANEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RN - RIO GRANDE DO NORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RO - RONDONIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RR - RORAIMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RS - RIO GRANDE DO SUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - SANTA CATARINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE - SERGIPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SP - SAO PAULO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TO - TOCANTINS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agr_StateOfBirth__c</picklist>
+        <values>
+            <fullName>AC - ACRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - ALAGOAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AM - AMAZONAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP - AMAPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BA - BAHIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CE - CEARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DF - DISTRITO FEDERAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES - ESPIRITO SANTO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GO - GOIAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - MARANHAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MG - MINAS GERAIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS - MATO GROSSO DO SUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT - MATO GROSSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - PARA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PB - PARAIBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PE - PERNAMBUCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI - PIAUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR - PARANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RJ - RIO DE JANEIRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RN - RIO GRANDE DO NORTE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RO - RONDONIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RR - RORAIMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RS - RIO GRANDE DO SUL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - SANTA CATARINA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SE - SERGIPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SP - SAO PAULO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TO - TOCANTINS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__BorrowingHistory__c</picklist>
+        <values>
+            <fullName>Excellent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited to No History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__BorrowingPriorities__c</picklist>
+        <values>
+            <fullName>Build Equity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debt Consolidation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Capital Purchases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__ClientCategory__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__CreditRating__c</picklist>
+        <values>
+            <fullName>Excellent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__CustomerSegment__c</picklist>
+        <values>
+            <fullName>Borrower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Term Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mass Affluent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mass Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millennial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transactional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wealth Accumulation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__CustomerType__c</picklist>
+        <values>
+            <fullName>Borrower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__FinancialInterests__c</picklist>
+        <values>
+            <fullName>College Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Municipal Bonds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__IndividualType__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__InvestmentExperience__c</picklist>
+        <values>
+            <fullName>Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inexperienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderately Experienced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderately Inexperienced</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__InvestmentObjectives__c</picklist>
+        <values>
+            <fullName>Aggressive Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Balanced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conservative Income</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Income</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__KYCStatus__c</picklist>
+        <values>
+            <fullName>Completed - Invalid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed - Valid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Queue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overdue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__LastUsedChannel__c</picklist>
+        <values>
+            <fullName>Branch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__MarketingSegment__c</picklist>
+        <values>
+            <fullName>Female Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Net Worth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mass Affluent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millennial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__PersonalInterests__c</picklist>
+        <values>
+            <fullName>Biking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Basketball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hiking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__ReviewFrequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__RiskTolerance__c</picklist>
+        <values>
+            <fullName>Arrojado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Balanceado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conservador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dinâmico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Profissional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Qualificado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sem perfil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Termo de recusa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultraconservador</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__ServiceModel__c</picklist>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__Status__c</picklist>
+        <values>
+            <fullName>Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pré-Cliente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FinServ__TimeHorizon__c</picklist>
+        <values>
+            <fullName>Long Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Term</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
