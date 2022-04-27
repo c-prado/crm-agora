@@ -13,8 +13,11 @@ sfdx force:source:retrieve -x ./manifest/package-feature.xml
 sfdx force:source:retrieve -m "Layout:Account-Account Layout"
 
 # deploy para QA
-sfdx force:source:deploy -x ./manifest/package-feature.xml -u cprado@salesforce.com.qa01 --checkonly >> out.txt
-sfdx force:source:deploy -u cprado@salesforce.com.qa01 -m "Layout:Account-Account Layout"
+sfdx force:source:deploy -x ./manifest/package.xml -u qa01 --checkonly >> out.txt
+sfdx force:source:deploy -u qa01 -m "Layout:Account-Account Layout"
+
+# destructive changes
+sfdx force:source:deploy -u qa01 -x ./manifest/destructive-changes/package.xml --predestructivechanges ./manifest/destructive-changes/destructiveChangesPre.xml --checkonly --verbose
 
 # listar as diferenças de metadados entre a org e o projeto local
 sfdx force:source:status -u cprado@salesforce.com.dev01 >> out.txt

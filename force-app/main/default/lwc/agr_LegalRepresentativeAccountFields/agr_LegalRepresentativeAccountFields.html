@@ -1,0 +1,28 @@
+<template>
+        <div class="slds-m-around_medium">
+
+            <template if:true={isBusinessAccount}>
+                <lightning-record-form
+                    record-id= "{recordId}"
+                    object-api-name={objectApiName}
+                    fields = "{fields1}"
+                    columns = "2"
+                    mode = "view"
+                    >
+                </lightning-record-form>
+            </template>
+
+            <template if:false={isBusinessAccount}>
+                <lightning-record-form
+                    record-id= "{recordId}"
+                    object-api-name={objectApiName}
+                    fields = "{fields2}"
+                    columns = "2"
+                    mode = "view"
+                    >
+                </lightning-record-form>
+            </template>
+
+    </div>
+ </template>
+

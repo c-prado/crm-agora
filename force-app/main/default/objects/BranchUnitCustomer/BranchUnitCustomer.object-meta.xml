@@ -130,16 +130,14 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
-        <customTabListAdditionalFields>BusinessUnitMember</customTabListAdditionalFields>
         <customTabListAdditionalFields>BranchUnit</customTabListAdditionalFields>
-        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>BusinessUnitMember</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Account</customTabListAdditionalFields>
+        <customTabListAdditionalFields>AssociationLevel</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastInteractionDate</customTabListAdditionalFields>
         <searchResultsAdditionalFields>BranchUnit</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AssociationLevel</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastInteractionDate</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

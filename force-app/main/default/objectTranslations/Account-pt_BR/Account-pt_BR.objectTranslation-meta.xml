@@ -21,6 +21,186 @@
         <name>WM_Client_Relationship_Groups</name>
     </fieldSets>
     <layouts>
+        <layout>Account (Business Referral) Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Resumo financeiro</label>
+            <section>Financial Summary</section>
+        </sections>
+        <sections>
+            <label>Informação de referencial</label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Business) Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Resumo financeiro</label>
+            <section>Financial Summary</section>
+        </sections>
+        <sections>
+            <label>Informação de referencial</label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Household) Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Resumo financeiro</label>
+            <section>Financial Summary</section>
+        </sections>
+        <sections>
+            <label>Informação de referencial</label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Individual) Layout</layout>
+        <sections>
+            <label></label>
+            <section>APIC</section>
+        </sections>
+        <sections>
+            <label>Endereço 1</label>
+            <section>Address 1</section>
+        </sections>
+        <sections>
+            <label>Serviços de clientes</label>
+            <section>Client Services</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados Adicionais</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados de Origem</section>
+        </sections>
+        <sections>
+            <label>Conheça seu cliente</label>
+            <section>Know Your Client</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Links personalizados</section>
+        </sections>
+        <sections>
+            <label>Informação de referencial</label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Institution) Layout</layout>
+        <sections>
+            <label>Resumo financeiro</label>
+            <section>Financial Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Policyholder) Layout</layout>
+        <sections>
+            <label>Endereço</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Interesse financeiro</label>
+            <section>Financial Interest</section>
+        </sections>
+        <sections>
+            <label>Informações sobre segurado</label>
+            <section>Policyholder Information</section>
+        </sections>
+        <sections>
+            <label>Serviços para segurado</label>
+            <section>Policyholder Services</section>
+        </sections>
+        <sections>
+            <label>Informações do sistema</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account (Retail Client - Individual) Layout</layout>
+        <sections>
+            <label>Endereço para entrega/cobrança</label>
+            <section>Billing/Shipping Address</section>
+        </sections>
+        <sections>
+            <label>Serviços de clientes</label>
+            <section>Client Services</section>
+        </sections>
+        <sections>
+            <label>Perfil financeiro</label>
+            <section>Finance Profile</section>
+        </sections>
+        <sections>
+            <label>Informação de referencial</label>
+            <section>Referral Information</section>
+        </sections>
+        <sections>
+            <label>Informação de relacionamento</label>
+            <section>Relationship Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label></label>
+            <section>Dados APIC</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados Adicionais</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados Ocupação</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados Pessoais - Representante</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados Pessoais PF</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados de Acesso</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados de Origem</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Dados do CBLC</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Endereço Comercial</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Endereço Residencial</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>Layout da conta pessoal</layout>
         <layoutType>PersonAccount</layoutType>
         <sections>

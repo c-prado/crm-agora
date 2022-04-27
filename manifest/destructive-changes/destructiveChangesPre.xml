@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Account.Agr_CityOfBirth__c</members>
+		<members>Account.Agr_CountryOfBirth__c</members>
+		<members>Account.Agr_EmployerCNPJ__c</members>
+		<members>Account.Agr_FatherName__c</members>
+		<members>Account.Agr_Nationality__c</members>
+		<members>Account.Agr_Occupation__c</members>
+		<members>Account.Agr_SpouseCPF__c</members>
+		<members>Account.Agr_SpouseName__c</members>
+		<members>Account.Agr_StateOfBirth__c</members>
+		<name>CustomField</name>
+	</types>
+	<version>53.0</version>
+</Package>

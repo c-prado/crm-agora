@@ -129,5 +129,13 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>UserOrContact</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Level</customTabListAdditionalFields>
+        <customTabListAdditionalFields>JobCode</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>UserOrContact</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Level</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>JobCode</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

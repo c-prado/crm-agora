@@ -1,10 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
+        <application>Sales</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>Service</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>Marketing</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>AppLauncher</application>
+        <default>true</default>
+        <visible>true</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>Community</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>Sites</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>Chatter</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>Content</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>LightningSales</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>AllTabSet</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>LightningBolt</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>SalesforceCMS</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>BranchManagementConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>InsuranceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>LightningSalesConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>BankingConsoleFinancialServicesCloud</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>CommBankingConsoleFinancialServicesCloud</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>FSC_Lightning</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>FinancialServicesCloud</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>FinancialServicesCloudRetailBanking</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
+        <application>InsuranceConsoleFinancialServicesCloud</application>
+        <default>false</default>
+        <visible>false</visible>
+        </applicationVisibilities>
+        
+        <applicationVisibilities>
         <application>Agr_AgoraCRM</application>
         <default>false</default>
         <visible>false</visible>
-    </applicationVisibilities>
+        </applicationVisibilities>
+        
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -69,11 +196,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Agr_CPF_CNPJ__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Agr_CityOfBirth__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1952,6 +2074,10 @@
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
         <recordType>Lead.FinServ__General</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.FinServ__RetirementPlanning</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>PersonAccount-Layout da conta pessoal</layout>

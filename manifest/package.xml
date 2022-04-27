@@ -5,13 +5,14 @@
         <name>BrandingSet</name>
     </types>
     <types>
-        <members>Account.Account_Compact_Layout</members>
+        <members>Opportunity.FinServ__Opportunity Process</members>
+        <members>Opportunity.FinServ__Wallet Share</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
         <members>Account.Agr_Compact_Layout</members>
-        <members>Account.FinServ__HouseholdCompactLayout</members>
-        <members>Account.FinServ__HouseholdInsuranceCompactLayout</members>
-        <members>Account.FinServ__IndividualCompactLayout</members>
-        <members>Account.FinServ__IndividualInsuranceCompactLayout</members>
         <members>Lead.Leads_Custom_Compact_Layout</members>
+        <members>Opportunity.New_Awesome_Companct_Layout</members>
         <members>PersonAccount.Agr_AgoraPersonAccountCompactLayout</members>
         <members>User.User_Layout</members>
         <name>CompactLayout</name>
@@ -39,16 +40,12 @@
         <members>Account.Agr_BradescoSegment__c</members>
         <members>Account.Agr_CBLCActive__c</members>
         <members>Account.Agr_CPF_CNPJ__c</members>
-        <members>Account.Agr_CityOfBirth__c</members>
         <members>Account.Agr_ComercialMobile1__c</members>
         <members>Account.Agr_ComercialMobile2__c</members>
         <members>Account.Agr_ComercialPhone__c</members>
         <members>Account.Agr_ConstitutionForm__c</members>
-        <members>Account.Agr_CountryOfBirth__c</members>
         <members>Account.Agr_DocumentationStatus__c</members>
         <members>Account.Agr_Email__c</members>
-        <members>Account.Agr_EmployerCNPJ__c</members>
-        <members>Account.Agr_FatherName__c</members>
         <members>Account.Agr_FinancialActivation__c</members>
         <members>Account.Agr_FiscalResidencyAbroad__c</members>
         <members>Account.Agr_FoundationDate__c</members>
@@ -57,14 +54,10 @@
         <members>Account.Agr_HasSecondaryCitizenship__c</members>
         <members>Account.Agr_IsRepresentative__c</members>
         <members>Account.Agr_LegalNature__c</members>
-        <members>Account.Agr_LinkWithAgora__c</members>
         <members>Account.Agr_MainActivity__c</members>
         <members>Account.Agr_NIRE__c</members>
-        <members>Account.Agr_Nationality__c</members>
         <members>Account.Agr_NextReview__c</members>
-        <members>Account.Agr_Occupation__c</members>
         <members>Account.Agr_OwnerInvestmentPortolio__c</members>
-        <members>Account.Agr_PoliticallyExposed__c</members>
         <members>Account.Agr_RegisterStatus__c</members>
         <members>Account.Agr_ResidentialAddressIsMailing__c</members>
         <members>Account.Agr_ResidentialCity__c</members>
@@ -79,9 +72,6 @@
         <members>Account.Agr_ResidentialState__c</members>
         <members>Account.Agr_ResidentialStreet__c</members>
         <members>Account.Agr_SalesTrader__c</members>
-        <members>Account.Agr_SpouseCPF__c</members>
-        <members>Account.Agr_SpouseName__c</members>
-        <members>Account.Agr_StateOfBirth__c</members>
         <members>Account.Agr_SuitabilityExpirationDate__c</members>
         <members>Account.Agr_SuitabilityFramework__c</members>
         <members>Account.Agr_SuitabilityStartDate__c</members>
@@ -302,14 +292,60 @@
         <members>BusinessUnitMember.Description</members>
         <members>BusinessUnitMember.JobCode</members>
         <members>BusinessUnitMember.Name</members>
+        <members>Case.AccountId</members>
+        <members>Case.AssetId</members>
+        <members>Case.BusinessHoursId</members>
+        <members>Case.ClosedDate</members>
+        <members>Case.Comments</members>
+        <members>Case.ContactEmail</members>
+        <members>Case.ContactFax</members>
+        <members>Case.ContactId</members>
+        <members>Case.ContactMobile</members>
+        <members>Case.ContactPhone</members>
+        <members>Case.Description</members>
+        <members>Case.EntitlementId</members>
+        <members>Case.FinServ__FinancialAccount__c</members>
+        <members>Case.FinServ__Household__c</members>
+        <members>Case.IsClosedOnCreate</members>
+        <members>Case.IsEscalated</members>
+        <members>Case.IsStopped</members>
+        <members>Case.MilestoneStatus</members>
+        <members>Case.MilestoneStatusIcon</members>
+        <members>Case.Origin</members>
+        <members>Case.OwnerId</members>
+        <members>Case.ParentId</members>
+        <members>Case.Priority</members>
+        <members>Case.ProductId</members>
+        <members>Case.Reason</members>
+        <members>Case.ServiceContractId</members>
+        <members>Case.SlaExitDate</members>
+        <members>Case.SlaStartDate</members>
+        <members>Case.SourceId</members>
+        <members>Case.Status</members>
+        <members>Case.StopStartDate</members>
+        <members>Case.Subject</members>
+        <members>Case.SuppliedCompany</members>
+        <members>Case.SuppliedEmail</members>
+        <members>Case.SuppliedName</members>
+        <members>Case.SuppliedPhone</members>
+        <members>Case.Type</members>
         <members>Contact.AccountId</members>
         <members>Contact.Agr_CPF_CNPJ__c</members>
+        <members>Contact.Agr_CityOfBirth__c</members>
         <members>Contact.Agr_ComercialMobile1__c</members>
+        <members>Contact.Agr_CountryOfBirth__c</members>
         <members>Contact.Agr_Email__c</members>
+        <members>Contact.Agr_EmployerCNPJ__c</members>
+        <members>Contact.Agr_FatherName__c</members>
         <members>Contact.Agr_FiscalResidencyAbroad__c</members>
         <members>Contact.Agr_LinkWithAgora__c</members>
+        <members>Contact.Agr_Nationality__c</members>
+        <members>Contact.Agr_Occupation__c</members>
         <members>Contact.Agr_OptinCategories__c</members>
         <members>Contact.Agr_PoliticallyExposed__c</members>
+        <members>Contact.Agr_SpouseCPF__c</members>
+        <members>Contact.Agr_SpouseName__c</members>
+        <members>Contact.Agr_StateOfBirth__c</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
         <members>Contact.Birthdate</members>
@@ -469,6 +505,33 @@
         <members>Location.RootLocationId</members>
         <members>Location.TimeZone</members>
         <members>Location.VisitorAddressId</members>
+        <members>Opportunity.AccountId</members>
+        <members>Opportunity.Amount</members>
+        <members>Opportunity.Budget_Confirmed__c</members>
+        <members>Opportunity.CampaignId</members>
+        <members>Opportunity.CloseDate</members>
+        <members>Opportunity.ContractId</members>
+        <members>Opportunity.Description</members>
+        <members>Opportunity.Discovery_Completed__c</members>
+        <members>Opportunity.ExpectedRevenue</members>
+        <members>Opportunity.FinServ__FinancialAccount__c</members>
+        <members>Opportunity.FinServ__Household__c</members>
+        <members>Opportunity.FinServ__ReferredByContact__c</members>
+        <members>Opportunity.FinServ__ReferredByUser__c</members>
+        <members>Opportunity.IqScore</members>
+        <members>Opportunity.IsPrivate</members>
+        <members>Opportunity.LeadSource</members>
+        <members>Opportunity.Loss_Reason__c</members>
+        <members>Opportunity.Name</members>
+        <members>Opportunity.NextStep</members>
+        <members>Opportunity.OwnerId</members>
+        <members>Opportunity.Pricebook2Id</members>
+        <members>Opportunity.Probability</members>
+        <members>Opportunity.ROI_Analysis_Completed__c</members>
+        <members>Opportunity.SourceId</members>
+        <members>Opportunity.StageName</members>
+        <members>Opportunity.TotalOpportunityQuantity</members>
+        <members>Opportunity.Type</members>
         <members>User.Agr_AdvisorBackup__c</members>
         <members>User.Agr_EmployeeArea__c</members>
         <members>User.Agr_InactivationReasonDescription__c</members>
@@ -500,6 +563,7 @@
         <members>BranchUnit</members>
         <members>BranchUnitBusinessMember</members>
         <members>BusinessUnitMember</members>
+        <members>Case</members>
         <members>Contact</members>
         <members>FinServ__AccountAccountRelation__c</members>
         <members>FinServ__ReciprocalRole__c</members>
@@ -521,12 +585,6 @@
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Account.FSC_Banker_Profile_Fin_Acct_Summary</members>
-        <members>Account.WM_Client_Profile_Fin_Acct_Summary</members>
-        <members>Account.WM_Client_Profile_Relations_HH_Summary</members>
-        <members>Account.WM_Client_Relationship_Group_Members</members>
-        <members>Account.WM_Client_Relationship_Groups</members>
-        <members>Contact.WM_Client_Relationship_Group_Members</members>
         <members>FinServ__AccountAccountRelation__c.WM_Household_RelatedAccounts</members>
         <members>Lead.FSC_Business_Referrals_Made</members>
         <members>Lead.FSC_Referral_Form</members>
@@ -580,13 +638,6 @@
         <name>LightningExperienceTheme</name>
     </types>
     <types>
-        <members>Account.AllAccounts</members>
-        <members>Account.FinServ__My_Businesses</members>
-        <members>Account.FinServ__My_Clients</members>
-        <members>Account.FinServ__My_Groups</members>
-        <members>Account.FinServ__My_Institutions</members>
-        <members>Account.FinServ__My_Retail_Clients</members>
-        <members>Account.MyAccounts</members>
         <members>Activity.MyActivities</members>
         <members>Activity.MyDelegatedActivities</members>
         <members>Activity.MyTeamsActivities</members>
@@ -598,10 +649,9 @@
         <members>Banker.All_Bankers</members>
         <members>BranchUnit.All_BranchUnits</members>
         <members>BusinessUnitMember.All_BusinessUnitMembers</members>
-        <members>Contact.AllContacts</members>
-        <members>Contact.FinServ__Upcoming_Birthdays_Next_7_Days</members>
-        <members>Contact.FinServ__Upcoming_RMDs_Next_7_Days</members>
-        <members>Contact.MyContacts</members>
+        <members>Case.AllOpenCases</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
         <members>FinServ__AccountAccountRelation__c.FinServ__All</members>
         <members>FinServ__ReciprocalRole__c.FinServ__All</members>
         <members>Lead.AllOpenLeads</members>
@@ -611,6 +661,14 @@
         <members>Lead.FinServ__Open_Referrals_Im_Assigned</members>
         <members>Lead.My_Leads</members>
         <members>Lead.TodaysLeads</members>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.ClosingNextMonth</members>
+        <members>Opportunity.ClosingThisMonth</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.Kanban</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewThisWeek</members>
+        <members>Opportunity.Won</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
@@ -651,10 +709,6 @@
         <name>ProfileSessionSetting</name>
     </types>
     <types>
-        <members>Account.FinServ__IndustriesBusiness</members>
-        <members>Account.FinServ__IndustriesHousehold</members>
-        <members>Account.FinServ__IndustriesIndividual</members>
-        <members>Account.FinServ__IndustriesInstitution</members>
         <members>Contact.FinServ__IndustriesBusiness</members>
         <members>Contact.FinServ__IndustriesIndividual</members>
         <members>FinServ__ReciprocalRole__c.FinServ__AccountRole</members>
@@ -663,6 +717,9 @@
         <members>Lead.FinServ__General</members>
         <members>Lead.FinServ__Referral</members>
         <members>Lead.FinServ__RetirementPlanning</members>
+        <members>Opportunity.FinServ__General</members>
+        <members>Opportunity.FinServ__RetirementPlanning</members>
+        <members>Opportunity.FinServ__WalletShareOpportunity</members>
         <members>PersonAccount.PersonAccount</members>
         <name>RecordType</name>
     </types>
@@ -757,6 +814,7 @@
     </types>
     <types>
         <members>Account</members>
+        <members>Language</members>
         <members>Org</members>
         <members>Security</members>
         <name>Settings</name>
@@ -789,6 +847,8 @@
         <members>Lead.Agr_NameNotNull</members>
         <members>Lead.FinServ__NonPortalUserReferrer</members>
         <members>Lead.FinServ__SingleReferredByEntryByRecord</members>
+        <members>Opportunity.FinServ__NonPortalUserReferrer</members>
+        <members>Opportunity.FinServ__SingleReferredByEntryByRecord</members>
         <members>User.Agr_empty_inactivation_reason</members>
         <members>User.Agr_empty_inactivation_reason_desc</members>
         <members>User.Agr_short_inactivation_reason_desc</members>
