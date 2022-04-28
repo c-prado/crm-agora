@@ -2,6 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>FinServ__IndustriesBusiness</fullName>
     <active>true</active>
+    <compactLayoutAssignment>Agr_Compact_Layout</compactLayoutAssignment>
     <description>A business or an organization</description>
     <label>Business</label>
     <picklistValues>
@@ -338,31 +339,27 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Agentes autônomos</fullName>
+            <fullName>Agentes autonomos%3B</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</fullName>
+            <fullName>Clubes e Fundos cuja maioria das cotas pertenca a pessoas citadas acima</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Cônjuges e filhos menores das pessoas anteriormente citadas</fullName>
+            <fullName>Conjuge e filhos menores das pessoas anteriomente citadas</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Nenhum Vínculo</fullName>
+            <fullName>Nenhum Vinculo</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Prestadores de serviços contratados para atividades fins da corretora</fullName>
+            <fullName>Prestadores de servico contratados para atividades fins da corretora</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Sócios ou acionistas da corretora%2C pessoas físicas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Sócios%2C acionistas e sociedades controladas pela corretora%2C exceto Instituição Financeira</fullName>
+            <fullName>Socios ou acionistas da corretora%2C pessoas fisicas%3B</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -1246,21 +1243,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Agr_Nationality__c</picklist>
-        <values>
-            <fullName>Brasileiro Nato</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Brasileiro Naturalizado</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Estrangeiro</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Agr_OwnerInvestmentPortolio__c</picklist>
         <values>
             <fullName>Própria</fullName>
@@ -1685,6 +1667,10 @@
         <picklist>FinServ__Status__c</picklist>
         <values>
             <fullName>Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusivamente Representante Legal</fullName>
             <default>false</default>
         </values>
         <values>

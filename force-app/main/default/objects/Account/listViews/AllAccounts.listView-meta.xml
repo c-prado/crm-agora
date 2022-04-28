@@ -2,11 +2,17 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AllAccounts</fullName>
     <columns>ACCOUNT.NAME</columns>
+    <columns>Agr_CBLCActive__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
     <columns>ACCOUNT.ADDRESS1_STATE</columns>
     <columns>ACCOUNT.PHONE1</columns>
-    <columns>ACCOUNT.TYPE</columns>
     <columns>CORE.USERS.FIRST_NAME</columns>
     <columns>CORE.USERS.LAST_NAME</columns>
     <filterScope>Everything</filterScope>
-    <label>All Accounts</label>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.FinServ__IndustriesBusiness</value>
+    </filters>
+    <label>Todas as contas</label>
 </ListView>

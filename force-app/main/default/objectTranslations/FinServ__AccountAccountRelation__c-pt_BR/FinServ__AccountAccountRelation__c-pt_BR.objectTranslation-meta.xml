@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Relacionamento entre contas</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Relacionamentos entre contas</value>
+    </caseValues>
+    <fieldSets>
+        <label></label>
+        <name>WM_Household_RelatedAccounts</name>
+    </fieldSets>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Account Account Relation Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome da relação da conta</nameFieldLabel>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FinServ__AARCanOnlyBeDeactivated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FinServ__AccountAndRelatedAccountCannotBeSame</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FinServ__AccountCannotBeAnIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FinServ__CannotCreateInactiveRecord</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>FinServ__InactiveAARCannotBeEdited</name>
+    </validationRules>
+</CustomObjectTranslation>

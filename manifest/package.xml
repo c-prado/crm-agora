@@ -1,44 +1,61 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>User.Agr_AdvisorBackup__c</members>
-		<members>User.Agr_EmployeeArea__c</members>
-		<members>User.Agr_InactivationReasonDescription__c</members>
-		<members>User.Agr_InactivationReason__c</members>
-		<members>User.Agr_SourceSystemId__c</members>
-		<name>CustomField</name>
-	</types>
-	<types>
 		<members>Account</members>
-		<members>Activity</members>
+		<members>Account</members>
+		<members>AccountTeamMember</members>
+		<members>Agr_AffinityGroup__c</members>
+		<members>Agr_Assesor_Index__c</members>
+		<members>Agr_Bar__c</members>
+		<members>Agr_CBLCBlock__c</members>
+		<members>Agr_CBLC__c</members>
+		<members>Agr_FinancialAccount__c</members>
+		<members>Agr_Restriction__c</members>
 		<members>Asset</members>
+		<members>Banker</members>
+		<members>BranchUnit</members>
+		<members>BranchUnitBusinessMember</members>
 		<members>Contact</members>
-		<members>Lead</members>
-		<members>User</members>
-        <members>FinServ__ReciprocalRole__c</members>
-        <members>FinServ__AccountAccountRelation__c</members>
-        <members>BranchUnit</members>
+		<members>FinServ__AccountAccountRelation__c</members>
 		<name>CustomObject</name>
 	</types>
-    <types>
+	<types>
+		<members>Account-pt_BR</members>
+		<members>BranchUnit-pt_BR</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+	<types>
+		<members>Account-Account Layout</members>
+		<members>Agr_AffinityGroup__c-Layout de Grupo de Afinidade</members>
+		<members>Agr_Bar__c-Layout de Nome do Assessor %28Barra%29</members>
+		<members>Agr_CBLCBlock__c-Bloqueio do CBLC Layout</members>
+		<members>Agr_CBLC__c-CBLC Layout</members>
+		<members>Agr_FinancialAccount__c-Conta Bancária Layout</members>
+		<members>Agr_Restriction__c-Restrição Layout</members>
+		<members>Asset-Asset Layout</members>
+		<members>Banker-Layout de Banqueiro</members>
+		<members>BranchUnit-Layout de Unidade da filial</members>
+		<members>Contact-FinServ__Contact %28Business%29 Layout</members>
+		<members>FinServ__AccountAccountRelation__c-FinServ__Account Account Relation Layout</members>
+		<members>FinServ__AccountAccountRelation__c-FinServ__Account-Account Relationship Layout</members>
+		<members>PersonAccount-Layout da conta pessoal</members>
 		<members>User-User Layout</members>
+		<members>UserAlt-User Profile Layout</members>
 		<name>Layout</name>
 	</types>
 	<types>
-		<members>Admin</members>
-		<members>Perfil de API</members>
-		<members>Segurança Corporativa</members>
-		<name>Profile</name>
+		<members>Agr_FlwUpdateSalesTraderAccount</members>
+		<members>Agr_FlwUpdateSalesTraderAccountOnDeletion</members>
+		<name>Flow</name>
 	</types>
 	<types>
-		<members>*</members>
-		<name>Role</name>
+		<members>Agr_FlwUpdateSalesTraderAccount</members>
+		<members>Agr_FlwUpdateSalesTraderAccountOnDeletion</members>
+		<name>FlowDefinition</name>
 	</types>
 	<types>
-		<members>User.Agr_empty_inactivation_reason</members>
-		<members>User.Agr_empty_inactivation_reason_desc</members>
-		<members>User.Agr_short_inactivation_reason_desc</members>
-		<name>ValidationRule</name>
+		<members>Asset-pt_BR</members>
+		<name>CustomObjectTranslation</name>
 	</types>
 	<version>53.0</version>
 </Package>

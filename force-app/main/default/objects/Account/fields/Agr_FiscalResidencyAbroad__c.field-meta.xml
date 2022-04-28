@@ -2,7 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Agr_FiscalResidencyAbroad__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>Residência fiscal além da brasileira para representante legal</description>
     <externalId>false</externalId>
+    <inlineHelpText>Residência fiscal além da brasileira para representante legal</inlineHelpText>
     <label>Residência fiscal além da brasileira?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

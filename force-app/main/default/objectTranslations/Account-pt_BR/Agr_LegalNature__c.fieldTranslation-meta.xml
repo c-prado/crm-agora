@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Agr_LegalNature__c</name>
+    <picklistValues>
+        <masterLabel>1001 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2.689 - PESSOA FÍSICA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1002 - INVESTIDOR NÃO-RESIDENTE RESOLUÇÃO Nº 2.689 - PESSOA JURÍDICA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>101 - PESSOA FÍSICA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1301 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA FÍSICA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1302 - INVESTIDOR NÃO-RESIDENTE OUTROS - PESSOA JURÍDICA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1601 - DEPOSITÁRIO DE ADR</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>201 - EMPRESA PÚBLICA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>202 - SOCIEDADES DE ECONOMIA MISTA, ANÔNIMA (S/A), LTDA, POR COTAS E OUTRAS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>203 - FUNDO DE INVESTIMENTO IMOBILIÁRIO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>204 - BOLSA DE VALORES E MERCADORIAS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>205 - CONDOMÍNIO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>206 - COOPERATIVA</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>207 - CONSÓRCIO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>301 - INSTITUIÇÃO DE CARÁTER FILANTRÓPICO, RECREATIVO, CULTURAL OU CIENTÍFICO, ASSOCIAÇÃO CIVIL QUE PRESTE OS SERVIÇOS PARA OS QUAIS HOUVER SIDO INSTITUÍDA E OS COLOQUEM À DISPOSIÇÃO DO GRUPO DE PESSOAS A QUE SE DESTINA, SEM FINS LUCRATIVOS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>401 - BANCO COMERCIAL / MÚLTIPLO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>402 - BANCO DE INVESTIMENTO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>403 - SOCIEDADE DE SEGURO, PREVIDÊNCIA E CAPITALIZAÇÃO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>404 - SOCIEDADE DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>405 - SOCIEDADE CORRETORA DE TÍTULOS, VALORES MOBILIÁRIOS E CÂMBIO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>406 - SOCIEDADE FINANCEIRA E DE CRÉDITO IMOBILIÁRIO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>407 - SOCIEDADE DE ARRENDAMENTO MERCANTIL (LEASING)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>501 - FUNDO DE INVESTIMENTO (EXCETO FUNDO DE INVESTIMENTO IMOBILIÁRIO, QUE É TRIBUTADO COMO QUALQUER PESSOA JURÍDICA)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>601 - FUNDO DE PREVIDÊNCIA PRIVADA (INCLUSIVE FAPI) - ABERTO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>602 - FUNDO DE PREVIDÊNCIA PRIVADA (INCLUSIVE FAPI) - FECHADO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>603 - FUNDO DE PLANO DE BENEFÍCIO DE SOCIEDADE SEGURADORA (INCLUSIVE SEGURO DE VIDA)</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>701 - CLUBE DE INVESTIMENTO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>801 - UNIÃO, ESTADO, MUNICÍPIO OU DISTRITO FEDERAL, AUTARQUIA OU FUNDAÇÃO INSTITUÍDA E MANTIDA PELO PODER PÚBLICO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>901 - TEMPLO DE QUALQUER CULTO</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>902 - PARTIDO POLÍTICO E SUAS FUNDAÇÕES</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>903 - ENTIDADE SINDICAL DOS TRABALHADORES</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>904 - INSTITUIÇÃO DE EDUCAÇÃO E ASSISTÊNCIA SOCIAL, SEM FINS LUCRATIVOS, ATENDIDOS OS REQUISITOS DA LEI</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -25,6 +25,11 @@
                 <default>false</default>
                 <label>Inativo</label>
             </value>
+            <value>
+                <fullName>Exclusivamente Representante Legal</fullName>
+                <default>false</default>
+                <label>Exclusivamente Representante Legal</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
