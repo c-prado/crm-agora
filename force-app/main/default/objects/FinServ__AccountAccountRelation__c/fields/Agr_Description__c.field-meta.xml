@@ -3,7 +3,7 @@
     <fullName>Agr_Description__c</fullName>
     <externalId>false</externalId>
     <formula>IF(FinServ__Account__r.IsPersonAccount = TRUE, FinServ__Account__r.FirstName + &quot; &quot; + FinServ__Account__r.LastName, FinServ__Account__r.Name) +
- IF(FinServ__Role__c = &quot;Representante&quot;, &quot;é representante de&quot;, IF(FinServ__Role__c = &quot;Representado&quot;, &quot; é representado por &quot;, &quot; está relacionado à &quot;)) +
+ IF( FinServ__Role__r.Name  = &quot;Representante&quot;, &quot; é representante de &quot;, IF(FinServ__Role__r.Name = &quot;Representado&quot;, &quot; é representado por &quot;, &quot; está relacionado à &quot;)) +
 IF(FinServ__RelatedAccount__r.IsPersonAccount = TRUE, FinServ__RelatedAccount__r.FirstName + &quot; &quot; + FinServ__RelatedAccount__r.LastName, FinServ__RelatedAccount__r.Name)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Descrição</label>

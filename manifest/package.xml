@@ -21,7 +21,9 @@
 	</types>
 	<types>
 		<members>Account-pt_BR</members>
+		<members>Contact-pt_BR</members>
 		<members>BranchUnit-pt_BR</members>
+		<members>Asset-pt_BR</members>
 		<name>CustomObjectTranslation</name>
 	</types>
 	<types>
@@ -54,8 +56,15 @@
 		<name>FlowDefinition</name>
 	</types>
 	<types>
-		<members>Asset-pt_BR</members>
-		<name>CustomObjectTranslation</name>
+		<members>agr_AccountProspectFields</members>
+		<members>agr_LegalRepresentativeAccountFields</members>
+		<name>LightningComponentBundle</name>
 	</types>
+	<types>
+		<members>Account_Record_Page3</members>
+		<members>CBLC_P_gina_de_registro</members>
+		<members>Contact_Record_Page1</members>
+		<name>FlexiPage</name>
+	</types>	
 	<version>53.0</version>
 </Package>
