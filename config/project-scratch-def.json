@@ -1,13 +1,33 @@
 {
-  "orgName": "cprado company",
+  "orgName": "MJ Scratch",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["Communities",
+    "ContactsToMultipleAccounts",
+    "SalesUser",
+    "PersonAccounts",
+    "IndustriesActionPlan",
+    "DocumentChecklist",
+    "FinancialServicesUser:9",
+    "FinancialServicesUser:10",
+    "FinancialServicesCommunityUser:10",
+    "FlowSites"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
+    "securitySettings": {
+      "passwordPolicies": {      }
+    },
     "mobileSettings": {
       "enableS1EncryptedStoragePref2": false
+    },
+    "communitiesSettings": {
+        "enableNetworksEnabled": true
     }
-  }
+  },
+  "objectSettings": {
+    "account": {
+       "defaultRecordType": "PersonAccount"
+    }
+ }
 }

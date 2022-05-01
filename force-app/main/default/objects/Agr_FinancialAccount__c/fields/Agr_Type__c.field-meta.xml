@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agr_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de conta</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>CC - Conta Corrente</fullName>
+                <default>false</default>
+                <label>CC - Conta Corrente</label>
+            </value>
+            <value>
+                <fullName>CI - Conta Investimento</fullName>
+                <default>false</default>
+                <label>CI - Conta Investimento</label>
+            </value>
+            <value>
+                <fullName>CJ2 - Conta Conjunta 2 titular</fullName>
+                <default>false</default>
+                <label>CJ2 - Conta Conjunta 2 titular</label>
+            </value>
+            <value>
+                <fullName>CJ3 - Conta Conjunta 3 titular</fullName>
+                <default>false</default>
+                <label>CJ3 - Conta Conjunta 3 titular</label>
+            </value>
+            <value>
+                <fullName>CP - Conta Poupança</fullName>
+                <default>false</default>
+                <label>CP - Conta Poupança</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

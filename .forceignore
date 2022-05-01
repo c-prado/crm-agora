@@ -3,6 +3,7 @@
 #
 
 package.xml
+force-app/main/defaul/settings/Security.settings-meta.xml
 
 # LWC configuration files
 **/jsconfig.json

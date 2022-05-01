@@ -3,7 +3,7 @@
     <fullName>Agr_PoliticallyExposed__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>SE É PEP?</label>
+    <label>Se é PEP?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>
