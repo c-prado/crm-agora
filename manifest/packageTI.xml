@@ -233,5 +233,11 @@
         <name>Report</name>
     </types>	
 
+    <types>
+        <members>AccountType</members>
+        <members>LeadSource</members>
+        <name>StandardValueSet</name>
+    </types>
+	
 	<version>53.0</version>
 </Package>
