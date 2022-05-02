@@ -227,5 +227,11 @@
 		<name>Profile</name>
 	</types>
 
+	<types>
+        <members>unfiled$public/Agr_ClientesPF</members>
+        <members>unfiled$public/Agr_Contatos</members>
+        <name>Report</name>
+    </types>	
+
 	<version>53.0</version>
 </Package>
