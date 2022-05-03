@@ -2,7 +2,7 @@ import { LightningElement, api, wire } from 'lwc';
 import { getRecord, getFieldValue } from 'lightning/uiRecordApi';
 
 import CPFCNPJ from '@salesforce/schema/Account.Agr_CPF_CNPJ__c';
-import STATUS from '@salesforce/schema/Account.FinServ__Status__c';
+import STATUS from '@salesforce/schema/Account.Agr_AccountStatus__c';
 
 import RECORD_TYPE_ID from '@salesforce/schema/Account.RecordTypeId';
 

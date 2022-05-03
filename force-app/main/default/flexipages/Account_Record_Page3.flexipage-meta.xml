@@ -36,7 +36,7 @@
                 <identifier>c_agr_AccountProspectFields1</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!Record.FinServ__Status__c}</leftValue>
+                        <leftValue>{!Record.Agr_AccountStatus__c}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>Pré-Cliente</rightValue>
                     </criteria>
@@ -71,6 +71,32 @@
                 </componentInstanceProperties>
                 <componentName>FinServ:relationshipMap</componentName>
                 <identifier>FinServ_relationshipMap1</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>parentFieldApiName</name>
+                    <value>Account.Id</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListApiName</name>
+                    <value>FinServ__RelatedToAccounts__r</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-f31f30bc-e237-4cee-999a-ba2f1ca2c7ca</name>
@@ -226,6 +252,16 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>displayOption</name>
+                    <value>BOTH</value>
+                </componentInstanceProperties>
+                <componentName>runtime_sales_merge:mergeCandidatesPreviewCard</componentName>
+                <identifier>runtime_sales_merge_mergeCandidatesPreviewCard1</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>tabs</name>
                     <value>tabs</value>
                 </componentInstanceProperties>
@@ -233,9 +269,9 @@
                 <identifier>flexipage_tabset</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!Record.FinServ__Status__c}</leftValue>
+                        <leftValue>{!Record.Agr_AccountStatus__c}</leftValue>
                         <operator>NE</operator>
-                        <rightValue>Exclusivamente Representante Legal</rightValue>
+                        <rightValue>Exclusivamente representante legal</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -250,9 +286,9 @@
                 <identifier>flexipage_tabset2</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!Record.FinServ__Status__c}</leftValue>
+                        <leftValue>{!Record.Agr_AccountStatus__c}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>Exclusivamente Representante Legal</rightValue>
+                        <rightValue>Exclusivamente representante legal</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>

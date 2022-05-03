@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Agr_Compact_Layout</fullName>
+    <fullName>Agr_AgoraPersonAccountCompactLayout</fullName>
     <fields>Name</fields>
     <fields>Agr_CBLCActive__c</fields>
     <fields>OwnerId</fields>
@@ -8,5 +8,5 @@
     <fields>FinServ__RiskTolerance__c</fields>
     <fields>Agr_AccountStatus__c</fields>
     <fields>Agr_SalesTrader__c</fields>
-    <label>Agora Compact Layout</label>
+    <label>Agora Person Account Compact Layout</label>
 </CompactLayout>
