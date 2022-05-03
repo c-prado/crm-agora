@@ -10,6 +10,7 @@
     <permissionSets>et4ae5__DMTracking</permissionSets>
     <permissionSets>et4ae5__ExactTarget_Integration</permissionSets>
     <permissionSets>et4ae5__Marketing_Cloud_System_User</permissionSets>
+    <permissionSets>force__CRMUserPsl</permissionSets>
     <permissionSets>force__FinancialServicesCloudExtension</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

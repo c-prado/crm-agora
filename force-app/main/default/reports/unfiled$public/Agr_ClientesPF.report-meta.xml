@@ -25,9 +25,6 @@
         <field>PC_LAST_NAME</field>
     </columns>
     <columns>
-        <field>Account.Agr_Email__c</field>
-    </columns>
-    <columns>
         <field>Contact.Agr_Email__c</field>
     </columns>
     <columns>

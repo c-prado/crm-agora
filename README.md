@@ -4,7 +4,9 @@ Configuração básica e carga de contas e contatos para início do aquecimento 
 # Procedimentos de instalação
 
 ## Etapas manuais pré-deploy
-1. Associar os permission sets do financial services ao usuário q vai fazer o deploy
+1. Associar os permission sets do financial services ao usuário q vai fazer o deploy:
+   - Extensão do Financial Services Cloud
+   - Financial Services Cloud Standard
 2. Ativar workbench de tradução
 
 ## Etapas manuais pós-deploy
