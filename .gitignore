@@ -8,6 +8,7 @@
 .localdevserver/
 deploy-options.json
 deploy_s6_20220417.txt
+out.txt
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
