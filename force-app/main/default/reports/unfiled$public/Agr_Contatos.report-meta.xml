@@ -10,6 +10,12 @@
         <field>Contact.FinServ__SourceSystemId__c</field>
     </columns>
     <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>MIDDLE_NAME</field>
+    </columns>
+    <columns>
         <field>LAST_NAME</field>
     </columns>
     <columns>
@@ -21,10 +27,17 @@
     <columns>
         <field>PHONE3</field>
     </columns>
+    <customDetailFormulas>
+        <calculatedFormula>IF(ISBLANK(FIRST_NAME), &quot;PESSOA JURÍDICA&quot;, &quot;PESSOA FÍSICA&quot;)</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Tipo de Pessoa</label>
+        <scale>2</scale>
+    </customDetailFormulas>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>CONTACT_RECORDTYPE</field>
+        <field>CDF1</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Carga de contatos</name>
