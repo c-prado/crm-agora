@@ -3,7 +3,7 @@
     <fullName>Agr_BillingAddressIsMailing__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>End. de correspondência?</label>
+    <label>End.comercial é de correspondência?</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>
 </CustomField>

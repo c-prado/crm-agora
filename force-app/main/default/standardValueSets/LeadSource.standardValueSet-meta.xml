@@ -2,9 +2,9 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Advertisement</fullName>
+        <fullName>Portal</fullName>
         <default>false</default>
-        <label>Advertisement</label>
+        <label>Portal</label>
     </standardValue>
     <standardValue>
         <fullName>Customer Event</fullName>
