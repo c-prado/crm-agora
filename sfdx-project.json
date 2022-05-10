@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "teste",
+  "name": "Agora CRM",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "53.0"

@@ -7,10 +7,14 @@ Configuração básica e carga de contas e contatos para início do aquecimento 
 1. Associar os permission sets do financial services ao usuário q vai fazer o deploy:
    - Extensão do Financial Services Cloud
    - Financial Services Cloud Standard
-2. Ativar workbench de tradução
 
 ## Etapas manuais pós-deploy
 1. Ativar o tema de cores e marca da Ágora
+2. Se o deploy foi após refresh: criar usuário de integração para Mulesoft e associar os permission sets do FSC
+3. Habilitar a permissão "Usuário único de API" no "Perfil de API" em produção
+
+## Teste do deploy
+Carregar os arquivos do diretório /test e acessar os relatórios Carga de Contas e Carga de Contatos
 
 # Build and Test
 Antes de fazer deploy para a org:
