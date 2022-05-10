@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Agr_SuitabilityStartDate__c</fullName>
     <externalId>false</externalId>
-    <label>Data de adesão APIC</label>
+    <label>Data de adesão (ao perfil do investidor)</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Date</type>

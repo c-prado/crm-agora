@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Agr_SuitabilityStartDate__c + 720</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Data de vencimento APIC</label>
+    <label>Data de vencimento</label>
     <required>false</required>
     <type>Date</type>
 </CustomField>

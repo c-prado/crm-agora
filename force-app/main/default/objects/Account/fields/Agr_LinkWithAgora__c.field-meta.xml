@@ -16,39 +16,39 @@
                 <label>Administradores, funcionários, operadores e prepostos da corretora;</label>
             </value>
             <value>
-                <fullName>Agentes autonomos;</fullName>
+                <fullName>Agentes autônomos</fullName>
                 <default>false</default>
-                <label>Agentes autonomos;</label>
+                <label>Agentes autônomos</label>
             </value>
             <value>
-                <fullName>Clubes e Fundos cuja maioria das cotas pertenca a pessoas citadas acima</fullName>
+                <fullName>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</fullName>
                 <default>false</default>
-                <label>Clubes e Fundos cuja maioria das cotas pertenca a pessoas citadas acima</label>
+                <label>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</label>
             </value>
             <value>
-                <fullName>Conjuge e filhos menores das pessoas anteriomente citadas</fullName>
+                <fullName>Cônjuges e filhos menores das pessoas anteriormente citadas</fullName>
                 <default>false</default>
-                <label>Conjuge e filhos menores das pessoas anteriomente citadas</label>
+                <label>Cônjuges e filhos menores das pessoas anteriormente citadas</label>
             </value>
             <value>
-                <fullName>Nenhum Vinculo</fullName>
+                <fullName>Nenhum Vínculo</fullName>
                 <default>false</default>
-                <label>Nenhum Vinculo</label>
+                <label>Nenhum Vínculo</label>
             </value>
             <value>
-                <fullName>Prestadores de servico contratados para atividades fins da corretora</fullName>
+                <fullName>Prestadores de serviços contratados para atividades fins da corretora</fullName>
                 <default>false</default>
-                <label>Prestadores de servico contratados para atividades fins da corretora</label>
+                <label>Prestadores de serviços contratados para atividades fins da corretora</label>
             </value>
             <value>
-                <fullName>Socios, acionistas e sociedades controladas pela corretora, exceto Inst. Fin.</fullName>
+                <fullName>Sócios, acionistas e sociedades controladas pela corretora, exceto Instituição Financeira</fullName>
                 <default>false</default>
-                <label>Socios, acionistas e sociedades controladas pela corretora, exceto Inst. Fin.</label>
+                <label>Sócios, acionistas e sociedades controladas pela corretora, exceto Instituição Financeira</label>
             </value>
             <value>
-                <fullName>Socios ou acionistas da corretora, pessoas fisicas;</fullName>
+                <fullName>Sócios ou acionistas da corretora, pessoas físicas</fullName>
                 <default>false</default>
-                <label>Socios ou acionistas da corretora, pessoas fisicas;</label>
+                <label>Sócios ou acionistas da corretora, pessoas físicas</label>
             </value>
         </valueSetDefinition>
     </valueSet>

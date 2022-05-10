@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>FinServ__Status__c</fullName>
-    <deprecated>false</deprecated>
+    <fullName>Agr_Nationality__c</fullName>
     <externalId>false</externalId>
-    <label>Status</label>
+    <label>Nacionalidade</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
+        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Pré-Cliente</fullName>
+                <fullName>Brasileiro Nato</fullName>
                 <default>false</default>
-                <label>Pré-Cliente</label>
+                <label>Brasileiro Nato</label>
             </value>
             <value>
-                <fullName>Cliente</fullName>
+                <fullName>Brasileiro Naturalizado</fullName>
                 <default>false</default>
-                <label>Cliente</label>
+                <label>Brasileiro Naturalizado</label>
             </value>
             <value>
-                <fullName>Inativo</fullName>
+                <fullName>Estrangeiro</fullName>
                 <default>false</default>
-                <label>Inativo</label>
+                <label>Estrangeiro</label>
             </value>
         </valueSetDefinition>
     </valueSet>

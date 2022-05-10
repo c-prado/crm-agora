@@ -11,7 +11,6 @@ sfdx force:org:display
 sfdx force:source:retrieve -u qa01 -m "Profile:Segurança Corporativa"
 sfdx force:source:retrieve -x ./manifest/package-feature.xml
 sfdx force:source:retrieve -m "Layout:Account-Account Layout"
-sfdx force:source:retrieve -m "CustomField:Account.AccountSource"
 
 # deploy
 sfdx force:source:deploy -x ./manifest/package.xml -u qa01 --checkonly >> out.txt
