@@ -1,20 +1,23 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Solução CRM da Ágora - Sprint 2
+Carga de todos os dados dos clientes, layouts de todos os objetos do cliente.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Procedimentos de instalação
+
+## Etapas manuais pré-deploy
+1. ???
+
+## Etapas manuais pós-deploy
+1. Abrir o Assistente de importação de dados e importar o arquivo papel-reciproco-representante.csv
+
+## Teste do deploy
+???
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Antes de fazer deploy para a org:
+1. Crie uma scratch org.
+2. Instale os pacotes gerenciados, executando: sfdx force:source:deploy -p force-app/scratch
+3. Execute os procedimentos de instalação
+4. Realize os testes
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Cadastre problemas encontrados cadastrando um issue no repositório de versões
