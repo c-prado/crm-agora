@@ -36,3 +36,4 @@ sfdx force:org:delete -u <nome da scratch org>
 # Install FSC packages
 sfdx force:source:deploy -p force-app/scratch
 
+https://blog.gitguardian.com/rewriting-git-history-cheatsheet/#the-secret-is-beyond-the-last-commit?utm_source=product&utm_medium=product&utm_campaign=onboarding
