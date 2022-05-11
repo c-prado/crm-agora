@@ -16,7 +16,7 @@ sfdx force:source:retrieve -m "Layout:Account-Account Layout"
 sfdx force:source:deploy -x ./manifest/package.xml -u qa01 --checkonly >> out.txt
 sfdx force:source:deploy -u ti01 -m "Layout:Account-Account Layout"
 
-sfdx force:source:deploy -x ./manifest/packageTI.xml -u pr01 --checkonly > out.txt
+sfdx force:source:deploy -x ./manifest/packageTI.xml -u pr01 --checkonly --testlevel RunLocalTests  > out.txt
 
 # destructive changes
 sfdx force:source:deploy -u qa01 -x ./manifest/destructive-changes/package.xml --predestructivechanges ./manifest/destructive-changes/destructiveChangesPre.xml --checkonly --verbose
