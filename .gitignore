@@ -38,3 +38,8 @@ $RECYCLE.BIN/
 
 # Local environment variables
 .env
+
+# keys
+server.key
+server.pass.key
+server.csr
