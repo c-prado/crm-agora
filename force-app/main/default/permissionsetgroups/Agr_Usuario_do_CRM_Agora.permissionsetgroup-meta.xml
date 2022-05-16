@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Conjuntos de permissão básicos para todos os usuários do CRM Ágora, inclusive para o usuário de integração.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Usuário do CRM Ágora</label>
+    <mutingPermissionSets>Agr_HideFSCApplications</mutingPermissionSets>
+    <permissionSets>FinServ__Advisor</permissionSets>
+    <permissionSets>FinServ__ApexAuraAccess</permissionSets>
+    <permissionSets>FinServ__FinancialServicesCloudStandard</permissionSets>
+    <permissionSets>et4ae5__DMTracking</permissionSets>
+    <permissionSets>et4ae5__ExactTarget_Integration</permissionSets>
+    <permissionSets>et4ae5__Marketing_Cloud_System_User</permissionSets>
+    <permissionSets>force__CRMUserPsl</permissionSets>
+    <permissionSets>force__FinancialServicesCloudExtension</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
