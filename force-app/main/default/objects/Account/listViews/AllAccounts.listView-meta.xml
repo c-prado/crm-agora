@@ -9,6 +9,12 @@
     <columns>ACCOUNT.PHONE1</columns>
     <columns>CORE.USERS.FIRST_NAME</columns>
     <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>FinServ__Affiliations__pc</columns>
+    <columns>FinServ__TaxBracket__pc</columns>
+    <columns>FinServ__WeddingAnniversary__pc</columns>
+    <columns>PC_ASSISTANT_NAME</columns>
+    <columns>Agr_FinancialActivation__c</columns>
+    <columns>FinServ__TotalNonfinancialAssets__c</columns>
     <filterScope>Everything</filterScope>
     <label>Todas as contas</label>
 </ListView>

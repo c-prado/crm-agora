@@ -9,9 +9,9 @@
     <columns>CORE.USERS.ALIAS</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>Agr_IsRepresentative__c</field>
-        <operation>equals</operation>
-        <value>1</value>
+        <field>Agr_AccountStatus__c</field>
+        <operation>contains</operation>
+        <value>representante</value>
     </filters>
-    <label>Só representantes</label>
+    <label>Representantes não clientes</label>
 </ListView>

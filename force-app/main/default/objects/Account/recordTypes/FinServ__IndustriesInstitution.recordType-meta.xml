@@ -7,11 +7,15 @@
     <picklistValues>
         <picklist>AccountSource</picklist>
         <values>
-            <fullName>Other</fullName>
+            <fullName>IB</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Purchased List</fullName>
+            <fullName>NEXT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PORTAL</fullName>
             <default>false</default>
         </values>
     </picklistValues>
