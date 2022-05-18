@@ -43,3 +43,5 @@ $RECYCLE.BIN/
 server.key
 server.pass.key
 server.csr
+
+out.txt
