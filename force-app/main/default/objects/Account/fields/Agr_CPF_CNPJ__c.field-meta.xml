@@ -3,7 +3,7 @@
     <fullName>Agr_CPF_CNPJ__c</fullName>
     <caseSensitive>false</caseSensitive>
     <externalId>false</externalId>
-    <label>CPF/CNPJ</label>
+    <label>CNPJ</label>
     <length>18</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
