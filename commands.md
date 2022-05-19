@@ -20,6 +20,8 @@ sfdx force:source:deploy -x ./manifest/packageTI.xml -u pr01 --checkonly --testl
 
 # destructive changes
 sfdx force:source:deploy -u qa01 -x ./manifest/destructive-changes/package.xml --predestructivechanges ./manifest/destructive-changes/destructiveChangesPre.xml --checkonly --verbose
+sfdx force:mdapi:deploy -d ./destructiveChanges -u dev02 --ignorewarnings --json
+sfdx force:mdapi:deploy:report
 
 # listar as diferenças de metadados entre a org e o projeto local
 sfdx force:source:status -u cprado@salesforce.com.dev01 >> out.txt
