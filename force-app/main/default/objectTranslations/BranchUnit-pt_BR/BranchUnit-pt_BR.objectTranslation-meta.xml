@@ -9,4 +9,11 @@
         <value>Escritórios / Plataformas</value>
     </caseValues>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Layout de Unidade da filial</layout>
+        <sections>
+            <label></label>
+            <section>Links personalizados</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

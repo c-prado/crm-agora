@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Agr_PowerType__c</name>
+    <picklistValues>
+        <masterLabel>Emitente de Ordem</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gestor de Carteiras</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procurador</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

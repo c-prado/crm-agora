@@ -19,6 +19,21 @@
             <label>Links personalizados</label>
             <section>Custom Links</section>
         </sections>
+        <sections>
+            <label></label>
+            <section>Dados de Endereço</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account-Account Relationship Layout</layout>
+        <sections>
+            <label></label>
+            <section>Informações de Endereço</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Links personalizados</section>
+        </sections>
     </layouts>
     <nameFieldLabel>Nome da relação da conta</nameFieldLabel>
     <validationRules>

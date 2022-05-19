@@ -1,15 +1,16 @@
 *** Deploying with SOAP API v53.0 ***
-Deploy ID: 0Af1D00001z7YxHSAU
+Deploy ID: 0Af0300000Xly2mCAB
 
-=== Deployed Source
-FULL NAME               TYPE                      PROJECT PATH
-──────────────────────  ────────────────────────  ───────────────────────────────────────────────────────────────────────────────────────────────
-LEXTHEMINGAgr_AgoraCRM  BrandingSet               force-app/main/default/brandingSets/LEXTHEMINGAgr_AgoraCRM.brandingSet-meta.xml
-Agora_logo              ContentAsset              force-app/main/default/contentassets/Agora_logo.asset
-Agora_logo              ContentAsset              force-app/main/default/contentassets/Agora_logo.asset-meta.xml
-Agora_logo1             ContentAsset              force-app/main/default/contentassets/Agora_logo1.asset
-Agora_logo1             ContentAsset              force-app/main/default/contentassets/Agora_logo1.asset-meta.xml
-Agr_AgoraCRM            LightningExperienceTheme  force-app/main/default/lightningExperienceThemes/Agr_AgoraCRM.lightningExperienceTheme-meta.xml
+=== Component Failures [6]
+Type   Name                                    Problem
+─────  ──────────────────────────────────────  ─────────────────────────────────────────────────────────────────────────────────────────
+Error  Account-pt_BR                           In field: fullName - no CustomField named Account.Agr_BillingComplement__c found (194:13)
+Error  BranchUnit-Layout de Unidade da filial  Layout must contain an item for required layout field: ParentBranchUnitId
+Error  Account.FinServ__IndustriesBusiness     Picklist value: IB in picklist: AccountSource not found (4179:18)
+Error  Account.FinServ__IndustriesHousehold    Picklist value: IB in picklist: AccountSource not found (6062:18)
+Error  Account.FinServ__IndustriesIndividual   Picklist value: IB in picklist: AccountSource not found (7937:18)
+Error  Account.FinServ__IndustriesInstitution  Picklist value: IB in picklist: AccountSource not found (9812:18)
+
 
 === Test Results Summary
 Passing: 0
