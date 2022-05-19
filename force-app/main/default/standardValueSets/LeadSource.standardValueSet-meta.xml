@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>IB</fullName>
+        <default>false</default>
+        <label>IB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NEXT</fullName>
+        <default>false</default>
+        <label>NEXT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PORTAL</fullName>
+        <default>false</default>
+        <label>PORTAL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>
