@@ -6,6 +6,7 @@
 .sf/
 .sfdx/
 .localdevserver/
+.devops/
 deploy-options.json
 out.txt
 
@@ -43,3 +44,4 @@ $RECYCLE.BIN/
 server.key
 server.csr
 server.pass.key
+deploy*.txt
