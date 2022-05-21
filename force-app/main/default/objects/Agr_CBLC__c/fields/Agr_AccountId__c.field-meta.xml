@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Agr_AccountId__c</fullName>
     <externalId>false</externalId>
-    <label>CPF ou CNPJ do cliente</label>
+    <label>Nome do cliente</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>CBLCs</relationshipLabel>
     <relationshipName>CBLCs1</relationshipName>

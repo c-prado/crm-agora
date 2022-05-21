@@ -3,11 +3,11 @@
     <fullName>AllContacts</fullName>
     <columns>FULL_NAME</columns>
     <columns>ACCOUNT.NAME</columns>
-    <columns>CONTACT.TITLE</columns>
     <columns>CONTACT.PHONE1</columns>
-    <columns>CONTACT.EMAIL</columns>
     <columns>CORE.USERS.FIRST_NAME</columns>
     <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Agr_EmployerCNPJ__c</columns>
+    <columns>Agr_CPF_CNPJ__c</columns>
     <filterScope>Everything</filterScope>
-    <label>All Contacts</label>
+    <label>Todos os contatos</label>
 </ListView>

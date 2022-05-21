@@ -11,31 +11,31 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Agentes autônomos</fullName>
+            <fullName>Agentes autonomos%3B</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</fullName>
+            <fullName>Clubes e Fundos cuja maioria das cotas pertenca a pessoas citadas acima</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Cônjuges e filhos menores das pessoas anteriormente citadas</fullName>
+            <fullName>Conjuge e filhos menores das pessoas anteriomente citadas</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Nenhum Vínculo</fullName>
+            <fullName>Nenhum Vinculo</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Prestadores de serviços contratados para atividades fins da corretora</fullName>
+            <fullName>Prestadores de servico contratados para atividades fins da corretora</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Sócios ou acionistas da corretora%2C pessoas físicas</fullName>
+            <fullName>Socios ou acionistas da corretora%2C pessoas fisicas%3B</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Sócios%2C acionistas e sociedades controladas pela corretora%2C exceto Instituição Financeira</fullName>
+            <fullName>Socios%2C acionistas e sociedades controladas pela corretora%2C exceto Inst%2E Fin%2E</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -886,117 +886,6 @@
         </values>
         <values>
             <fullName>VETERINARIO E ZOOTECNISTA</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Agr_StateOfBirth__c</picklist>
-        <values>
-            <fullName>AC - ACRE</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>AL - ALAGOAS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>AM - AMAZONAS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>AP - AMAPA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>BA - BAHIA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>CE - CEARA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DF - DISTRITO FEDERAL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ES - ESPIRITO SANTO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GO - GOIAS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>MA - MARANHAO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>MG - MINAS GERAIS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>MS - MATO GROSSO DO SUL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>MT - MATO GROSSO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PA - PARA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PB - PARAIBA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PE - PERNAMBUCO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PI - PIAUI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PR - PARANA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RJ - RIO DE JANEIRO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RN - RIO GRANDE DO NORTE</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RO - RONDONIA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RR - RORAIMA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RS - RIO GRANDE DO SUL</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SC - SANTA CATARINA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SE - SERGIPE</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SP - SAO PAULO</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>TO - TOCANTINS</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -5505,10 +5394,6 @@
         <picklist>LeadSource</picklist>
         <values>
             <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Purchased List</fullName>
             <default>false</default>
         </values>
     </picklistValues>

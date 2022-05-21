@@ -192,10 +192,6 @@
             <fullName>Other</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Purchased List</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Name</picklist>

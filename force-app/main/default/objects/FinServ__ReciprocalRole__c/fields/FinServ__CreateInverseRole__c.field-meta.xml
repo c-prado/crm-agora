@@ -5,7 +5,7 @@
     <deprecated>false</deprecated>
     <description>When checked, a new inverse role is created for the role.</description>
     <externalId>false</externalId>
-    <inlineHelpText>If checked, a corresponding inverse role is automatically created.</inlineHelpText>
+    <inlineHelpText>Se marcado, um papel inverso correspondente é criado automaticamente.</inlineHelpText>
     <label>Create Inverse Role</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

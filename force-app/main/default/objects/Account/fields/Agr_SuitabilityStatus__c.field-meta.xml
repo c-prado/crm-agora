@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Agr_SuitabilityStatus__c</fullName>
     <externalId>false</externalId>
-    <label>Status (do perfil do investidor)</label>
+    <label>Status APIC</label>
     <length>2</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

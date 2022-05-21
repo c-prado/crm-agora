@@ -6,7 +6,7 @@
     <fields>OwnerId</fields>
     <fields>Agr_BradescoSegment__c</fields>
     <fields>FinServ__RiskTolerance__c</fields>
-    <fields>FinServ__Status__c</fields>
+    <fields>Agr_AccountStatus__c</fields>
     <fields>Agr_SalesTrader__c</fields>
     <label>Agora Person Account Compact Layout</label>
 </CompactLayout>

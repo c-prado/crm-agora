@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Agr_FoundationDate__c</fullName>
     <externalId>false</externalId>
-    <label>Data de Abertura</label>
+    <label>Data de Fundação</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Date</type>

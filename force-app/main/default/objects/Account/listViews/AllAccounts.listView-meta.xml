@@ -2,11 +2,19 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AllAccounts</fullName>
     <columns>ACCOUNT.NAME</columns>
+    <columns>FinServ__Status__c</columns>
+    <columns>Agr_CBLCActive__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
     <columns>ACCOUNT.ADDRESS1_STATE</columns>
     <columns>ACCOUNT.PHONE1</columns>
-    <columns>ACCOUNT.TYPE</columns>
     <columns>CORE.USERS.FIRST_NAME</columns>
     <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>FinServ__Affiliations__pc</columns>
+    <columns>FinServ__TaxBracket__pc</columns>
+    <columns>FinServ__WeddingAnniversary__pc</columns>
+    <columns>PC_ASSISTANT_NAME</columns>
+    <columns>Agr_FinancialActivation__c</columns>
+    <columns>FinServ__TotalNonfinancialAssets__c</columns>
     <filterScope>Everything</filterScope>
-    <label>All Accounts</label>
+    <label>Todas as contas</label>
 </ListView>

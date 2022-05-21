@@ -5,9 +5,10 @@
     <columns>FULL_NAME</columns>
     <columns>FinServ__Age__c</columns>
     <columns>CONTACT.BIRTHDATE</columns>
-    <columns>CONTACT.ADDRESS2_STREET</columns>
-    <columns>CONTACT.ADDRESS2_STATE</columns>
-    <columns>CONTACT.ADDRESS2_ZIP</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>Agr_Email__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
     <filterScope>Mine</filterScope>
     <filters>
         <field>CONTACT.BIRTHDATE</field>
@@ -24,6 +25,5 @@
         <operation>equals</operation>
         <value>Contact.FinServ__IndustriesIndividual</value>
     </filters>
-    <label>Upcoming Birthdays (Next 7 Days)</label>
-    <language>en_US</language>
+    <label>Aniversários nos próximos 7 dias</label>
 </ListView>
