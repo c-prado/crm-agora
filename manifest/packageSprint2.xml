@@ -83,6 +83,7 @@
     <types>
         <members>LeadSource</members>
 		<members>LeadStatus</members>
+		<members>SalesTeamRole</members>
 		<name>StandardValueSet</name>
     </types>
 	<types>

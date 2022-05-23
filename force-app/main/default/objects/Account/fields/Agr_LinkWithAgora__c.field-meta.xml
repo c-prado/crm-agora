@@ -16,12 +16,6 @@
                 <label>Administradores, funcionários, operadores e prepostos da corretora;</label>
             </value>
             <value>
-                <fullName>Agentes autônomos</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Agentes autônomos</label>
-            </value>
-            <value>
                 <fullName>Agentes autonomos;</fullName>
                 <default>false</default>
                 <label>Agentes autonomos;</label>
@@ -32,21 +26,9 @@
                 <label>Clubes e Fundos cuja maioria das cotas pertenca a pessoas citadas acima</label>
             </value>
             <value>
-                <fullName>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Clubes e fundos cuja maioria das cotas pertença as pessoas citadas acima</label>
-            </value>
-            <value>
                 <fullName>Conjuge e filhos menores das pessoas anteriomente citadas</fullName>
                 <default>false</default>
                 <label>Conjuge e filhos menores das pessoas anteriomente citadas</label>
-            </value>
-            <value>
-                <fullName>Cônjuges e filhos menores das pessoas anteriormente citadas</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Cônjuges e filhos menores das pessoas anteriormente citadas</label>
             </value>
             <value>
                 <fullName>Nenhum Vinculo</fullName>
@@ -54,38 +36,14 @@
                 <label>Nenhum Vinculo</label>
             </value>
             <value>
-                <fullName>Nenhum Vínculo</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Nenhum Vínculo</label>
-            </value>
-            <value>
                 <fullName>Prestadores de servico contratados para atividades fins da corretora</fullName>
                 <default>false</default>
                 <label>Prestadores de servico contratados para atividades fins da corretora</label>
             </value>
             <value>
-                <fullName>Prestadores de serviços contratados para atividades fins da corretora</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Prestadores de serviços contratados para atividades fins da corretora</label>
-            </value>
-            <value>
                 <fullName>Socios, acionistas e sociedades controladas pela corretora, exceto Inst. Fin.</fullName>
                 <default>false</default>
                 <label>Socios, acionistas e sociedades controladas pela corretora, exceto Inst. Fin.</label>
-            </value>
-            <value>
-                <fullName>Sócios, acionistas e sociedades controladas pela corretora, exceto Instituição Financeira</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Sócios, acionistas e sociedades controladas pela corretora, exceto Instituição Financeira</label>
-            </value>
-            <value>
-                <fullName>Sócios ou acionistas da corretora, pessoas físicas</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Sócios ou acionistas da corretora, pessoas físicas</label>
             </value>
             <value>
                 <fullName>Socios ou acionistas da corretora, pessoas fisicas;</fullName>
