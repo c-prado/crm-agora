@@ -5,7 +5,7 @@
         <name>WM_Client_Relationship_Group_Members</name>
     </fieldSets>
     <layouts>
-        <layout>Contact (Business) Layout</layout>
+        <layout>Finserv__Contact %28Business%29 Layout</layout>
         <sections>
             <label>Links personalizados</label>
             <section>Custom Links</section>
@@ -13,79 +13,6 @@
         <sections>
             <label></label>
             <section>Endereço residencial</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>Contact (Individual) Layout</layout>
-        <sections>
-            <label>Endereço 2</label>
-            <section>Address 2</section>
-        </sections>
-        <sections>
-            <label>Detalhes de contato</label>
-            <section>Contact Details</section>
-        </sections>
-        <sections>
-            <label>Links personalizados</label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label>Informações sobre o emprego</label>
-            <section>Employment Information</section>
-        </sections>
-        <sections>
-            <label>Telefone e email</label>
-            <section>Phone and Email</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>Contact (Policyholder) Layout</layout>
-        <sections>
-            <label>Detalhes de comunicação</label>
-            <section>Communication Details</section>
-        </sections>
-        <sections>
-            <label>Detalhes de contato</label>
-            <section>Contact Details</section>
-        </sections>
-        <sections>
-            <label>Links personalizados</label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label>Demografia</label>
-            <section>Demographics</section>
-        </sections>
-        <sections>
-            <label>Informações sobre o emprego</label>
-            <section>Employment Information</section>
-        </sections>
-        <sections>
-            <label>Informações do sistema</label>
-            <section>System Information</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>Contact (Retail Client - Individual) Layout</layout>
-        <sections>
-            <label>Detalhes de comunicação</label>
-            <section>Communication Details</section>
-        </sections>
-        <sections>
-            <label>Preferências de comunicação</label>
-            <section>Communication Preferences</section>
-        </sections>
-        <sections>
-            <label>Links personalizados</label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label>Conheça seu cliente</label>
-            <section>Know Your Client</section>
-        </sections>
-        <sections>
-            <label>Informações do sistema</label>
-            <section>System Information</section>
         </sections>
     </layouts>
     <recordTypes>
