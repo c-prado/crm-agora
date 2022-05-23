@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#01464D</headerColor>
         <logo>Agora_logo1</logo>
@@ -13,6 +31,54 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Ágora CRM</label>
     <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Perfil de API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Perfil de API</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Assessor Comercial / Trader</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Relacionamento_entre_contas_P_gina_de_registro1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>FinServ__AccountAccountRelation__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Assessor Comercial / Trader</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
@@ -21,5 +87,4 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>gora_CRM_UtilityBar</utilityBar>
 </CustomApplication>
