@@ -57,6 +57,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Agr_CPF_CNPJ_Repr__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>        
         <editable>true</editable>
         <field>Account.Agr_CPF_CNPJ__c</field>
         <readable>true</readable>
@@ -155,11 +160,6 @@
         <editable>false</editable>
         <field>Account.Agr_NextReview__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Agr_OptinCategories__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1032,8 +1032,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Contact.Agr_ComercialMobile1__c</field>
+        <editable>false</editable>
+        <field>Contact.Agr_ComercialMobile__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1517,31 +1517,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_FiscalResidencyAbroad__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_HasPermanentVisa__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_HasSecondaryCitizenship__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_IsPoliticallyExposed__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_LinkWithAgora__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>FinServ__AccountAccountRelation__c.Agr_Number__c</field>
         <readable>true</readable>
@@ -1857,11 +1832,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <flowAccesses>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <flow>Agr_FlwUpdateSalesTraderAccount</flow>
     </flowAccesses>
     <flowAccesses>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <flow>Agr_FlwUpdateSalesTraderAccountOnDeletion</flow>
     </flowAccesses>
     <layoutAssignments>
@@ -2149,6 +2124,10 @@
     <tabVisibilities>
         <tab>Agr_Bar__c</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Agr_CBLC__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>FinServ__ReciprocalRole__c</tab>
