@@ -28,6 +28,7 @@
 		<members>Agr_CBLC__c.Agr_Bar__c</members>
 		<members>Agr_CBLC__c.Agr_BovespaAffinityGroup__c</members>
 		<members>Contact.Agr_PoliticallyExposed__c</members>
+		<members>Contact.Agr_ComercialMobile1__c</members>
 		<name>CustomField</name>
 	</types>
 	<version>54.0</version>
