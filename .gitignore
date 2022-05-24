@@ -6,7 +6,9 @@
 .sf/
 .sfdx/
 .localdevserver/
+.devops/
 deploy-options.json
+out.txt
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -40,3 +42,7 @@ $RECYCLE.BIN/
 .env
 
 out.txt
+server.key
+server.csr
+server.pass.key
+deploy*.txt
