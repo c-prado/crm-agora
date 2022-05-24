@@ -1899,10 +1899,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
-        <recordType>Lead.FinServ__General</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
         <recordType>Lead.FinServ__RetirementPlanning</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -1910,50 +1906,8 @@
         <recordType>PersonAccount.PersonAccount</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-Account Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Agr_AffinityGroup__c-Layout de Grupo de Afinidade</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Agr_CBLCBlock__c-Bloqueio do CBLC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Agr_CBLC__c-CBLC Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Agr_FinancialAccount__c-Conta Bancária Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Agr_Restriction__c-Restrição Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Asset-Asset Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-FinServ__Contact %28Business%29 Layout</layout>
-        <recordType>Contact.FinServ__IndustriesBusiness</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-FinServ__Contact %28Individual%29 Layout</layout>
-        <recordType>Contact.FinServ__IndustriesIndividual</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>FinServ__AccountAccountRelation__c-FinServ__Account Account Relation Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
         <recordType>Lead.FinServ__General</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>PersonAccount-Layout da conta pessoal</layout>
-        <recordType>PersonAccount.PersonAccount</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>

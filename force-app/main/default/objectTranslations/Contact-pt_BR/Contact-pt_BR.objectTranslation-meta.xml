@@ -5,14 +5,10 @@
         <name>WM_Client_Relationship_Group_Members</name>
     </fieldSets>
     <layouts>
-        <layout>Finserv__Contact %28Business%29 Layout</layout>
+        <layout>FinServ__Contact %28Business%29 Layout</layout>
         <sections>
             <label>Links personalizados</label>
             <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label></label>
-            <section>Endereço residencial</section>
         </sections>
     </layouts>
     <recordTypes>

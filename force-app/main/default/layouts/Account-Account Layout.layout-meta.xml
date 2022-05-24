@@ -76,7 +76,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Agr_FinancialActivation__c</field>
+                <field>OwnerId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

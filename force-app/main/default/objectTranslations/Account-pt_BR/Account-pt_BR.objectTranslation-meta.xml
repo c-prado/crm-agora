@@ -97,6 +97,10 @@
     </layouts>
     <quickActions>
         <label></label>
+        <name>Agr_TaskRelatedRecord</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
         <name>Child_Account</name>
     </quickActions>
     <recordTypes>
