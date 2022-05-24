@@ -99,5 +99,9 @@
 		<members>Agr_AgoraCRM</members>
 		<name>CustomApplication</name>
 	</types>
+	<types>
+		<members>Agr_CBLC__c</members>
+		<name>CustomTab</name>
+	</types>
 	<version>53.0</version>
 </Package>

@@ -58,6 +58,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Agr_CPF_CNPJ_Repr__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Agr_CPF_CNPJ__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -155,11 +160,6 @@
         <editable>false</editable>
         <field>Account.Agr_NextReview__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Agr_OptinCategories__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -879,7 +879,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Asset.ContactId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1033,7 +1033,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.Agr_ComercialMobile1__c</field>
+        <field>Contact.Agr_ComercialMobile__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1515,31 +1515,6 @@
         <editable>false</editable>
         <field>FinServ__AccountAccountRelation__c.Agr_Email__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_FiscalResidencyAbroad__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_HasPermanentVisa__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_HasSecondaryCitizenship__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_IsPoliticallyExposed__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>FinServ__AccountAccountRelation__c.Agr_LinkWithAgora__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -2102,6 +2077,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Lead.FinServ__General</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -2130,6 +2106,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Agr_CBLC__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>FinServ__ReciprocalRole__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -2143,7 +2123,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Banker</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-BranchUnit</tab>
@@ -2151,7 +2131,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-BranchUnitBusinessMember</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Contact</tab>
@@ -2223,7 +2203,7 @@
         <name>ChatterInternalUser</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ChatterInviteExternalUsers</name>
     </userPermissions>
     <userPermissions>
@@ -2267,7 +2247,7 @@
         <name>CreateWorkspaces</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>CustomizeApplication</name>
     </userPermissions>
     <userPermissions>
@@ -2275,11 +2255,11 @@
         <name>DeleteTopics</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>DistributeFromPersWksp</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EditBrandTemplates</name>
     </userPermissions>
     <userPermissions>
@@ -2299,7 +2279,7 @@
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EditPublicFilters</name>
     </userPermissions>
     <userPermissions>
@@ -2311,11 +2291,11 @@
         <name>EditTopics</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EmailMass</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EmailSingle</name>
     </userPermissions>
     <userPermissions>
@@ -2343,7 +2323,7 @@
         <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ListEmailSend</name>
     </userPermissions>
     <userPermissions>
@@ -2351,7 +2331,7 @@
         <name>ManageAnalyticSnapshots</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ManageCustomPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -2371,7 +2351,7 @@
         <name>ManageReportsInPubFolders</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
@@ -2395,11 +2375,11 @@
         <name>NewReportBuilder</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>OverrideForecasts</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
@@ -2463,7 +2443,7 @@
         <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>TransactionalEmailSend</name>
     </userPermissions>
     <userPermissions>
@@ -2479,7 +2459,7 @@
         <name>ViewAllForeignKeyNames</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ViewDeveloperName</name>
     </userPermissions>
     <userPermissions>
