@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Account.Agr_BillingComplement__c</members>
+		<members>Account.Agr_BillingNumber__c</members>
+		<members>Account.Agr_BillingState__c</members>
+		<members>Account.Agr_CityOfBirth__c</members>
+		<members>Account.Agr_CountryOfBirth__c</members>
+		<members>Account.Agr_EmployerCNPJ__c</members>
+		<members>Account.Agr_FatherName__c</members>
+		<members>Account.Agr_Nationality__c</members>
+		<members>Account.Agr_Occupation__c</members>
+		<members>Account.Agr_PoliticallyExposed__c</members>
+		<members>Account.Agr_ResidentialAddressIsMailing__c</members>
+		<members>Account.Agr_ResidentialCity__c</members>
+		<members>Account.Agr_ResidentialComplement__c</members>
+		<members>Account.Agr_ResidentialCountry__c</members>
+		<members>Account.Agr_ResidentialDistrict__c</members>
+		<members>Account.Agr_ResidentialNumber__c</members>
+		<members>Account.Agr_ResidentialPhone__c</members>
+		<members>Account.Agr_ResidentialPostalCode__c</members>
+		<members>Account.Agr_ResidentialState__c</members>
+		<members>Account.Agr_ResidentialStreet__c</members>
+		<members>Account.Agr_SpouseCPF__c</members>
+		<members>Account.Agr_SpouseName__c</members>
+		<members>Account.Agr_StateOfBirth__c</members>
+		<members>Agr_Bar__c.Agr_Office__c</members>
+		<members>Agr_CBLC__c.Agr_Bar__c</members>
+		<members>Agr_CBLC__c.Agr_BovespaAffinityGroup__c</members>
+		<members>Contact.Agr_PoliticallyExposed__c</members>
+		<name>CustomField</name>
+	</types>
+	<version>54.0</version>
+</Package>
