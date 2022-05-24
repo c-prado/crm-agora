@@ -55,8 +55,8 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Agr_ComercialMobile1__c</field>
+                <behavior>Readonly</behavior>
+                <field>Agr_ComercialMobile__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

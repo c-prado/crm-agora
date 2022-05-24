@@ -3,8 +3,7 @@
     <fullName>Todos_os_contatos</fullName>
     <columns>FULL_NAME</columns>
     <columns>CONTACT.RECORDTYPE</columns>
-    <columns>FinServ__IndividualType__c</columns>
-    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
     <columns>CONTACT.PHONE1</columns>
     <columns>CONTACT.EMAIL</columns>
     <columns>CONTACT.TITLE</columns>
